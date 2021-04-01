@@ -268,18 +268,18 @@ LocPromotionPopupText="<Bullet/> One use per mission.<br/><Bullet/> Stun and dis
 ;;;;;;;;;;;;;;;;;;;;  SHINOBI ABILITIES ;;;;;;;;;;;;;;;;;;;;;;;
 
 [CoupDeGrace X2AbilityTemplate]
-LocFriendlyName="Coup de Grâce"
-LocFlyOverText="Coup de Grâce"
-LocLongDescription="Coup de Grâce can instantly kill a disoriented, stunned or unconscious enemy."
+LocFriendlyName="Coup de GrÃ¢ce"
+LocFlyOverText="Coup de GrÃ¢ce"
+LocLongDescription="Coup de GrÃ¢ce can instantly kill a disoriented, stunned or unconscious enemy."
 LocHelpText="Chance to instantly kill a disoriented, stunned or unconscious enemy."
-LocPromotionPopupText="<Bullet/> Coup de Grâce can only target non-robotic, disoriented, stunned or unconscious enemies.<br/><Bullet/> Coup de Grâce grants a base 25% chance to kill disoriented units and a base 50% chance to kill stunned/unconscious units.<br/><Bullet/> Coup de Grâce grants up to 75% additional chance to kill based on remaining target health.<br/>"
+LocPromotionPopupText="<Bullet/> Coup de GrÃ¢ce can only target non-robotic, disoriented, stunned or unconscious enemies.<br/><Bullet/> Coup de GrÃ¢ce grants a base 25% chance to kill disoriented units and a base 50% chance to kill stunned/unconscious units.<br/><Bullet/> Coup de GrÃ¢ce grants up to 75% additional chance to kill based on remaining target health.<br/>"
 
 [CoupDeGrace2 X2AbilityTemplate]
-LocFriendlyName="Coup de Grâce"
-LocFlyOverText="Coup de Grâce"
+LocFriendlyName="Coup de GrÃ¢ce"
+LocFlyOverText="Coup de GrÃ¢ce"
 LocLongDescription="Bonus to hit, damage, and critical chance with a melee weapon against a disoriented, stunned or panicking enemy."
 LocHelpText="Bonus to hit, damage, and critical chance with a melee weapon against a disoriented, stunned, or panicking  enemy."
-LocPromotionPopupText="<Bullet/> Coup de Grâce grants +50 aim, +50 critical chance and +2 damage against stunned and panicking enemies.<br/><Bullet/> The bonuses are reduced against disoriented enemies."
+LocPromotionPopupText="<Bullet/> Coup de GrÃ¢ce grants +50 aim, +50 critical chance and +2 damage against stunned and panicking enemies.<br/><Bullet/> The bonuses are reduced against disoriented enemies."
 
 [Tradecraft X2AbilityTemplate]
 LocFriendlyName="Tradecraft"
@@ -3000,11 +3000,11 @@ LongDescription="The rendering of this Fellow Human was successful. R. Tygan."
 UnlockedDescription="Recovered from Fellow Human Corpse: <XGParam:StrValue0/!Quantity/> Elerium Crystals"
 
 [RenderGatekeeperCorpse X2TechTemplate]
-DisplayName="Render Pokéball Shell"
-Summary="Given our preference for hit and run operations, ADVENT and Ayylien remains are difficult to recover from many missions, but they are valuable assets for our research and construction efforts. However, we are also able to render them down for key materials with a wide variety of applications. From the Pokéball we should be able to recover 10 Alloys and an Elerium Core."
+DisplayName="Render PokÃ©ball Shell"
+Summary="Given our preference for hit and run operations, ADVENT and Ayylien remains are difficult to recover from many missions, but they are valuable assets for our research and construction efforts. However, we are also able to render them down for key materials with a wide variety of applications. From the PokÃ©ball we should be able to recover 10 Alloys and an Elerium Core."
 CodeName="Calamari"
-LongDescription="The rendering of this Pokéball was successful. R. Tygan."
-UnlockedDescription="Recovered from Pokéball Shell: <XGParam:StrValue0/!Quantity/> Alloys, 1 Elerium Core"
+LongDescription="The rendering of this PokÃ©ball was successful. R. Tygan."
+UnlockedDescription="Recovered from PokÃ©ball Shell: <XGParam:StrValue0/!Quantity/> Alloys, 1 Elerium Core"
 
 [RenderChryssalidCorpse X2TechTemplate]
 DisplayName="Render Zergling Corpse"
@@ -5000,7 +5000,7 @@ strCharacterName="Fellow Human"
 
 [Gatekeeper X2CharacterTemplate]
 [Gatekeeper X2CharacterTemplate]
-strCharacterName="Pokéball"
+strCharacterName="PokÃ©ball"
 
 [Muton X2CharacterTemplate]
 [Muton X2CharacterTemplate]
@@ -5277,10 +5277,10 @@ MutonM3_LW="<Bullet/>""
 ; ================================================
 
 [LWDroneM1 X2CharacterTemplate]
-strCharacterName="ADVENT Surveillance Drone"
+strCharacterName="Amazon Pain Delivery"
 
 [LWDroneM2 X2CharacterTemplate]
-strCharacterName="ADVENT Hunter Drone"
+strCharacterName="Amazon Torture Delivery"
 
 [LWDroneM1_WPN X2WeaponTemplate]
 FriendlyName="Drone Shock"
@@ -5292,7 +5292,7 @@ FriendlyName="Drone Electroshock"
 strCharacterName="Advent Gundam"
 
 [AdvMECArcherM1 X2CharacterTemplate]
-strCharacterName="MEC Archer"
+strCharacterName="Gundam Archer"
 
 [AdvMECArcher_WPN X2WeaponTemplate]
 FriendlyName="MEC MiniMag"
@@ -5301,7 +5301,7 @@ FriendlyName="MEC MiniMag"
 FriendlyName="Rocket Artillery"
 
 [AdvMECArcherM2 X2CharacterTemplate]
-strCharacterName="MEC Longbow"
+strCharacterName="Gundam Longbow"
 
 [ChryssalidSoldier X2CharacterTemplate]
 strCharacterName="Zergling Soldier"
@@ -5310,11 +5310,6 @@ strCharacterName="Zergling Soldier"
 LocFriendlyName="Zergling Soldier Slash"
 LocLongDescription="Your slash attacks do lots of damage."
 LocHelpText="Your slash attacks do lots of damage."
-
-[HiveQueenSlash X2AbilityTemplate]
-LocFriendlyName="Greater Chryssalid Slash"
-LocLongDescription="Your slash attacks do Shitton of damage."
-LocHelpText="Your slash attacks do Shittion of damage."
 
 [HiveQueen X2CharacterTemplate]
 strCharacterName="Zergling Mommy"
@@ -5327,7 +5322,7 @@ LocHelpText="Your slash attacks do shitton of damage."
 ;;;;;;;;;;;;;;;;;;;;;;;;;; MutonM2_LW ;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 [X2Ability_MutonM2_Abilities]
-strBayonetChargePenalty="Centurion suffers <XGParam:IntValue1/> Defense for <XGParam:IntValue0/> turns."
+strBayonetChargePenalty="Viagra Dickhead suffers <XGParam:IntValue1/> Defense for <XGParam:IntValue0/> turns as it goes limp from an overdose."
 
 [MutonM2_LW X2CharacterTemplate]
 strCharacterName="Viagra Dickhead"
@@ -5387,10 +5382,10 @@ strCharacterName="Dommy Snek"
 strCharacterName="Shy Snek"
 
 [NajaM2 X2CharacterTemplate]
-strCharacterName="Big titty shy Snek"
+strCharacterName="Stalker Shy Snek"
 
 [NajaM3 X2CharacterTemplate]
-strCharacterName="Dommy shy Snek"
+strCharacterName="Yandere Shy Snek"
 
 [NajaM1_WPN X2WeaponTemplate]
 FriendlyName="Snek Sniper Rifle"
@@ -5405,10 +5400,10 @@ FriendlyName="Snek Sniper Rifle"
 strCharacterName="Tomboy Snek"
 
 [SidewinderM2 X2CharacterTemplate]
-strCharacterName="Big Titty Tomboy"
+strCharacterName="Washboard Tomboy Snek"
 
 [SidewinderM3 X2CharacterTemplate]
-strCharacterName="Dommmy Tomboy"
+strCharacterName="Big Buff Tomboy Snek"
 
 [SidewinderM1_WPN X2WeaponTemplate]
 FriendlyName="Tomboy Scramgun"
@@ -5429,19 +5424,19 @@ strCharacterName="Great Wingmman"
 strCharacterName="Big Brain Pectoid"
 
 [AdvGunnerM1 X2CharacterTemplate]
-strCharacterName="ADVENT Gunner"
+strCharacterName="ADVENT Shrek"
 
 [AdvGunnerM1_WPN X2WeaponTemplate]
 FriendlyName="AutoMag"
 
 [AdvGunnerM2 X2CharacterTemplate]
-strCharacterName="ADVENT Heavy Gunner"
+strCharacterName="ADVENT Layered Shrek"
 
 [AdvGunnerM2_WPN X2WeaponTemplate]
 FriendlyName="AutoMag"
 
 [AdvGunnerM3 X2CharacterTemplate]
-strCharacterName="ADVENT Elite Gunner"
+strCharacterName="ADVENT Elite Shrek"
 
 [AdvGunnerM3_WPN X2WeaponTemplate]
 FriendlyName="AutoMag"
@@ -5465,58 +5460,58 @@ strCharacterName="1337 Camper"
 FriendlyName="ADVENT Mag Rifle"
 
 [AdvGrenadierM1 X2CharacterTemplate]
-strCharacterName="ADVENT Engineer"
+strCharacterName="ADVENT Boomguy"
 
 [AdvGrenadierM1_GrenadeLauncher X2WeaponTemplate]
-FriendlyName="ADVENT Grenade Launcher"
+FriendlyName="ADVENT Ghetto Artillery"
 
 [AdvGrenadierM2 X2CharacterTemplate]
-strCharacterName="ADVENT Grenadier"
+strCharacterName="ADVENT One-eyed Boomguy"
 
 [AdvGrenadierM2_GrenadeLauncher X2WeaponTemplate]
-FriendlyName="ADVENT Grenade Launcher"
+FriendlyName="ADVENT Ghetto Artillery"
 
 [AdvGrenadierM3 X2CharacterTemplate]
-strCharacterName="ADVENT Heavy Grenadier"
+strCharacterName="ADVENT Demoman"
 
 [AdvGrenadierM3_GrenadeLauncher X2WeaponTemplate]
-FriendlyName="ADVENT Grenade Launcher"
+FriendlyName="ADVENT Ghetto Artillery"
 
 [AdvRocketeerM1 X2CharacterTemplate]
-strCharacterName="ADVENT Vanguard"
+strCharacterName="ADVENT Baby Boomer"
 
 [AdvRocketeerM2 X2CharacterTemplate]
-strCharacterName="ADVENT Vanguard"
+strCharacterName="ADVENT Boomer"
 
 [AdvRocketeerM3 X2CharacterTemplate]
-strCharacterName="ADVENT Vanguard"
+strCharacterName="ADVENT Old Boomer"
 
 [AdvRocketeerM1_RocketLauncher X2WeaponTemplate]
 FriendlyName="ADVENT Rocket Launcher"
 
 [AdvSergeantM1 X2CharacterTemplate]
-strCharacterName="ADVENT Sergeant"
+strCharacterName="ADVENT Noob Herder"
 
 [AdvSergeantM2 X2CharacterTemplate]
-strCharacterName="ADVENT First Sergeant"
+strCharacterName="ADVENT Master Noob Herder"
 
 [AdvShockTroop X2CharacterTemplate]
-strCharacterName="ADVENT Shock Trooper"
+strCharacterName="ADVENT Rambo"
 
 [AdvCommando X2CharacterTemplate]
-strCharacterName="ADVENT Commando"
+strCharacterName="ADVENT Cheeki Breeki"
 
 [AdvVanguard X2CharacterTemplate]
-strCharacterName="Elite Rocketeer"
+strCharacterName="ADVENT Big Bully"
 
 [AdvScout X2CharacterTemplate]
-strCharacterName="ADVENT Scout"
+strCharacterName="ADVENT Fire Magnet"
 
 [AdvGeneralM1 X2CharacterTemplate]
-strCharacterName="Important ADVENT dude"
+strCharacterName="Important ADVENT Dude"
 
 [AdvGeneralM2 X2CharacterTemplate]
-strCharacterName="Important ADVENT dude"
+strCharacterName="Important ADVENT Boss"
 
 
 ; ================================================
@@ -5541,20 +5536,20 @@ LocFlyOverText="Immune"
 [AdvPurifierFlamethrower X2AbilityTemplate]
 LocFriendlyName="Flammenwerfer"
 LocLongDescription="The Flammenwerfer werfs flammen in a wide but short cone."
-LocHelpText="The Flammenwerfer F flammen in a wide but short cone."
+LocHelpText="The Flammenwerfer werfs flammen in a wide but short cone."
 LocFlyOverText="Kaen's fault"
 
 [AdvPurifierFlamethrowerM2 X2AbilityTemplate]
 LocFriendlyName="Flammenwerfer"
 LocLongDescription="The Flammenwerfer werfs flammen in a wide but short cone."
-LocHelpText="The Flammenwerfer F flammen in a wide but short cone."
+LocHelpText="The Flammenwerfer werfs flammen in a wide but short cone."
 LocFlyOverText="Kaen's fault"
 
 
 [AdvPurifierFlamethrowerM3 X2AbilityTemplate]
 LocFriendlyName="Flammenwerfer"
 LocLongDescription="The Flammenwerfer werfs flammen in a wide but short cone."
-LocHelpText="The Flammenwerfer F flammen in a wide but short cone."
+LocHelpText="The Flammenwerfer werfs flammen in a wide but short cone."
 LocFlyOverText="Kaen's fault"
 
 [CorpseAdventPurifier X2ItemTemplate]
@@ -5664,7 +5659,7 @@ LocFlyOverText="Never enough dakka"
 LocFlyOverText="FUCK YOUR COVER"
 
 [Salvo X2AbilityTemplate]
-LocFlyOverText="STILL LOBBIN' NADES, AND STILL SHREDDING!”
+LocFlyOverText="STILL LOBBIN' NADES, AND STILL SHREDDING!Â”
 
 [BulletShred X2AbilityTemplate]
 LocFlyOverText="GET REKT"
@@ -5744,7 +5739,7 @@ LocFlyOverText="RULES OF NATURE"
 LocFlyOverText="RULES OF NATURE"
 
 [Implacable X2AbilityTemplate]
-LocFlyOverText=”KEEP GOING FAGET"
+LocFlyOverText=Â”KEEP GOING FAGET"
 
 [LightningReflexes X2AbilityTemplate]
 LocFlyOverText="OH SHIT OH SHIT OH SHIT"
@@ -5890,7 +5885,7 @@ LeftAbilityTreeTitle="Doctor Nerd"
 RightAbilityTreeTitle="Computer Nerd"
 
 [AidProtocol X2AbilityTemplate]
-LocFlyOverText="I’ll be honest here hoss, you’re still getting shot."
+LocFlyOverText="IÂ’ll be honest here hoss, youÂ’re still getting shot."
 
 [GremlinStabilize X2AbilityTemplate]
 LocFlyOverText="CHARGING.... CLEAR!"
@@ -5965,11 +5960,11 @@ LocFlyOverText="WELCOME TO THE RICE FIELDS MOTHERFUCKER"
 
 
 [CoupDeGrace2 X2AbilityTemplate]
-LocFriendlyName="Coup de Grâce"
+LocFriendlyName="Coup de GrÃ¢ce"
 LocFlyOverText="IT HAS TO BE THIS WAYA"
 LocLongDescription="Bonus to hit, damage, and critical chance with a melee weapon against a disoriented, stunned or panicking enemy."
 LocHelpText="Bonus to hit, damage, and critical chance with a melee weapon against a disoriented, stunned, or panicking  enemy."
-LocPromotionPopupText="<Bullet/> Coup de Grâce grants +50 aim, +50 critical chance and +2 damage against stunned and panicking enemies.<br/><Bullet/> The bonuses are reduced against disoriented enemies.<Bullet/> Wtf, this ability's useless."
+LocPromotionPopupText="<Bullet/> Coup de GrÃ¢ce grants +50 aim, +50 critical chance and +2 damage against stunned and panicking enemies.<br/><Bullet/> The bonuses are reduced against disoriented enemies.<Bullet/> Wtf, this ability's useless."
 
 [Combatives X2AbilityTemplate]
 LocFlyOverText="NO U"
@@ -6338,10 +6333,10 @@ LocPromotionPopupText="<Bullet/> The unit is so short the partial cover might as
 [LoneWolf X2AbilityTemplate]
 LocFriendlyName="Loser"
 LocFlyOverText="Loser"
-LocLongDescription="This unit is such a beta that it gains +10 aim and +10 defense when 7 or more tiles distant from any person to talk to."
-LocHelpText="Gain +10 aim and +10 defense when 7 or more tiles distant from any ally."
-LocPromotionPopupText="<Bullet/> Gain +10 aim and +10 defense when 7 or more tiles distant from any ally.<br/><Bullet/> This ability does not provide defensive bonuses if the unit is disoriented, stunned, panicking, on fire or otherwise impaired."
-
+LocLongDescription="this unit is such a beta that it gains bonus Aim and Defense when at least <Ability:LONEWOLF_MIN_BONUS_TILES/> tiles distant from any ally, with a maximum of +<Ability:LONEWOLF_AIM_BONUS/>/+<Ability:LONEWOLF_DEF_BONUS/> at <Ability:LONEWOLF_MIN_DIST_TILES/>+ tiles."
+LocHelpText="Gain bonus Aim and Defense when at least <Ability:LONEWOLF_MIN_BONUS_TILES/> tiles distant from any ally, with a maximum of +<Ability:LONEWOLF_AIM_BONUS/>/+<Ability:LONEWOLF_DEF_BONUS/> at <Ability:LONEWOLF_MIN_DIST_TILES/>+ tiles."
+LocPromotionPopupText="<Bullet/> Gain +<Ability:LONEWOLF_AIM_PER_TILE/> Aim and +<Ability:LONEWOLF_DEF_PER_TILE/> Defense for each tile of distance between this soldier and the nearest ally, starting at <Ability:LONEWOLF_MIN_BONUS_TILES/> tiles distant.<br/><Bullet/> Bonuses cap at +<Ability:LONEWOLF_AIM_BONUS/> Aim, +<Ability:LONEWOLF_DEF_BONUS/> Defense when <Ability:LONEWOLF_MIN_DIST_TILES/> or more tiles from the nearest ally.<br/><Bullet/> This ability does not provide defensive bonuses if the unit is disoriented, stunned, panicking, on fire or otherwise impaired."
+; End Translation
 [Overwatch X2AbilityTemplate]
 [Overwatch X2AbilityTemplate]
 LocFriendlyName="Ogrewatch"
@@ -6475,7 +6470,7 @@ LocFlyOverText="Change Form"
 
 [ScythingClaws X2AbilityTemplate]
 LocLongDescription="The shapechanging abilities of a Fellow Human permit it to grow giant claws that can strike enemies from several meters away."
-LocHelpText="Close-range swipe at a target with the Fellow Human’s claws."
+LocHelpText="Close-range swipe at a target with the Fellow HumanÂ’s claws."
 
 [Regeneration X2AbilityTemplate]
 LocLongDescription="The Fellow Human recovers <Ability:FACELESSREGEN/> health at the start of each of its turns."
@@ -6521,7 +6516,7 @@ LocFlyOverText="Sweet sweet post coitus release"
 LocLongDescription="A Computer Waifu's mind is projected into its body from distant realms, and cannot be affected by Psionic manipulation."
 
 [Superposition X2AbilityTemplate]
-LocLongDescription="A Computer Waifu’s body is an extra-dimensional projection. When the Computer Waifu is damaged, it 'clones', teleporting to a nearby empty space as it generates another manifestation of itself."
+LocLongDescription="A Computer WaifuÂ’s body is an extra-dimensional projection. When the Computer Waifu is damaged, it 'clones', teleporting to a nearby empty space as it generates another manifestation of itself."
 LocHelpText="Divide into a new Computer Waifu and then teleport when taking damage."
 
 [Teleport X2AbilityTemplate]
@@ -6548,11 +6543,11 @@ LocFlyOverText="Computer Waifu Immunities"
 
 [Bayonet X2AbilityTemplate]
 LocLongDescription="Dickhead beam weapons are reinforced and mounted with bayonets, so their troops can use them in melee combat as well as at range."
-LocHelpText="Attack an adjacent enemy with the Dickhead’s bayonet. This attack can stun the target."
+LocHelpText="Attack an adjacent enemy with the DickheadÂ’s bayonet. This attack can stun the target."
 
 [CounterattackBayonet X2AbilityTemplate]
 LocLongDescription="Dickhead beam weapons are reinforced and mounted with bayonets, so their troops can use them in melee combat as well as at range."
-LocHelpText="Counterattack against an attempted melee attack with the Dickhead’s bayonet. This attack can stun the target."
+LocHelpText="Counterattack against an attempted melee attack with the DickheadÂ’s bayonet. This attack can stun the target."
 
 [MutonGrenade X2GrenadeTemplate]
 FriendlyName="Ayylien Grenade"
@@ -6575,10 +6570,10 @@ LocFlyOverText="Got tired of your shit"
 ; ================================================
 
 [ChargingSmash X2AbilityTemplate]
-LocLongDescription="A XBOXHUEG’s size belies their speed; they can unleash a melee attack after dashing."
+LocLongDescription="A XBOXHUEGÂ’s size belies their speed; they can unleash a melee attack after dashing."
 
 [DevastatingPunch X2AbilityTemplate]
-LocLongDescription="A XBOXHUEG’s strength is sufficient to batter her enemies to death with nothing more than her fists. This attack can stun or disorient the target."
+LocLongDescription="A XBOXHUEGÂ’s strength is sufficient to batter her enemies to death with nothing more than her fists. This attack can stun or disorient the target."
 
 [MeleeResistance X2AbilityTemplate]
 LocLongDescription="XBOXHUEGs take <Ability:BERSERKERMELEERESISTANCE/> less damage from all melee attacks."
@@ -6597,7 +6592,7 @@ BlindRageFlyover="200% MAD"
 ; ================================================
 
 [Blast X2AbilityTemplate]
-LocLongDescription="The high energy plasma generated by the Wingman’s staff can be projected at long range, burning through armor and inflicting terrible damage."
+LocLongDescription="The high energy plasma generated by the WingmanÂ’s staff can be projected at long range, burning through armor and inflicting terrible damage."
 
 [BlazingPinions X2AbilityTemplate]
 LocLongDescription="The Wingman flies into the sky, and unleashes a barrage of energy missiles from his wings. The targeting lasers that guide the missiles give a momentary warning of where they will strike."
@@ -6607,7 +6602,7 @@ LocLongDescription="The Wingman can work itself into a terrifying battle frenzy,
 
 [FrenzyTrigger X2AbilityTemplate]
 LocLongDescription="The Wingman can work itself into a terrifying battle frenzy, gaining an extra action. Lasts <Ability:FRENZYDURATION/> turns."
-LocFlyOverText="Bitch I’m fabulous!"
+LocFlyOverText="Bitch IÂ’m fabulous!"
 
 [BlazingPinionsStage1 X2AbilityTemplate]
 LocFlyOverText="Don't mind me just wasting my turn"
@@ -6643,30 +6638,30 @@ LocFriendlyName="Zergling Immunities"
 
 [RobotBattlesuit X2AbilityTemplate]
 LocLongDescription="A Big Daddy's Battlesuit has a tactical AI that will take over control if the pilot is incapacitated or killed."
-LocHelpText="The Big Daddy’s Battlesuit will continue fighting, even after death."
+LocHelpText="The Big DaddyÂ’s Battlesuit will continue fighting, even after death."
 
 [BigDamnPunch X2AbilityTemplate]
-LocLongDescription="The Big Daddy’s Battlesuit is fantastically strong. Its melee attacks aren't very accurate, but they are devastating."
+LocLongDescription="The Big DaddyÂ’s Battlesuit is fantastically strong. Its melee attacks aren't very accurate, but they are devastating."
 
 [AcidBlob X2AbilityTemplate]
-LocLongDescription="The Big Daddy’s internal coolant is extremely caustic. This creature can launch a glob of this viscious liquid that splatters on impact into pools of acid."
+LocLongDescription="The Big DaddyÂ’s internal coolant is extremely caustic. This creature can launch a glob of this viscious liquid that splatters on impact into pools of acid."
 
 [AcidBlob X2GrenadeTemplate]
-LocLongDescription="The Big Daddy’s internal coolant is extremely caustic. This creature can launch a glob of this viscious liquid that splatters on impact into pools of acid."
+LocLongDescription="The Big DaddyÂ’s internal coolant is extremely caustic. This creature can launch a glob of this viscious liquid that splatters on impact into pools of acid."
 
 [PoisonGasCloud X2AbilityTemplate]
-LocLongDescription="The Big Daddy’s shell broken, and is leaking a horrifically caustic gas."
+LocLongDescription="The Big DaddyÂ’s shell broken, and is leaking a horrifically caustic gas."
 
 [WallSmash X2AbilityTemplate]
-LocLongDescription="The Big Daddy’s sheer strength allows it to crash through walls when walking."
+LocLongDescription="The Big DaddyÂ’s sheer strength allows it to crash through walls when walking."
 
 [AndromedonImmunities X2AbilityTemplate]
-LocLongDescription="The Big Daddy’s Battlesuit protects it from fire, poison, and acid effects. It is still vulnerable to all Psi abilities, however, including Mind Control."
-LocHelpText="The Big Daddy’s Battlesuit renders it immune to fire, poison, and acid."
+LocLongDescription="The Big DaddyÂ’s Battlesuit protects it from fire, poison, and acid effects. It is still vulnerable to all Psi abilities, however, including Mind Control."
+LocHelpText="The Big DaddyÂ’s Battlesuit renders it immune to fire, poison, and acid."
 
 [AndromedonRobotImmunities X2AbilityTemplate]
 LocFriendlyName="Immunities"LocLongDescription="The ayylien pilot is dead, and without a living mind to guide it, the robotic Battlesuit is immune to most psi abilities including mind control, in addition to fire, poison, and acid. It gains vulnerability, however, to tech attacks and hacking."
-LocHelpText="The Big Daddy’s Battlesuit renders it immune to fire, poison, and acid."
+LocHelpText="The Big DaddyÂ’s Battlesuit renders it immune to fire, poison, and acid."
 
 [AndromedonRobotAcidTrail_Passive X2AbilityTemplate]
 LocLongDescription="The 'atmosphere' that the Big Daddy ayylien had within its suit is leaking. Apparently, they breath something that becomes intensely acidic when mixed with oxygen..."
@@ -6677,15 +6672,15 @@ LocHelpText="The Big Daddy Battlesuit is leaking acid, leaving a trail wherever 
 ; ================================================
 
 [GatekeeperDeathExplosion X2AbilityTemplate]
-LocLongDescription="When the Pokéball dies, it triggers a damaging explosion."
-LocHelpText="When the Pokéball dies, it triggers a damaging explosion."
+LocLongDescription="When the PokÃ©ball dies, it triggers a damaging explosion."
+LocHelpText="When the PokÃ©ball dies, it triggers a damaging explosion."
 
 [AnimaGate X2AbilityTemplate]
-LocLongDescription="By opening a miniature gateway and focusing the released energy, a Pokéball can project destructive force at extreme range."
+LocLongDescription="By opening a miniature gateway and focusing the released energy, a PokÃ©ball can project destructive force at extreme range."
 
 [AnimaConsume X2AbilityTemplate]
 LocFriendlyName="Tentacle Rape"
-LocLongDescription="The touch of a Pokéball may restore the virginity of a nearby unit, healing itself while causing severe damage. If the target is slain by this attack, it may be reanimated as a redditor."
+LocLongDescription="The touch of a PokÃ©ball may restore the virginity of a nearby unit, healing itself while causing severe damage. If the target is slain by this attack, it may be reanimated as a redditor."
 LocHelpText="Drain the life of a humanoid target at melee range, raising it as a Redditor if it is killed."
 LocFlyOverText="THIS IS JUST LIKE ONE OF MY JAPANESE AN"
 
@@ -6695,25 +6690,25 @@ LocLongDescription="Open a devastating psionic rift in an area. Any humanoid ene
 LocHelpText="Open a devastating psionic rift in an area. Any humanoid enemies killed can be raised as redditors."
 
 [Retract X2AbilityTemplate]
-LocLongDescription="If an open Pokéball is hit by an attack and takes damage, it is likely to retract into its shell."
-LocHelpText="The Pokéball retracts its defensive shell when damaged."
+LocLongDescription="If an open PokÃ©ball is hit by an attack and takes damage, it is likely to retract into its shell."
+LocHelpText="The PokÃ©ball retracts its defensive shell when damaged."
 
 [GatekeeperOpen X2AbilityTemplate]
 LocFriendlyName="Open Shell"
-LocLongDescription="Open the Pokéball’s shell, reducing armor but granting access to additional abilities."
-LocHelpText="Open the Pokéball’s shell, reducing armor but granting access to additional abilities."
+LocLongDescription="Open the PokÃ©ballÂ’s shell, reducing armor but granting access to additional abilities."
+LocHelpText="Open the PokÃ©ballÂ’s shell, reducing armor but granting access to additional abilities."
 
 [GatekeeperClose X2AbilityTemplate]
-LocLongDescription="Close the Pokéball’s shell, increasing armor but preventing the use of some abilities."
-LocHelpText="Close the Pokéball’s shell, increasing armor but preventing the use of some abilities."
+LocLongDescription="Close the PokÃ©ballÂ’s shell, increasing armor but preventing the use of some abilities."
+LocHelpText="Close the PokÃ©ballÂ’s shell, increasing armor but preventing the use of some abilities."
 
 [GatekeeperClosedEffect X2AbilityTemplate]
-LocLongDescription="The Pokéball’s shell is closed. It is more resistant to damage."
-LocHelpText="The Pokéball gains armor and defensive bonuses when its outer shell is closed."
+LocLongDescription="The PokÃ©ballÂ’s shell is closed. It is more resistant to damage."
+LocHelpText="The PokÃ©ball gains armor and defensive bonuses when its outer shell is closed."
 
 [ProtectiveShell X2AbilityTemplate]
-LocLongDescription="When a Pokéball’s shell is closed, it is extremely resistant to damage but has only limited offensive options."
-LocHelpText="When a Pokéball’s shell is closed, it is extremely resistant to damage but has only limited offensive options."
+LocLongDescription="When a PokÃ©ballÂ’s shell is closed, it is extremely resistant to damage but has only limited offensive options."
+LocHelpText="When a PokÃ©ballÂ’s shell is closed, it is extremely resistant to damage but has only limited offensive options."
 
 ; ================================================
 ; Sectopod Abilities
@@ -6934,7 +6929,7 @@ ShadowBannerRevealed="OH GOD OH GOD OH GOD"
 ShadowBannerNotRevealed="Calculated!"
 
 LostSpawnMessage="A swarm of shitposters appears!"
-LostAlmostSpawnMessage="Howls echo nearby.  The Shitposter swarm is very close!"
+LostAlmostSpawnMessage="Howls echo nearby. The Shitposter swarm is very close!"
 LostLoudNoiseMessage="The loud explosion draws a Shitposter swarm closer!"
 LostNoiseMessage="A series of growls sound in the distance. The Shitposters can hear you..."
 
@@ -6966,7 +6961,7 @@ GameplayTips_Strategy[20]="Hunting the Edgelords down through the Ring facility 
 GameplayTips_Strategy[21]="The Edgelords will continue to grow more powerful over time, gaining new tactical strengths in addition to powerful new strategic abilities."
 
 
-CriticalHit="What the fuck did you just fucking say about me, you little bitch? I’ll have you know I graduated top of my class in the Navy Seals, and I’ve been involved in numerous secret raids on Al-Quaeda, and I have over 300 confirmed kills. I am trained in gorilla warfare and I’m the top sniper in the entire US armed forces. You are nothing to me but just another target. I will wipe you the fuck out with precision the likes of which has never been seen before on this Earth, mark my fucking words. You think you can get away with saying that shit to me over the Internet? Think again, fucker. As we speak I am contacting my secret network of spies across the USA and your IP is being traced right now so you better prepare for the storm, maggot. The storm that wipes out the pathetic little thing you call your life. You’re fucking dead, kid. I can be anywhere, anytime, and I can kill you in over seven hundred ways, and that’s just with my bare hands. Not only am I extensively trained in unarmed combat, but I have access to the entire arsenal of the United States Marine Corps and I will use it to its full extent to wipe your miserable ass off the face of the continent, you little shit. If only you could have known what unholy retribution your little “clever” comment was about to bring down upon you, maybe you would have held your fucking tongue. But you couldn’t, you didn’t, and now you’re paying the price, you goddamn idiot. I will shit fury all over you and you will drown in it. You’re fucking dead, kiddo."
+CriticalHit="What the fuck did you just fucking say about me, you little bitch? IÂ’ll have you know I graduated top of my class in the Navy Seals, and IÂ’ve been involved in numerous secret raids on Al-Quaeda, and I have over 300 confirmed kills. I am trained in gorilla warfare and IÂ’m the top sniper in the entire US armed forces. You are nothing to me but just another target. I will wipe you the fuck out with precision the likes of which has never been seen before on this Earth, mark my fucking words. You think you can get away with saying that shit to me over the Internet? Think again, fucker. As we speak I am contacting my secret network of spies across the USA and your IP is being traced right now so you better prepare for the storm, maggot. The storm that wipes out the pathetic little thing you call your life. YouÂ’re fucking dead, kid. I can be anywhere, anytime, and I can kill you in over seven hundred ways, and thatÂ’s just with my bare hands. Not only am I extensively trained in unarmed combat, but I have access to the entire arsenal of the United States Marine Corps and I will use it to its full extent to wipe your miserable ass off the face of the continent, you little shit. If only you could have known what unholy retribution your little Â“cleverÂ” comment was about to bring down upon you, maybe you would have held your fucking tongue. But you couldnÂ’t, you didnÂ’t, and now youÂ’re paying the price, you goddamn idiot. I will shit fury all over you and you will drown in it. YouÂ’re fucking dead, kiddo."
 ArmorMitigation="IGNORING DAMAGE BECAUSE FUCK YOU"
 GrazeHit="DODGE: PALED BROOK FIX YOUR BULLSHIT"
 ShreddedMessage="SHREKT"
@@ -7089,7 +7084,7 @@ m_strAverageEnemiesKilledPerTurn="AVERAGE AYYS WASTED PER TURN"
 m_strAverageCoverBonus="HOW MUCH YOU ATTEMPTED TO NOT DIE"
 m_strDealtMostDamage="CARRIED THE TEAM"
 m_strTookMostShots="WASTED MOST AMMO"
-m_strMostUnderFire="AYY’S TARGET PRACTICE"
+m_strMostUnderFire="AYYÂ’S TARGET PRACTICE"
 m_strMovedFurthest="HUSTLED THAT ASS"
 m_strLoadingText="PRESS CAPS LOCK TO TELEPORT BACK TO BASE"
 m_strNewRecord="**wow good jorb**"
@@ -7107,7 +7102,7 @@ m_sChosenTurn="EDGELORD ACTION"
 m_arrDifficultyTypeStrings[0]="Little Bitch"
 m_arrDifficultyTypeStrings[1]="Baby Mode"
 m_arrDifficultyTypeStrings[2]="Easy Mode"
-m_arrDifficultyTypeStrings[3]="That's XCOM, baby!”
+m_arrDifficultyTypeStrings[3]="That's XCOM, baby!Â”
 m_arrDifficultyDescStrings[0]="Are you for real?"
 m_arrDifficultyDescStrings[1]="A difficulty appropriate for players that wants a \"cinematic experience\"."
 m_arrDifficultyDescStrings[2]="A significantly easier game for those that can't handle losing."
@@ -7126,7 +7121,7 @@ SecondWaveTooltips[4]="Dank Events never expire, greatly increasing both tactica
 [XComGame.UIChooseIronMan]
 [UIChooseIronMan]
 m_strIronmanTitle="Enable Ironmeme Mode?"
-m_strIronmanBody="In an 'Ironmeme' game your progress is saved automatically, meaning every choice you make is final. Ironmeme mode is the ultimate XCOM experience. It is recommended for experienced players only."
+m_strIronmanBody="In an 'Ironmeme' game your progress is saved automatically, meaning every choice you make is final. Ironmeme mode is the ultimate XCOM experience. It is recommended for experienced players only. You also risk losing all your progress in case of bugs, with no way to fall back a save"
 m_strIronmanOK="Enable Ironmeme"
 m_strStartNoIronMan="Start without Ironmeme"
 
@@ -7167,9 +7162,9 @@ RupturedEffectAcquiredString="<XGParam:StrValue0/!UnitName/> is rekt."
 
 AcidBurningFriendlyName="AAAA MY EYES ARE MELTING"
 AcidBurningFriendlyDesc="Acid does <Ability:BURNDAMAGE/> damage over time."
-AcidBurningEffectAcquiredString="<XGParam:StrValue0/!UnitName/>’s eyes are melting."
-AcidBurningEffectTickedString="<XGParam:StrValue0/!UnitName/>’s eyes are still melting."
-AcidBurningEffectLostString="<XGParam:StrValue0/!UnitName/>’s eyes got better."
+AcidBurningEffectAcquiredString="<XGParam:StrValue0/!UnitName/>Â’s eyes are melting."
+AcidBurningEffectTickedString="<XGParam:StrValue0/!UnitName/>Â’s eyes are still melting."
+AcidBurningEffectLostString="<XGParam:StrValue0/!UnitName/>Â’s eyes got better."
 
 DisorientedFriendlyName="Just read a Jaden Smith tweet"
 DisorientedLostFriendlyName="Blocked Jaden Smith on twitter"
@@ -7178,13 +7173,13 @@ DisorientedEffectTickedString="<XGParam:StrValue0/!UnitName/> is still reading t
 DisorientedEffectLostString="<XGParam:StrValue0/!UnitName/> is no longer following Jaden Smith on twitter"
 
 MindControlFriendlyName="Hey, you guys are pretty cool"
-MindControlLostFriendlyName="Wait, this isn’t my team!"
+MindControlLostFriendlyName="Wait, this isnÂ’t my team!"
 MindControlFriendlyDesc="Mentally controlled by an opposing unit."
 MindControlEffectAcquiredString="<XGParam:StrValue0/!UnitName/> is batting for other team."
 MindControlEffectTickedString="<XGParam:StrValue0/!UnitName/> is still batting for the other team."
 MindControlEffectLostString="<XGParam:StrValue0/!UnitName/> realized the other team was shit."
 
-PoisonedFriendlyName="You’ve got AIDS!"
+PoisonedFriendlyName="YouÂ’ve got AIDS!"
 PoisonedFriendlyDesc="Suffering movement and aim penalties. Taking damage each turn."
 PoisonedEffectAcquiredString="<XGParam:StrValue0/!UnitName/> got AIDS."
 PoisonedEffectTickedString="<XGParam:StrValue0/!UnitName/> still got AIDS."
@@ -7209,9 +7204,9 @@ BoundEffectLostString="<XGParam:StrValue0/!UnitName/> just lit a cigarette."
 
 MarkedFriendlyName="SHOOT THIS ASSHOLE RIGHT HERE"
 MarkedFriendlyDesc="Marked targets are easier for enemies to hit."
-MarkedEffectAcquiredString="<XGParam:StrValue0/!UnitName/> is gonna get TOUCAN SAFARI’d."
-MarkedEffectTickedString="<XGParam:StrValue0/!UnitName/> is still gonna get TOUCAN SAFARI’d."
-MarkedEffectLostString="<XGParam:StrValue0/!UnitName/> is no longer getting TOUCAN SAFARI’d."
+MarkedEffectAcquiredString="<XGParam:StrValue0/!UnitName/> is gonna get TOUCAN SAFARIÂ’d."
+MarkedEffectTickedString="<XGParam:StrValue0/!UnitName/> is still gonna get TOUCAN SAFARIÂ’d."
+MarkedEffectLostString="<XGParam:StrValue0/!UnitName/> is no longer getting TOUCAN SAFARIÂ’d."
 
 HackedUnitFriendlyName="BEEP BOOP HACKED"
 HackedUnitLostFriendlyName="Hacked effect Lost"
@@ -7237,7 +7232,7 @@ PanickedEffectAcquiredString="<XGParam:StrValue0/!UnitName/> is freaking the fuc
 PanickedEffectTickedString="<XGParam:StrValue0/!UnitName/> is still freaking the fuck out."
 PanickedEffectLostString="<XGParam:StrValue0/!UnitName/> is no longer freaking the fuck out."
 
-GatekeeperClosedEffectDesc="The Pokéball's shell is closed. It is more resistant to damage in this state."
+GatekeeperClosedEffectDesc="The PokÃ©ball's shell is closed. It is more resistant to damage in this state."
 
 RevealedFriendlyName="Oh shit they found us!"
 ConcealedFriendlyName="Sneak skill increased to 100"
@@ -7295,10 +7290,10 @@ LocFriendlyName="Meme Beacon"
 LocLongDescription="The Meme Beacon is thrown like a grenade, and generates a holographic decoy where it lands. This decoy will draw enemy attacks for one turn, unless its HP are depleted."
 
 [CombatStims X2AbilityTemplate]
-LocFlyOverText="POPPIN’ AUTISM PILLS"
+LocFlyOverText="POPPINÂ’ AUTISM PILLS"
 
 [ScorchCircuitsDamage X2AbilityTemplate]
-LocFlyOverText="FLAME ON" ;doesn’t work
+LocFlyOverText="FLAME ON" ;doesnÂ’t work
 
 [XComGame.X2Effect_SpawnPsiZombie]
 [X2Effect_SpawnPsiZombie]
@@ -7630,7 +7625,7 @@ TimerFortressAvatarTitle="Destroy Super Saiyans"
 TimerFortressAvatarSubtitle="Super Saiyans remaining"
 
 [DefaultAdventFacilityPsiGate X2MissionNarrativeTemplate]
-ObjectiveTextPools[0]="Track the Computer Waifu’s point of origin"
+ObjectiveTextPools[0]="Track the Computer WaifuÂ’s point of origin"
 
 [DefaultSabotage X2MissionNarrativeTemplate]
 ObjectiveTextPools[0]="Plant X4 to Destroy Ayylien Facility"
@@ -8880,7 +8875,7 @@ m_strContactBody=Once contacted, the Resistance in <XGParam:StrValue0/!WorldRegi
 
 m_strOutpostBody=Once a radio relay is installed, the Resistance in <XGParam:StrValue0/!WorldRegionName/> will increase their regular collection to +<XGParam:IntValue0/> dosh. The intel cost of making contact with nearby regions will also be reduced.
 
-m_strResourceCacheAvailableTitle=DOSH, GRAB IT WHILE IT’S HOT
+m_strResourceCacheAvailableTitle=DOSH, GRAB IT WHILE ITÂ’S HOT
 m_strResourceCacheAvailableBody=Commander, the Resistance has provided us with the location of a hidden dosh cache! Once we travel to the area, we can collect the dosh to further our efforts.
 
 m_strResourceCacheCompleteTitle=DOSH DROP COLLECTED
@@ -9086,9 +9081,9 @@ FriendlyNamePlural="Computer Waifu Brains"
 BriefSummary="The Computer Waifu leaves only this small, nearly featureless \"brain\" when it expires, which has proven remarkably resistant to biological or mechanical scans of any kind."
 
 [CorpseGatekeeper X2ItemTemplate]
-FriendlyName="Pokéball Shell"
-FriendlyNamePlural="Pokéball Shells"
-BriefSummary="The organism within the Pokéball’s shell is highly unusual, seemingly reliant on the shell itself for sensory input. Long sequences of engraved symbols not unlike ancient hieroglyphs adorn the inner lining of the shell."
+FriendlyName="PokÃ©ball Shell"
+FriendlyNamePlural="PokÃ©ball Shells"
+BriefSummary="The organism within the PokÃ©ballÂ’s shell is highly unusual, seemingly reliant on the shell itself for sensory input. Long sequences of engraved symbols not unlike ancient hieroglyphs adorn the inner lining of the shell."
 
 [CorpseBerserker X2ItemTemplate]
 FriendlyName="XBOXHUEG Corpse"
@@ -9255,7 +9250,7 @@ LongDescription="Although the logistical concerns involved in transporting a lar
 DisplayName="Super Saiyan Autopsy"
 Summary="The ayyliens built an elaborate new society, a government structure and a system of careful manipulation solely to fuel the creation of this, their so-called \"Super Saiyan.\" At the cost of countless human lives, they have finally succeeded."
 CodeName="Primarch"
-LongDescription="We have dedicated the entirety of our efforts to discovering the purpose of the Advent Calendar, and now, it seems we're finally gaining ground on the ayyliens. With that said, I was shocked to see that our troops not only encountered what was apparently a fully responsive Super Saiyan specimen, but that it engaged them in combat and was subsequently dispatched with only moderate difficulty.\n\nWith all that went in to its creation, somehow I expected that the Super Saiyan wouldn’t be such a bitch. Initially, it appeared as though my assumptions were wrong.\n\nHumanoid in form, the physical attributes of the Super Saiyan specimen are, on the surface, wholly unremarkable. It has a musculature system not all that unlike a young adult human, with no obvious genetic adulterations to enhance its physical strength or agility. At this point I could only surmise that the ayyliens focused entirely on what lies beneath the Avatar's seemingly ordinary structure.\n\nAs I continued my analysis of the Avatar specimen, including a rapid genetic sequencing aided by the Shadow Chamber, I discovered my earlier conclusions could not be further from the truth. This Avatar, what was left of it, is still not \"whole\" in a developmental sense. Although portions of the missing genetic links have since been filled with what is undoubtedly Elder DNA, there are still gaps; incomplete sequences that leave the creature unable to fully sustain its own power. It is now my firm belief that we have yet to encounter a fully developed Super Saiyan, and its potential capabilities at full strength leave me deeply concerned. R. Tygan."
+LongDescription="We have dedicated the entirety of our efforts to discovering the purpose of the Advent Calendar, and now, it seems we're finally gaining ground on the ayyliens. With that said, I was shocked to see that our troops not only encountered what was apparently a fully responsive Super Saiyan specimen, but that it engaged them in combat and was subsequently dispatched with only moderate difficulty.\n\nWith all that went in to its creation, somehow I expected that the Super Saiyan wouldnÂ’t be such a bitch. Initially, it appeared as though my assumptions were wrong.\n\nHumanoid in form, the physical attributes of the Super Saiyan specimen are, on the surface, wholly unremarkable. It has a musculature system not all that unlike a young adult human, with no obvious genetic adulterations to enhance its physical strength or agility. At this point I could only surmise that the ayyliens focused entirely on what lies beneath the Avatar's seemingly ordinary structure.\n\nAs I continued my analysis of the Avatar specimen, including a rapid genetic sequencing aided by the Shadow Chamber, I discovered my earlier conclusions could not be further from the truth. This Avatar, what was left of it, is still not \"whole\" in a developmental sense. Although portions of the missing genetic links have since been filled with what is undoubtedly Elder DNA, there are still gaps; incomplete sequences that leave the creature unable to fully sustain its own power. It is now my firm belief that we have yet to encounter a fully developed Super Saiyan, and its potential capabilities at full strength leave me deeply concerned. R. Tygan."
 
 [AlienBiotech X2TechTemplate]
 DisplayName="Ayylien Biotech"
@@ -9299,11 +9294,11 @@ LongDescription="Brief eyewitness accounts, including one from our own Central O
 AlertString="Wingman"
 
 [AutopsyGatekeeper X2TechTemplate]
-DisplayName="Pokéball Autopsy"
+DisplayName="PokÃ©ball Autopsy"
 Summary="Our initial readings of the odd spherical creature we encountered show it to be of immense Psionic power, potentially rivaling that of the Elders themselves. It may be possible to reverse-engineer its biomechanical components for use in our own equipment."
 CodeName="Barrett"
-LongDescription="Having encountered a number of ayyliens capable of wielding Psionic power, it should come as no surprise that their aptitude and abilities are often unique to a given species. In this case the subject henceforth referred to as the \"Pokéball\", is on the extreme end of the spectrum in terms of Psionic sensitivity.\n\nHowever, our efforts to analyze the subject have so far revealed little in terms of its actual purpose or intention in the field. Unlike the Computer Waifu, so far we've found nothing that would allow the Pokéball to open or control a rift. All current indications point to an unusually independent, unpredictable species. R. Tygan."
-AlertString="Pokéball"
+LongDescription="Having encountered a number of ayyliens capable of wielding Psionic power, it should come as no surprise that their aptitude and abilities are often unique to a given species. In this case the subject henceforth referred to as the \"PokÃ©ball\", is on the extreme end of the spectrum in terms of Psionic sensitivity.\n\nHowever, our efforts to analyze the subject have so far revealed little in terms of its actual purpose or intention in the field. Unlike the Computer Waifu, so far we've found nothing that would allow the PokÃ©ball to open or control a rift. All current indications point to an unusually independent, unpredictable species. R. Tygan."
+AlertString="PokÃ©ball"
 
 [AutopsyAndromedon X2TechTemplate]
 DisplayName="Big Daddy Autopsy"
@@ -9576,8 +9571,8 @@ DisplayName="METAL GEAR"
 DisplayDescription="The METAL GEAR is a robotic behemoth that can both absorb and dish out massive amounts of damage. Its Wrath Cannon ability has extreme range and can hit multiple targets. The METAL GEAR's robotic nature makes it vulnerable to being hacked."
 
 [Gatekeeper X2MPCharacterTemplate]
-DisplayName="Pokéball"
-DisplayDescription="The Pokéball resides inside a tough armored shell harboring enormous psionic power. Pokéballs can reanimate multiple humanoid corpses at once and can even heal themselves with their Tentacle Rape ability."
+DisplayName="PokÃ©ball"
+DisplayDescription="The PokÃ©ball resides inside a tough armored shell harboring enormous psionic power. PokÃ©balls can reanimate multiple humanoid corpses at once and can even heal themselves with their Tentacle Rape ability."
 
 [AdvPriest X2MPCharacterTemplate]
 DisplayName="Pedophile"
@@ -9828,14 +9823,14 @@ strCharacterName="Derelict Autobot"
 ; ================================================
 
 [IntimidateTrigger X2AbilityTemplate]
-LocFriendlyName="You’re fucking dead, kiddo"
-LocMissMessage="Yeah? We’ll see about that"
+LocFriendlyName="YouÂ’re fucking dead, kiddo"
+LocMissMessage="Yeah? WeÂ’ll see about that"
 
 [AbsorptionField X2AbilityTemplate]
 LocFlyOverText="Imma chargin mah lazer"
 
 ; ================================================
-; Lily Shen’s Abilities
+; Lily ShenÂ’s Abilities
 ; ================================================
 
 [CombatProtocol_Shen X2AbilityTemplate]
@@ -9849,7 +9844,7 @@ LocFlyOverText="CHARGING.... CLEAR!"
 ; ================================================
 
 [KingGetOverHere X2AbilityTemplate]
-LocLongDescription="A Snek’s tongue and neck are immensely strong, and can yank an adult human into its coils from far away."
+LocLongDescription="A SnekÂ’s tongue and neck are immensely strong, and can yank an adult human into its coils from far away."
 LocFlyOverText="Tongue Grab"
 LocMissMessage="Your husbando is ignoring you"
 
@@ -9863,7 +9858,7 @@ LocLongDescription="The Pimp Snek can project an icy blast at long range to free
 
 [EndBind X2AbilityTemplate]
 LocLongDescription="In the event the tactical situation changes, the Snek can release the target in its coils before killing it."
-LocHelpText="Release the target in the Snek’s coils"
+LocHelpText="Release the target in the SnekÂ’s coils"
 LocFlyOverText="Sweet sweet post coitus release"
 
 [AlienRulerCallForEscape X2AbilityTemplate]
