@@ -3123,13 +3123,6 @@ LocHelpText="Pass a spare pistol to a nearby allied idiot."
 LocPromotionPopupText="<Bullet/> Anytime you equip a pistol (of any technology level), you carry a spare conventional pistol that you can hand to any adjacent allied idiot who does not already have a pistol.<br/><Bullet/> The spare pistol does not impose a weight penalty on this soldier, but the idiot will incur a one-mobility penalty when receiving the sidearm.<br/><Bullet/> Note: This ability will not appear in your Tactical ability icons unless you can use it."
 LocFlyOverText="At least TRY to be useful"
 
-[PointBlank X2AbilityTemplate]
-LocFlyOverText="I cast YEET!"
-
-
-[BothBarrels X2AbilityTemplate]
-LocFlyOverText="New face. Free of charge."
-
 ; ================================================
 ; Sharpshooter Abilities
 ; ================================================
@@ -3290,29 +3283,9 @@ LocPromotionPopupText="<Bullet/> Blademaster deals a bonus +<Ability:Blademaster
 [Cutthroat X2AbilityTemplate]
 LocFriendlyName="RED SUN"
 
-[LostBladestorm X2AbilityTemplate]
+[LostBladestormAttack X2AbilityTemplate]
 LocFriendlyName="FREE HUGS"
-LocLongDescription="Free melee attacks on any enemies that enter, exit or attack from melee range on enemy turns."
-LocHelpText="Free melee attacks on any enemies that enter, exit or attack from melee range on enemy turns."
 LocFlyOverText="FREE HUGS"
-; LWOTC Needs Translation (2)
-LocPromotionPopupText="<Bullet/> If an enemy begins their turn in an adjacent tile, FREE HUGS will trigger if that enemy tries to attack the <Ability:ClassName/>.<br/><Bullet/> If an enemy does not begin their turn in an adjacent tile, then Grapple will trigger when that enemy moves into melee range.<br/>"
-; End Translation (2)
-
-[Bladestorm X2AbilityTemplate]
-LocFriendlyName="RULES OF NATURE"
-LocLongDescription="Free <Ability:SecondaryWeaponName/> attacks on any enemies that enter, exit or attack from melee range on enemy turns."
-LocHelpText="Free <Ability:SecondaryWeaponName/> attacks on any enemies that enter, exit or attack from melee range on enemy turns."
-LocFlyOverText="RULES OF NATURE"
-LocPromotionPopupText="<Bullet/> If an enemy begins their turn in an adjacent tile, RULES OF NATURE will trigger if that enemy tries to attack the <Ability:ClassName/>.<br/><Bullet/> If an enemy does not begin their turn in an adjacent tile, then Bladestorm will trigger when that enemy moves into melee range.<br/><Bullet/> Bladestorm does not trigger on your own turn.<br/>"
-
-[TemplarBladestorm X2AbilityTemplate]
-LocFriendlyName="RULES OF NATURE"
-LocLongDescription="Free <Ability:WeaponName/> attacks on any enemies that enter, exit or attack from melee range on enemy turns."
-LocHelpText="Free <Ability:WeaponName/> attacks on any enemies that enter, exit or attack from melee range on enemy turns."
-LocFlyOverText="RULES OF NATURE"
-LocPromotionPopupText="<Bullet/> If an enemy begins their turn in an adjacent tile, RULES OF NATURE will trigger if that enemy tries to attack the <Ability:ClassName/>.<br/><Bullet/> If an enemy does not begin their turn in an adjacent tile, then Bladestorm will trigger when that enemy moves into melee range.<br/><Bullet/> Bladestorm does not trigger on your own turn.<br/>"
-; End Translation
 
 [BladestormAttack X2AbilityTemplate]
 LocFriendlyName="RULES OF NATURE"
