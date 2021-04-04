@@ -276,7 +276,7 @@ strTimeRemainingHoursOnly="<XGParam:IntValue0> Hours"
 strTimeRemainingDaysAndHours="<XGParam:IntValue1>D, <XGParam:IntValue0>H"
 
 [X2EventListener_Soldiers]
-OnLiaisonDuty="Slave overseer"
+OnLiaisonDuty="Slave Overseer"
 OnInfiltrationMission="Infiltrating"
 UnitAlreadyInSquad="Unit In Another Squad"
 UnitInSquad="Unit In A Squad"
@@ -454,11 +454,11 @@ m_strInsuffientInfiltrationToLaunch="Need to infiltrate to at least <XGParam:Int
 [UIMission_LWCustomMission]
 +m_strUrgent="SECURITY BREACH"
 +m_strRendezvousMission="RENDEZVOUS"
-+m_strRendezvousDesc="**Unauthorized signal from Resistance Haven in <XGParam:StrValue0/!WorldRegionName>** The adviser and volunteers from the Haven will intercept and eliminate a spy and their ADVENT handlers at a nearby meeting site."
++m_strRendezvousDesc="**Unauthorized signal from Resistance Haven in <XGParam:StrValue0/!WorldRegionName>** The overseer and slaves from the Haven will intercept and eliminate a spy and their ADVENT handlers at a nearby meeting site."
 
 m_strInvasionMission="INVASION"
 m_strInvasionWarning="OH SHIT SON"
-m_strInvasionDesc="ADVENT has had enough of your shit and is launching an Invasion on <XGParam:StrValue0/!WorldRegionName/>! Hurry your ass up over there or the entire region is fucked!."
+m_strInvasionDesc="ADVENT has had enough of your shit and is launching an Invasion on <XGParam:StrValue0/!WorldRegionName/>! Hurry your ass up over there or the entire region is fucked!"
 
 [UIStrategyMapItem_Region_LW]
 m_strOutpostTitle="Haven: <XGParam:StrValue0>"
@@ -466,7 +466,7 @@ m_strAlertLevel="ADVENT Str:<XGParam:IntValue0> (V:<XGParam:IntValue2> F:<XGPara
 m_strLiberatedRegion="Region Liberated"
 m_strStaffingPinText="S:<XGParam:IntValue0> I:<XGParam:IntValue1> R:<XGParam:IntValue2>"
 m_strStaffingPinTextMore="H:<XGParam:IntValue0>"
-m_strMonthlyRegionalIncome="+�<XGParam:IntValue0> (+�<XGParam:IntValue1>)"
+m_strMonthlyRegionalIncome="+§<XGParam:IntValue0> (+§<XGParam:IntValue1>)"
 
 [XComGameState_LWOutpostManager]
 LabelCQ_ResistanceManagement="Resistance Management"
@@ -484,8 +484,8 @@ m_strADVENTUnitSingular="Legion"
 m_strADVENTUnitPlural="Legions"
 
 m_strGlobalAlert="Global ADVENT Strength:"
-m_strGlobalInsurgency="� Global Resistance Threat:"
-m_strAvatarPenalty="� Avatar Progress Slowed By <XGParam:IntValue0/>%"
+m_strGlobalInsurgency="• Global Resistance Threat:"
+m_strAvatarPenalty="• Avatar Progress Slowed By <XGParam:IntValue0/>%"
 m_strThreatVeryLow="Low"
 m_strThreatLow="Guarded"
 m_strThreatMedium="Elevated"
@@ -643,8 +643,8 @@ m_strTurnSingular="Turn"
 m_strTurnPlural="Turns"
 m_strMinimumInfiltration="Requires <XGParam:IntValue0>% Infiltration"
 m_strYellowAlert="Enemies on High Alert"
-m_sAverageScatterText="� <XGParam:StrValue0/> Tiles"
-m_strBullet="�"
+m_sAverageScatterText="± <XGParam:StrValue0/> Tiles"
+m_strBullet="•"
 
 m_strStripWeaponUpgrades=STRIP ALL WEAPON UPGRADES
 m_strStripWeaponUpgradesLower=Strip All Weapon Upgrades
