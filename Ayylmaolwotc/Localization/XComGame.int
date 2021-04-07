@@ -3830,7 +3830,7 @@ LocLongDescription="Fellow Humans don't need ladders or pipes to get onto roofs;
 [GetOverHere X2AbilityTemplate]
 LocLongDescription="A Snek's tongue and neck are immensely strong, and can yank an adult human into its coils from far away."
 LocHelpText="Grab a target with your tongue and pull them to melee range. Only humanoid targets can be pulled."
-LocFlyOverText="Tongue Grab"
+LocFlyOverText="Mlep"
 LocMissMessage="Your waifu is ignoring you"
 
 [Bind X2AbilityTemplate]
@@ -3840,7 +3840,6 @@ LocMissMessage="Your waifu is ignoring you"
 
 [PoisonSpit X2AbilityTemplate]
 LocLongDescription="A Snek can project a blast of venom at long range that explodes into a toxic cloud."
-
 [PoisonSpit X2GrenadeTemplate]
 BriefSummary="A Snek can project a blast of venom at long range that explodes into a toxic cloud."
 
@@ -3866,7 +3865,8 @@ LocHelpText="Divide into a new Computer Waifu and then teleport when taking dama
 [Teleport X2AbilityTemplate]
 LocLongDescription="The Computer Waifu can teleport to distant locations instead of moving directly. Bypasses all Ogrewatch and reaction fire."
 LocFlyOverText="*teleports behind u*"
-
+[Clone X2AbilityTemplate]
+LocFlyOverText="*LOVE ME LOVE ME LOVE ME*"
 [TechVulnerability X2AbilityTemplate]
 LocLongDescription="While a Computer Waifu cannot be hacked, it is still susceptible to anti-tech attacks."
 LocHelpText="The Computer Waifu is vulnerable to anti-tech attacks."
@@ -3990,7 +3990,7 @@ LocHelpText="The Big Daddy's Battlesuit will continue fighting, even after death
 
 [BigDamnPunch X2AbilityTemplate]
 LocLongDescription="The Big Daddy's Battlesuit is fantastically strong. Its melee attacks aren't very accurate, but they are devastating."
-
+LocFlyOverText="IT'S FISTING TIME!"
 [AcidBlob X2AbilityTemplate]
 LocLongDescription="The Big Daddy's internal coolant is extremely caustic. This creature can launch a glob of this viscious liquid that splatters on impact into pools of acid."
 
@@ -4036,7 +4036,7 @@ LocFlyoverText="THIS IS JUST LIKE ONE OF MY JAPANISE ANIMES"
 [AnimaInversion X2AbilityTemplate]
 LocLongDescription="Open a devastating psionic rift in an area. Any humanoid enemies killed can be raised as redditors."
 LocHelpText="Open a devastating psionic rift in an area. Any humanoid enemies killed can be raised as redditors."
-
+LocFlyOverText="Resurrection...BY ERECTION!"
 [Retract X2AbilityTemplate]
 LocLongDescription="If an open Pokéball is hit by an attack and takes damage, it is likely to retract into its shell."
 LocHelpText="The Pokéball retracts its defensive shell when damaged."
@@ -4045,11 +4045,11 @@ LocHelpText="The Pokéball retracts its defensive shell when damaged."
 LocFriendlyName="Open Shell"
 LocLongDescription="Open the Pokéball’s shell, reducing armor but granting access to additional abilities."
 LocHelpText="Open the Pokéball’s shell, reducing armor but granting access to additional abilities."
-
+LocFlyOverText="Want a taste of these?"
 [GatekeeperClose X2AbilityTemplate]
 LocLongDescription="Close the Pokéball’s shell, increasing armor but preventing the use of some abilities."
 LocHelpText="Close the Pokéball’s shell, increasing armor but preventing the use of some abilities."
-
+LocFlyOverText="Damn tease!"
 [GatekeeperClosedEffect X2AbilityTemplate]
 LocLongDescription="The Pokéball’s shell is closed. It is more resistant to damage."
 LocHelpText="The Pokéball gains armor and defensive bonuses when its outer shell is closed."
@@ -4063,28 +4063,29 @@ LocHelpText="When a Pokéball’s shell is closed, it is extremely resistant to 
 ; ================================================
 
 [WrathCannonStage1 X2AbilityTemplate]
-LocLongDescription="The Wrath Cannon is an extremely high energy attack that deals damage in a long line. The firing of the cannon requires the METAL GEAR to fully charge a series of emitters, which might give quick victims a chance to run and hide."
-
+LocLongDescription="The Rap Cannon is an extremely high energy attack that bursts the eardrums of anyone unfortunate to listen to it in a long line. The firing of the cannon requires the METAL GEAR to compose a series of truly awful lyrics, giving anyone with a modicum of musical taste to Get The Fuck Out Of There."
+LocFlyOverText="Rap Cannon"
 [Blaster X2AbilityTemplate]
 LocLongDescription="The METAL GEAR has a back-mounted utility blaster that can be used every action to deal with most threats. This weapon can fire in any direction."
 LocHelpText="Fire the METAL GEAR Blaster at a target."
-
+[WrathCannonStage2 X2AbilityTemplate]
+LocFlyOverText="SICK RHYMES YO"
 [BlasterDuringCannon X2AbilityTemplate]
 LocFriendlyName="Fire Blaster"
 LocLongDescription="The METAL GEAR has a back-mounted utility blaster that can be used every action to deal with most threats. This weapon can fire in any direction."
 LocHelpText="Fire the METAL GEAR Blaster at a target."
-LocFlyOverText="Blaster"
+LocFlyOverText="PEW PEW PEW PEW"
 
 [SectopodHigh X2AbilityTemplate]
 LocLongDescription="The METAL GEAR can extend its legs to improve its range and weapon reach, and allow it to use the Wrath Cannon against elevated targets."
-
+LocFlyOverText="Robopanty shots!"
 [SectopodLightningField X2AbilityTemplate]
 LocLongDescription="The METAL GEAR can emit a blast of lightning in a circular area around itself whenever it detects an enemy in melee range."
 LocHelpText="Discharge an electric attack in a radius around the METAL GEAR."
-
+LocFlyOverText="Lightning fart!"
 [SectopodLow X2AbilityTemplate]
 LocLongDescription="The METAL GEAR can return to low stance, to target enemies at ground level with the Wrath Cannon."
-
+LocFlyOverText="Ieeeeeeeeee!"
 [SectopodImmunities X2AbilityTemplate]
 LocFriendlyName="METAL GEAR Immunities"
 LocLongDescription="The METAL GEAR is immune to fire, poison and mental attacks."
@@ -4101,7 +4102,7 @@ LocLongDescription="The Super Saiyan can seize active control of their target's 
 LocFriendlyName="Dimensional Rift"
 LocLongDescription="The Super Saiyan creates a seething dimensional instability that erupts after a short delay. Any victim caught in the blast is damaged, and may be stunned or disoriented by the unnatural energies released."
 LocHelpText="Open a large psionic rift that damages all units that remain inside its borders."
-LocFlyOverText="Dimensional Rift"
+LocFlyOverText="KAME...HAME...HA!"
 
 [DimensionalRift X2AbilityTemplate]
 LocFriendlyName="Dimensional Rift"
@@ -4134,12 +4135,12 @@ LocHelpText="The Super Saiyan quickly regains health when wounded."
 LocFriendlyName="Vanishing"
 LocLongDescription="Ransomware becomes concealed from enemies and gains increased mobility."
 LocHelpText="Ransomware becomes concealed from enemies and gains increased mobility."
-
+LocFlyOverText="Ninja vanish!"
 [VanishReveal X2AbilityTemplate]
 LocFriendlyName="Reveal"
 LocHelpText="Reveal this Ransomware to the enemy.  This happens automatically if actions are performed while vanished."
 LocLongDescription="Reveal this Ransomware to the enemy.  This happens automatically if actions are performed while vanished."
-
+LocFlyOverText="Just according to keikaku"
 [Horror X2AbilityTemplate]
 LocFriendlyName="Horror"
 LocHelpText="Tentacles from the Ransomware reach out and bind a humanoid target, damaging the target and healing the Ransomware."
@@ -4150,13 +4151,13 @@ LocFlyOverText="Horror!"
 LocFriendlyName="Shadowbind"
 LocHelpText="Creates a shadowy copy of a humanoid target, which retains all of the target's abilities."
 LocLongDescription="Creates a shadowy copy of a humanoid target, which retains all of the target's abilities."
-LocFlyOverText="Shadowbind"
+LocFlyOverText="ENCRYPTED"
 
 [ShadowbindM2 X2AbilityTemplate]
 LocFriendlyName="Shadowbind"
 LocHelpText="Creates a shadowy copy of a humanoid target, which retains all of the target's abilities."
 LocLongDescription="Creates a shadowy copy of a humanoid target, which retains all of the target's abilities."
-LocFlyOverText="Shadowbind"
+LocFlyOverText="ENCRYPTED"
 
 ; ================================================
 ; ADVENT Priest Abilities
@@ -6938,7 +6939,7 @@ LocFlyOverText="CHARGING.... CLEAR!"
 
 [KingGetOverHere X2AbilityTemplate]
 LocLongDescription="A Snek's tongue and neck are immensely strong, and can yank an adult human into its coils from far away."
-LocFlyOverText="Tongue Grab"
+LocFlyOverText="Mlep"
 LocMissMessage="Your husbando is ignoring you"
 
 [KingBind X2AbilityTemplate]
