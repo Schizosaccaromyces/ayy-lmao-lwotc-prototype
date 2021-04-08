@@ -187,7 +187,7 @@ LocPromotionPopupText="<Bullet/> Your Flammenwerfer gains +<Ability:HIGH_PRESSUR
 
 [Quickburn X2AbilityTemplate]
 LocFriendlyName="Quickburn"
-LocFlyOverText="Quickburn"
+LocFlyOverText="SQUIRTLE WON'T SAVE YOU NOW"
 LocLongDescription="Activate so your next use of the Flammenwerfer will not cost an action."
 LocHelpText="Activate so your next use of the Flammenwerfer will not cost an action."
 LocPromotionPopupText="<Bullet/> Activate so your next use of the Flammenwerfer will not cost an action.<br/><Bullet/> 5-turn cooldown.<br/>"
@@ -342,6 +342,10 @@ LocFlyOverText="NO U"
 LocFlyOverText="Run Like a little bitch you are."
 str_FlushEffect="Is a little bitch"
 
+[TraverseFire X2AbilityTemplate]
+LocFriendlyName="Traverse Fire"
+LocFlyOverText="CRY SOME MORE"
+
 ;;;;;;;;;;;;;;;;;;;;  RANGER ABILITIES ;;;;;;;;;;;;;;;;;;;;;;;
 
 [PointBlank X2AbilityTemplate]
@@ -372,8 +376,20 @@ LocFlyOverText="Surely that'll help me WHILE I'M STANDING IN THE OPEN"
 
 [Sprinter X2AbilityTemplate]
 
+[LockedOn X2AbilityTemplate]
+LocFriendlyName="Locked On"
+LocFlyOverText="I'll get that son of a bitch sooner or later!"
+
+[RapidReaction X2AbilityTemplate]
+LocFriendlyName="Rapid Reaction"
+LocFlyOverText="Ogrewatch: you've activated my trap card!"
+
 [TakeThis X2AbilityTemplate]
 LocFriendlyName="You'll Need This"
+
+[Commissar X2AbilityTemplate]
+LocFriendlyName="Commissar"
+LocFlyOverText="DIE HERETIC"
 
 ;;;;;;;;;;;;;;;;;;;;  SHARPSHOOTER ABILITIES ;;;;;;;;;;;;;;;;;;;;;;;
 
@@ -423,7 +439,7 @@ LocFlyOverText="UNLIMITED POWER!"
 [EspritdeCorps X2AbilityTemplate]
 
 [CloseCombatSpecialistAttack X2AbilityTemplate]
-LocFlyOverText= "*laughs* You Dumb Bitch"
+LocFlyOverText= "*laughs* You dumb bitch"
 
 ;;;;;;;;;;;;;;;;;;;; GEAR ABILITIES ;;;;;;;;;;;;;;;;;;;;;;;;
 
@@ -436,7 +452,7 @@ LocHelpText="AIEEEE FIREBRAND-SAMA HEEEEELP"
 LocFriendlyName="Shieldwall"
 
 [Scope_LW_Bsc_Ability X2AbilityTemplate]
-"
+
 
 [Scope_LW_Adv_Ability X2AbilityTemplate]
 
@@ -3530,7 +3546,7 @@ LocFriendlyName="Ionic Storm"
 LocLongDescription="Summon lightning to strike all nearby enemies. Damage increases with Devil Trigger level. Costs all Devil Trigger, but generates Devil Trigger on kills."
 LocHelpText="Summon lightning to strike all nearby enemies. Costs all Devil Trigger, but generates Devil Trigger on kills."
 LocPromotionPopupText="<Bullet/> Ionic Storm's radius increases at higher Devil Trigger levels.<br/><Bullet/> Ionic Storm deals double damage to Psionic units.<br/><Bullet/> Use Ionic Storm at a high Devil Trigger level when it will kill many targets to immediately refund the Devil Trigger cost.<br/><Bullet/> Ionic Storm has a <Ability:SelfCooldown/> turn cooldown.<br/>"
-LocFlyOverText="LET PSI RAIN FROM THE SKY"
+LocFlyOverText="LET THEIR BLOOD RAIN FROM THE SKY"
 
 [VoidConduit X2AbilityTemplate]
 LocFriendlyName="Void Conduit"
@@ -3573,6 +3589,10 @@ LocLongDescription="The maximum Devil Trigger level is increased to 4."
 LocHelpText="The maximum Devil Trigger level is increased to 4."
 LocPromotionPopupText="<Bullet/> Devil Trigger Level 4: Rend Damage +<Ability:FOCUS4RENDDAMAGE/>, Mobility +<Ability:FOCUS4MOBILITY/>, Dodge +<Ability:FOCUS4DODGE/><
 
+[Apotheosis X2AbilityTemplate]
+LocFriendlyName="I AM SUPREME"
+LocFlyOverText="THROUGHOUT HEAVEN AND EARTH I ALONE AM THE BLESSED ONE"
+
 ; ================================================
 ; Skirmisher Abilities
 ; ================================================
@@ -3601,8 +3621,8 @@ LocMissMessage="Well, yeah"
 
 [Overdrive X2AbilityTemplate]
 LocFriendlyName="Overdrive"
-LocLongDescription="Take three actions this turn, and no action is turn-ending. Multiple Standard Shots incur a small recoil penalty."
-LocHelpText="Take three actions this turn, and no action is turn-ending. Multiple Standard Shots incur a small recoil penalty."
+LocLongDescription="Take three actions this turn, and no action is turn-ending. Multiple Standard Shots incur a /"small/" recoil penalty."
+LocHelpText="Take three actions this turn, and no action is turn-ending. Multiple Standard Shots incur a /"small/" recoil penalty."
 LocPromotionPopupText="<Bullet/> A recoil penalty of <Ability:Overdrive_RecoilPenalty/>% Aim is applied after each Standard Shot while Overdrive is active.<br/><Bullet/> Overdrive has no cost to activate, but has a <Ability:SelfCooldown/> turn cooldown.<br/>"
 LocFlyOverText="And this... is to go even further BEYOND"
 
@@ -3612,13 +3632,13 @@ LocFlyOverText="And this... is to go even further BEYOND"
 ; ================================================
 
 [Stock_LW_Bsc_Ability X2AbilityTemplate]
-LocFlyOverText="Hold still, Wanker!"
+LocFlyOverText="Hold still, wanker!"
 
 [Stock_LW_Adv_Ability X2AbilityTemplate]
-LocFlyOverText="Hold still, Wanker!"
+LocFlyOverText="Hold still, wanker!"
 
 [Stock_LW_Sup_Ability X2AbilityTemplate]
-LocFlyOverText="Hold still, Wanker!"
+LocFlyOverText="Hold still, wanker!"
 
 
 ; ================================================
@@ -4187,16 +4207,6 @@ LocFlyOverText="I TRIED SO HARD AND GET SO FAR"
 LocFriendlyName="Kidnap"
 LocFlyOverText="IN THE END IT DOESN'T EVEN MATTER"
 
-[VanishingWind X2AbilityTemplate]
-LocFriendlyName="Vanishing Wind"
-LocLongDescription="Assassin disappears like a bitch."
-LocHelpText="Assassin Vanishes"
-LocFlyOverText="CRAWLING IN MY SKIN"
-
-[VanishingWindReveal X2AbilityTemplate]
-LocFriendlyName="Hello there"
-LocFlyOverText="THESE WOUNDS THEY WILL NOT HEAL"
-
 [ChosenKeen X2AbilityTemplate]
 LocLongDescription="Bleeding Out is a 100% chance when dealt a killing blow by the Edgelord."
 LocHelpText="Bleeding Out is a 100% chance when dealt a killing blow by the Edgelord."
@@ -4247,8 +4257,18 @@ LocHelpText="Can summon ADVENT SANICs."
 ; ================================================
 
 [HarborWave X2AbilityTemplate]
-LocFriendlyName="Harbor Wave"
-LocFlyOverText="WAKE ME UP"
+LocFriendlyName="WAKE ME UP"
+LocFlyOverText="WAKE ME UP INSIDE"
+
+[VanishingWind X2AbilityTemplate]
+LocFriendlyName="Vanishing Wind"
+LocLongDescription="Assassin disappears like a bitch."
+LocHelpText="Assassin Vanishes"
+LocFlyOverText="CRAWLING IN MY SKIN"
+
+[VanishingWindReveal X2AbilityTemplate]
+LocFriendlyName="Hello there"
+LocFlyOverText="THESE WOUNDS THEY WILL NOT HEAL"
 
 ; ================================================
 ; Chosen Hunter Abilities
@@ -4257,6 +4277,32 @@ LocFlyOverText="WAKE ME UP"
 ; ================================================
 ; Chosen Warlock Abilities
 ; ================================================
+
+[MindScorch X2AbilityTemplate]
+LocFriendlyName="Mind Scorch"
+LocFlyOverText="LET ME SHOW YOU THE PORN"
+
+[AmmoDump_LW X2AbilityTemplate]
+LocFriendlyName="Sabotage Weapon"
+LocHelpText="Disables a weapon, dumping the ammo."
+LocLongDescription="Disables a weapon, dumping the ammo."
+LocFlyOverText="Too bad that ain't no Elder's blessed weapon, HERETIC"
+
+[ShieldAllyM1 X2AbilityTemplate]
+LocFriendlyName="The Warlock's Greatest Champion"
+LocFlyOverText="The Warlock's Greatest Hoe"
+
+[ShieldAllyM2 X2AbilityTemplate]
+LocFriendlyName="The Warlock's Greatest Champion"
+LocFlyOverText="The Warlock's Greatest Hoe"
+
+[ShieldAllyM3 X2AbilityTemplate]
+LocFriendlyName="The Warlock's Greatest Champion"
+LocFlyOverText="The Warlock's Greatest Hoe"
+
+[ShieldAllyM4 X2AbilityTemplate]
+LocFriendlyName="The Warlock's Greatest Champion"
+LocFlyOverText="The Warlock's Greatest Hoe"
 
 ; ================================================
 ; Combat Toasts
@@ -4319,7 +4365,7 @@ ArmorMitigation="IGNORING DAMAGE BECAUSE FUCK YOU"
 GrazeHit="DODGE: PALED BROOK FIX YOUR BULLSHIT"
 ShreddedMessage="SHREKT"
 ParryMessage="nice try bitch"
-ShieldedMessage="PROTECTED"
+ShieldedMessage="COCKBLOCKED"
 
 
 
@@ -5556,7 +5602,7 @@ LocLongDescription="Some Faceless units have improved stats."
 [DarkEvent_HardTarget X2DarkEventTemplate]
 DisplayName="Tactical Upgrades: Can´t Touch Dis"
 SummaryText="Some ayylien units gain the Can´t Touch Dis ability, granting bonus dodge."
-QuoteText="\" The ayylien's Matrix rewatch has turned into a disaster for us. \""
+QuoteText="\"The ayylien's Matrix rewatch has turned into a disaster for us.\""
 QuoteTextAuthor="- Chief Shen"
 PreMissionText="Grants some Ayylien units the Hard Target ability."
 PostMissionSuccessText="Dank Event Countered: Tactical Upgrades (Can´t Touch Dis)"
@@ -5565,7 +5611,7 @@ PostMissionFailureText="Failed to Counter Dank Event: Tactical Upgrades (Can´t 
 [DarkEvent_Shadowstep X2DarkEventTemplate]
 DisplayName="Tactical Upgrades: Shadowstep"
 SummaryText="Computer Waifus gain the Shadowstep ability and cannot be targeted by reaction fire."
-QuoteText="\"No! Now Codex-chan will not notice me for sure!.\""
+QuoteText="\"No! Now Codex-chan will not notice me for sure!\""
 QuoteTextAuthor="- Dr. Tygan"
 PreMissionText="Grants Computer Waifus the Shadowstep ability."
 PostMissionSuccessText="Dank Event Countered: Tactical Upgrades (Shadowstep)"
