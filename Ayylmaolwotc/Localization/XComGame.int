@@ -193,10 +193,8 @@ LocHelpText="Activate so your next use of the Flammenwerfer will not cost an act
 LocPromotionPopupText="<Bullet/> Activate so your next use of the Flammenwerfer will not cost an action.<br/><Bullet/> 5-turn cooldown.<br/>"
 
 [Firestorm X2AbilityTemplate]
-LocFriendlyName="Firestorm"
-LocFlyOverText="THIS GIRL IS ON FIRE"
-LocLongDescription="Once per battle, attack all units in a complete circle around the soldier's position. Also grants immunity to fire damage."
-LocHelpText="Spray fire in a complete circle around your position."
+LocFlyOverText="SPIN 2 WIN"
+LocHelpText="Spray flammen in a complete circle around your position."
 LocPromotionPopupText="<Bullet/> This will light fires and do fire damage to all enemies in a circle around the soldier's position, doing +<ABILITY:FIRESTORM_DAMAGE_BONUS_LW> bonus damage over regular Flammenwerfer attacks.<br/><Bullet/> Firestorm also grants immunity to fire damage.<br/><Bullet/> Requires one action point and will end the soldier's turn when used.<br/><Bullet/> Usable once per battle.<br/><Bullet/> It is not recommended the soldier uses Firestorm on rooftops."
 
 [TechnicalFireImmunity X2AbilityTemplate]
@@ -377,18 +375,15 @@ LocFlyOverText="Surely that'll help me WHILE I'M STANDING IN THE OPEN"
 [Sprinter X2AbilityTemplate]
 
 [LockedOn X2AbilityTemplate]
-LocFriendlyName="Locked On"
-LocFlyOverText="I'll get that son of a bitch sooner or later!"
+LocFriendlyName="Tunnel Vision"
 
 [RapidReaction X2AbilityTemplate]
-LocFriendlyName="Rapid Reaction"
 LocFlyOverText="Ogrewatch: you've activated my trap card!"
 
 [TakeThis X2AbilityTemplate]
-LocFriendlyName="You'll Need This"
+LocFlyOverText="2nd amendment and all that"
 
 [Commissar X2AbilityTemplate]
-LocFriendlyName="Commissar"
 LocFlyOverText="DIE HERETIC"
 
 ;;;;;;;;;;;;;;;;;;;;  SHARPSHOOTER ABILITIES ;;;;;;;;;;;;;;;;;;;;;;;
@@ -2098,16 +2093,7 @@ LocLongDescription="Activate to fire a standard shot and gain a second action re
 LocHelpText="Fire a standard shot and gain a bonus shot or overwatch action."
 LocPromotionPopupText="<Bullet/> Activate to fire a standard shot and gain a second action restricted to Standard Shot, Precision Shot, Kubikiri or Overwatch.<br/><Bullet/> <Ability:SelfCooldown/>-turn cooldown.<br/>"
 
-[DoubleTap2Bonus X2AbilityTemplate]
-LocFriendlyName="Double Tap"
-LocFlyOverText="Double Tap"
 
-[RescueProtocol X2AbilityTemplate]
-LocFriendlyName="Rescue Protocol"
-LocFlyoverText="Rescue Protocol"
-LocLongDescription="Use your Gremlin to grant a movement action to an ally."
-LocHelpText="Grant a movement action to an ally."
-LocPromotionPopupText="<Bullet/> Rescue Protocol can only be used on allies with no action points left.<br/><Bullet/> It cannot be used on concealed, suppressing or overwatching units.<br/><Bullet/>An ally cannot benefit from both Command and Rescue Protocol in the same turn.<br/><Bullet/> Uses one action.<br/><Bullet/> Charges increase with improved Gremlin technology.<br/>
 
 [AssaultRifle_BM X2WeaponTemplate]
 TacticalText="<Bullet/> The Plasma Rifle is a general purpose, supremely powerful primary infantry weapons system.\n<Bullet/> Firing the primary weapon always ends the soldier's turn.\n<Bullet/> Use upgrades looted from enemies to improve the Plasma Rifle's tactical effectiveness.<br/><Bullet/> Plasma weapons also cause targets to take 1 additional damage on future hits."
@@ -3204,14 +3190,6 @@ LocFlyOverText="Boom. Headshot."
 LocFlyOverText="360 noscope"
 
 [DoubleTap2 X2AbilityTemplate]
-LocFriendlyName="Double Tap"
-LocFlyOverText="This is going into my MLG montage"
-LocLongDescription="Activate to fire a standard shot and gain a second action restricted to an additional shot or ogrewatching."
-LocHelpText="Fire a standard shot and gain a bonus shot or Ogrewatch action."
-LocPromotionPopupText="<Bullet/> Activate to fire a standard shot and gain a second action restricted to Standard Shot, Precision Shot, Kubikiri or Ogrewatch.<br/><Bullet/> <Ability:SelfCooldown/>-turn cooldown.<br/>"
-
-[DoubleTap2Bonus X2AbilityTemplate]
-LocFriendlyName="Double Tap"
 LocFlyOverText="*Dubstep music starts*"
 
 
@@ -3238,11 +3216,19 @@ LocFlyOverText="STAY PUT OR GET REKT"
 [InTheZone X2AbilityTemplate]
 LocFlyOverText="I keep shootin', they keep dyin'"
 
+[InTheZone2 X2AbilityTemplate]
+LocFriendlyName="I'M GONNA MAKE COLUMBINE LOOK LIKE A FUCKING JOKE"
+LocFlyOverText="ALL THE OTHER KIDS WITH THEIR PUMPED UP KICKS"
+
+[DisablingShot X2AbilityTemplate]
+LocFlyOverText="YOUR MEMES END HERE"
+
+
 [ReturnFire X2AbilityTemplate]
 LocFlyOverText="It's rude to shoot at me, asshole."
 
 [FanFire X2AbilityTemplate]
-LocFlyOverText="Oh baby a triple!"
+LocFlyOverText="FUCK TRIGGER DISCIPLINE"
 
 [LightningHands X2AbilityTemplate]
 LocFlyOverText="Quickscope'd, bitch"
@@ -3386,7 +3372,7 @@ LocPromotionPopupText="<Bullet/> Templars begin missions weaker than other soldi
 
 [XComGame.X2Effect_TemplarFocus]
 [X2Effect_TemplarFocus]
-SpecialDamageName="ALL THESE VOICES INSIDE OF MY HEAD"
+SpecialDamageName="BLINDING MY SIDE IN THE CURTAIN OF RED"
 
 [FocusKillTracker X2AbilityTemplate]
 LocFriendlyName="Devil Trigger"
@@ -3394,10 +3380,7 @@ LocFlyOverText="This party's getting crazy!"
 
 [Rend X2AbilityTemplate]
 LocFriendlyName="Rend"
-LocLongDescription="Melee attack with a chance to stun or disorient the target. Cannot miss. Triggers Momentum, and generates Devil Trigger on kills."
-LocHelpText="Melee attack with a chance to stun or disorient the target. Triggers Momentum, and generates Devil Trigger on kills."
-LocPromotionPopupText="<Bullet/> Using Rend to kill enemies is the Templar's primary method for generating Devil Trigger.<br/><Bullet/> Rend's damage is increased at higher Devil Trigger levels.<br/><Bullet/> After casting Rend, the Templar will gain Momentum, allowing them one movement action. Use this to return to cover after attacking.<br/><Bullet/> Rend has a <Ability:RENDSTUNCHANCE/>% chance to Stun per Devil Trigger. Stunned targets will also be knocked back.<br/><Bullet/> Rend has a <Ability:RENDDISORIENTCHANCE/>% chance to Disorient per Devil Trigger.<br/>"
-LocFlyOverText="Mind if I cut in?"
+LocFlyOverText="ALL THESE VOICES INSIDE OF MY HEAD"
 
 [Overcharge X2AbilityTemplate]
 LocFriendlyName="Overcharge"
@@ -3410,7 +3393,6 @@ LocPromotionPopupText="<Bullet/> Overcharge only applies to non-lethal attacks.<
 LocFriendlyName="Overcharge"
 LocLongDescription="Non-lethal Rend attacks have a <Ability:OVERCHARGECHANCE/>% chance to generate Devil Trigger."
 LocHelpText="Non-lethal Rend attacks have a <Ability:OVERCHARGECHANCE/>% chance to generate Devil Trigger."
-LocFlyOverText="ALL THESE VOICES INSIDE OF MY HEAD"
 LocPromotionPopupText="<Bullet/> Overcharge only applies to non-lethal attacks.<br/><Bullet/> Overcharge can significantly increase the speed at which Templars generate Devil Trigger in missions.<br/>"
 
 ; ArcWave is a copy of Rend text since it completely replaces the ability in Tactical. ArcWavePassive text is displayed in Strategy.
@@ -3418,14 +3400,7 @@ LocPromotionPopupText="<Bullet/> Overcharge only applies to non-lethal attacks.<
 LocFriendlyName="Rend"
 LocLongDescription="Melee attack with a chance to stun or disorient the target. Cannot miss. Triggers Momentum, and generates Devil Trigger on kills."
 LocHelpText="Melee attack with a chance to stun or disorient the target. Triggers Momentum, and generates Devil Trigger on kills."
-LocFlyOverText="Mind if I cut in?"
-
-[ArcWavePassive X2AbilityTemplate]
-LocFriendlyName="Arc Wave"
-LocLongDescription="Rend generates a wave of Psionic energy in the direction of the attack. Damage increases with Devil Trigger level."
-LocHelpText="Rend generates a wave of Psionic energy in the direction of the attack."
-LocPromotionPopupText="<Bullet/> Arc Wave does not affect the target of the original Rend attack.<br/><Bullet/> Arc Wave deals damage equal to double the Templar's current Devil Trigger level, or 1 if they have no Devil Trigger.<br/><Bullet/> Arc Wave travels through environmental objects.<br/>"
-LocFlyOverText="Mind if I cut in?"
+LocFlyOverText="ALL THESE VOICES INSIDE OF MY HEAD?"
 
 [Momentum X2AbilityTemplate]
 LocFriendlyName="Momentum"
@@ -3449,13 +3424,6 @@ LocLongDescription="Psionic attack that deals low damage, but jumps to nearby un
 LocHelpText="Psionic attack that can jump to nearby units. Costs 1 Devil Trigger."
 LocPromotionPopupText="<Bullet/> Volt has no cooldown, but costs 1 Devil Trigger.<br/><Bullet/> Volt deals double damage to Psionic units.<br/><Bullet/> Volt can jump to a number of enemies equal to the current Devil Trigger level.<br/>"
 LocFlyOverText="Who orders a lightning bolt?!"
-
-[Parry X2AbilityTemplate]
-LocFriendlyName="Parry"
-LocLongDescription="After attacking with Rend, prevent all damage from the next attack instead of moving."
-LocHelpText="After attacking with Rend, prevent all damage from the next attack instead of moving."
-LocFlyoverText="I'M FUCKING INVINCIBLE"
-LocPromotionPopupText="<Bullet/> Parry will prevent damage from both melee and ranged attacks.<br/><Bullet/> Parry will use the action granted by Momentum.<br/>"
 
 [ParryActivate X2AbilityTemplate]
 LocFriendlyName="Parry"
@@ -3590,8 +3558,8 @@ LocHelpText="The maximum Devil Trigger level is increased to 4."
 LocPromotionPopupText="<Bullet/> Devil Trigger Level 4: Rend Damage +<Ability:FOCUS4RENDDAMAGE/>, Mobility +<Ability:FOCUS4MOBILITY/>, Dodge +<Ability:FOCUS4DODGE/><
 
 [Apotheosis X2AbilityTemplate]
-LocFriendlyName="I AM SUPREME"
-LocFlyOverText="THROUGHOUT HEAVEN AND EARTH I ALONE AM THE BLESSED ONE"
+LocFriendlyName="Apotheosis"
+LocFlyOverText="THROUGHOUT HEAVEN AND EARTH I ALONE AM THE HONORED ONE"
 
 ; ================================================
 ; Skirmisher Abilities
@@ -3605,10 +3573,10 @@ LocFlyOverText="I'M THE RULER NOW, BITCH"
 LocFlyOverText="GET OVER HERE"
 
 [SkirmisherVengeance X2AbilityTemplate]
-LocFlyOverText="GET YO ASS BACK HERE"
+LocFlyOverText="what's up my nigga?"
 
 [SkirmisherFleche X2AbilityTemplate]
-LocFlyOverText="Mind if i cut in?"
+LocFlyOverText="GET YO ASS BACK HERE"
 
 [SkirmisherSlash X2AbilityTemplate]
 LocFlyOverText="Mind if i cut in?"
@@ -3823,6 +3791,9 @@ LocLongDescription="A Pectoid can flood the nervous systems of recently dead hum
 LocHelpText="Raise a dead soldier, idiot, or ADVENT soldier as redditors."
 
 
+[MindSpin X2AbilityTemplate]
+LocFlyOverText="Mind Fuck"
+
 ; ================================================
 ; Faceless Abilities
 ; ================================================
@@ -3939,9 +3910,11 @@ LocFlyOverText="Got tired of your shit"
 
 [ChargingSmash X2AbilityTemplate]
 LocLongDescription="A XBOXHUEG's size belies their speed; they can unleash a melee attack after dashing."
+LocFlyOverText="REEEEEEEEEEEEEEEE"
 
 [DevastatingPunch X2AbilityTemplate]
 LocLongDescription="A XBOXHUEG's strength is sufficient to batter her enemies to death with nothing more than her fists. This attack can stun or disorient the target."
+LocFlyOverText="REEEEEEEEEEEEEEEE"
 
 [MeleeResistance X2AbilityTemplate]
 LocLongDescription="XBOXHUEGs take <Ability:BERSERKERMELEERESISTANCE/> less damage from all melee attacks."
@@ -4198,14 +4171,14 @@ LocHelpText="Shitposter Howls."
 ; Chosen Abilities
 ; ================================================
 
-
+;That's unused in LWOTC
 [ChosenKidnapMove X2AbilityTemplate]
 LocFriendlyName="Kidnap Move"
 LocFlyOverText="I TRIED SO HARD AND GET SO FAR"
 
 [ChosenKidnap X2AbilityTemplate]
 LocFriendlyName="Kidnap"
-LocFlyOverText="IN THE END IT DOESN'T EVEN MATTER"
+LocFlyOverText="BUT IN THE END IT DOESN'T EVEN MATTER"
 
 [ChosenKeen X2AbilityTemplate]
 LocLongDescription="Bleeding Out is a 100% chance when dealt a killing blow by the Edgelord."
@@ -4279,30 +4252,19 @@ LocFlyOverText="THESE WOUNDS THEY WILL NOT HEAL"
 ; ================================================
 
 [MindScorch X2AbilityTemplate]
-LocFriendlyName="Mind Scorch"
-LocFlyOverText="LET ME SHOW YOU THE PORN"
-
-[AmmoDump_LW X2AbilityTemplate]
-LocFriendlyName="Sabotage Weapon"
-LocHelpText="Disables a weapon, dumping the ammo."
-LocLongDescription="Disables a weapon, dumping the ammo."
-LocFlyOverText="Too bad that ain't no Elder's blessed weapon, HERETIC"
+LocFriendlyName="Mind Rape"
 
 [ShieldAllyM1 X2AbilityTemplate]
-LocFriendlyName="The Warlock's Greatest Champion"
-LocFlyOverText="The Warlock's Greatest Hoe"
+LocFriendlyName="The Warlock's Greatest Hoe"
 
 [ShieldAllyM2 X2AbilityTemplate]
-LocFriendlyName="The Warlock's Greatest Champion"
-LocFlyOverText="The Warlock's Greatest Hoe"
+LocFriendlyName="The Warlock's Greatest Hoe"
 
 [ShieldAllyM3 X2AbilityTemplate]
-LocFriendlyName="The Warlock's Greatest Champion"
-LocFlyOverText="The Warlock's Greatest Hoe"
+LocFriendlyName="The Warlock's Greatest Hoe"
 
 [ShieldAllyM4 X2AbilityTemplate]
-LocFriendlyName="The Warlock's Greatest Champion"
-LocFlyOverText="The Warlock's Greatest Hoe"
+LocFriendlyName="The Warlock's Greatest Hoe"
 
 ; ================================================
 ; Combat Toasts
@@ -4473,13 +4435,6 @@ m_arrDifficultyDescStrings[3]="The real game. Completing a campaign on the other
 m_strDifficultyIronmanDesc="Play with a single save that is updated automatically as you progress through the game. In an Ironmeme game your choices, and their consequences, are permanent."
 m_strDifficultyEnableIronman="Ironmeme"
 m_strIronmanLabel="Ironmeme Mode"
-
-SecondWaveDescriptions[4]="Grim Horizon: The effects of all Dank Events are permanent."
-SecondWaveDescriptions[5]="Lengthy Scheme: Double the length of the ADVENT Calendar."
-SecondWaveTooltips[1]="Start the game with a Reaper in the squad. Only activates when War of the Edgelords Introduction is disabled. Can only start with one Faction."
-SecondWaveTooltips[2]="Start the game with a Skirmisher in the squad. Only activates when War of the Edgelords Introduction is disabled. Can only start with one Faction."
-SecondWaveTooltips[3]="Start the game with a Templar in the squad. Only activates when War of the Edgelords Introduction is disabled. Can only start with one Faction."
-SecondWaveTooltips[4]="Dank Events never expire, greatly increasing both tactical and strategic difficulty as the game progresses."
 
 [XComGame.UIChooseIronMan]
 [UIChooseIronMan]
