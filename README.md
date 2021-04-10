@@ -17,36 +17,18 @@ Not even close to ready. Some enemies are missing, tons of unupdated text, howev
 # Job list
 * Figure out the names for the rest of the enemies. The ones left are:
        
-  * Drones
-  * MEC Archer    
-  * ADVENT Gunner
-  * ADVENT scout    
   * ADVENT commmando   
-  * ADVENT Sergeant    
-  * ADVENT Engineer
-  
-* Catch the remaining UI text ("untranslated" enemies, aliens instead of Ayyliens, supplies instead of Dosh)
 
-* Finish the status effect "translations"
+  
 
 * "Translate" more skills. I already figured out how to make abilities throw out LocFlyoverText instead of LocalFriendlyName, so the only thing remaining is doing exactly that.
 
 * If I'm feeling ambitious, "translate" some of the spoken subtitles.
 
-# Bugs I've noticed so far
-
-* Grapple doesn't translate
-
-* Evac doesn't translate
-
-* Evac is always visible for some reason
 
 # Contributions
 
 If you thought of something funny, make a pull request. I already have taken suggestions from others.
 
 # Download
-
-Download the mod [here](https://www.dropbox.com/sh/o1agsscmfty4t2d/AAAUigtH3TJkt1zqWLQoWdQTa?dl=0), and place it in XCOM 2/XCom2-WarOfTheChosen/XComGame/Mods .
-
-The z is there to ensure the proper mod order, as for some reason all local mods are loaded alphabetically. The mod needs to load AFTER LWOTC.
+Most up to date downloads are on the discord server, I'll release the thing on the workshop soon-ish
