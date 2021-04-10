@@ -2920,20 +2920,16 @@ LocFlyOverText="Immune"
 LocFriendlyName="Flammenwerfer"
 LocLongDescription="The Flammenwerfer werfs flammen in a wide but short cone."
 LocHelpText="The Flammenwerfer werfs flammen in a wide but short cone."
-LocFlyOverText="Kaen's fault"
+LocFlyOverText="WERF FLAMMEN"
 
-[AdvPurifierFlamethrowerM2 X2AbilityTemplate]
-LocFriendlyName="Flammenwerfer"
-LocLongDescription="The Flammenwerfer werfs flammen in a wide but short cone."
-LocHelpText="The Flammenwerfer werfs flammen in a wide but short cone."
-LocFlyOverText="Kaen's fault"
+[AdvPurifierFlamethrower X2WeaponTemplate]
+FriendlyName="Flammenwerfer's Flammenwerfer"
 
+[AdvPurifierM2Flamethrower X2WeaponTemplate]
+FriendlyName="Flammenwerfer's Flammenwerfer"
 
-[AdvPurifierFlamethrowerM3 X2AbilityTemplate]
-LocFriendlyName="Flammenwerfer"
-LocLongDescription="The Flammenwerfer werfs flammen in a wide but short cone."
-LocHelpText="The Flammenwerfer werfs flammen in a wide but short cone."
-LocFlyOverText="Kaen's fault"
+[AdvPurifierM3Flamethrower X2WeaponTemplate]
+FriendlyName="Flammenwerfer's Flammenwerfer"
 
 [CorpseAdventPurifier X2ItemTemplate]
 FriendlyName="ADVENT Flammenwerfer Corpse"
@@ -3106,6 +3102,9 @@ LocFlyOverText="Cheating death like the broken psi shitter you are"
 [Fuse X2AbilityTemplate]
 LocFlyOverText="*pulls pin*"
 
+[LW_PhaseWalk X2AbilityTemplate]
+LocFlyOverText="*teleports behind u*"
+
 [Domination X2AbilityTemplate]
 LocFlyOverText="Wanna join our team?"
 LocMissMessage="Go away, XCOM"
@@ -3175,7 +3174,7 @@ LocFlyOverText="Boom. Headshot."
 LocFlyOverText="360 noscope"
 
 [DoubleTap2 X2AbilityTemplate]
-LocFlyOverText="*Dubstep music starts*"
+LocFlyOverText="USE MORE GUN"
 LocFriendlyName="Double Tap"
 LocLongDescription="Activate to fire a standard shot and gain a second action restricted to an additional shot or overwatching."
 LocHelpText="Fire a standard shot and gain a bonus shot or overwatch action."
@@ -3764,6 +3763,7 @@ LocLongDescription="The Autobot's shoulder mounted missile launcher can volley a
 
 [EnergyShield X2AbilityTemplate]
 LocLongDescription="The Cockblocker can grant an energy shield to all nearby allies. The shields will collapse if this unit is killed."
+LocFlyOverText="FUCK THIS PIECE OF GROUND"
 
 [EnergyShieldMk3 X2AbilityTemplate]
 LocLongDescription="The Cockblocker can grant an energy shield to all nearby allies. The shields will collapse if this unit is killed."
@@ -3972,6 +3972,7 @@ LocHelpText="The Big Daddy's Battlesuit will continue fighting, even after death
 
 [BigDamnPunch X2AbilityTemplate]
 LocLongDescription="The Big Daddy's Battlesuit is fantastically strong. Its melee attacks aren't very accurate, but they are devastating."
+LocFlyOverText="OH YEAH"
 
 [AcidBlob X2AbilityTemplate]
 LocLongDescription="The Big Daddy's internal coolant is extremely caustic. This creature can launch a glob of this viscious liquid that splatters on impact into pools of acid."
