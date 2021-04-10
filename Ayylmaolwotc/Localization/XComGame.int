@@ -19,7 +19,7 @@ m_strInvalidTutorialClassicDifficulty="Can't enable Tutorial with this mod."
 [UIAlert]
 m_strContactBody="Once contacted, the Resistance in <XGParam:StrValue0/!WorldRegionName/> will able to coordinate with Central. Any connected regions will also become available for contact."
 m_strOutpostBody="Once a radio relay is installed, the intel cost of making contact with nearby regions will be reduced and the Haven in this region will operate at increased efficiency."
-m_strRetaliationBody=Commander, ADVENT has discovered one of our Resistance Havens. They are targeting Resistance members in a reprisal strike!
+m_strRetaliationBody=Commander, ADVENT has discovered one of our Resistance Havens. They are targeting our Slaves in a reprisal strike!
 
 m_strFacilityTitle="AYYLIEN FACILITY DISCOVERED"
 m_strFacilityLabel="ADVENT CALENDAR"
@@ -53,7 +53,7 @@ m_strTitleHelp="We have received intel regarding the Aliens' current activities.
 FriendlyName="Resistance Missiles"
 
 [X2ExperienceConfig]
-RankNames[0]="Rookie"
+RankNames[0]="Meatshield"
 RankNames[1]="Squaddie"
 RankNames[2]="Lance Corporal"
 RankNames[3]="Corporal"
@@ -73,7 +73,7 @@ ShortNames[6]="TSgt"
 ShortNames[7]="GSgt"
 ShortNames[8]="MSgt"
 
-PsiRankNames[0]="Rookie"
+PsiRankNames[0]="Meatshield"
 PsiRankNames[1]="Novice"
 PsiRankNames[2]="Awakened"
 PsiRankNames[3]="Sensitive"
@@ -953,7 +953,7 @@ DisplayName="Intel Package"
 DisplayName="Intel Package"
 
 [Reward_Dummy_Materiel X2RewardTemplate]
-DisplayName="Enemy Materiel"
+DisplayName="Phat Loot"
 
 [Reward_Dummy_Unknown X2RewardTemplate]
 DisplayName="Unknown"
@@ -965,7 +965,7 @@ DisplayName="Unhindered Operations"
 DisplayName="Intel Package"
 
 [Reward_Dummy_RegionalTower X2RewardTemplate]
-DisplayName="Location of ADVENT Regional HQ"
+DisplayName="Location of ADVENT Regional Penthouse"
 
 [Reward_FactionInfluence_LW X2RewardTemplate]
 DisplayName="Increase Faction Influence"
@@ -1067,7 +1067,7 @@ ObjectiveTextPools[1]="KILL EVERY LAST ONE OF THEM"
 ObjectiveTextPools[2]="Extract all XCOM soldiers"
 
 [DefaultAdventFacilityPsiGate_LW X2MissionNarrativeTemplate]
-ObjectiveTextPools[0]="Track the Codex's point of origin"
+ObjectiveTextPools[0]="Track the Computer Waifu's point of origin"
 ObjectiveTextPools[1]="Kill everything defending the Psionic Gate"
 ObjectiveTextPools[2]="Capture the Psionic Gate Device"
 ObjectiveTextPools[3]="Extract all XCOM soldiers"
@@ -1447,7 +1447,7 @@ UnlockedDescription="Recovered from Big Black Dickhead Corpse: <XGParam:StrValue
 SummaryText="ADVENT invests in improving their battle gear, adding armor to some of their soldiers in the field."
 
 [DarkEvent_ViperRounds X2DarkEventTemplate]
-SummaryText="ADVENT incorporates Viper poison into their weaponry, giving some ADVENT soldiers poisonous rounds."
+SummaryText="ADVENT incorporates Snek poison into their weaponry, giving some ADVENT soldiers poisonous rounds."
 
 [DarkEvent_RapidResponse X2DarkEventTemplate]
 SummaryText="The Aliens improve their threat response procedures, increasing the rate that reinforcements arrive on some missions."
@@ -1474,25 +1474,25 @@ PostMissionFailureText="Failed to Counter Dark Event: Haven Infiltrators"
 
 [DarkEvent_MinorBreakthrough2 X2DarkEventTemplate]
 DisplayName="Minor Breakthrough"
-SummaryText="Alien scientists make great strides on a secret strategic project."
+SummaryText="Ayylien scientists make great strides on a secret strategic project."
 QuoteText="\"I'm afraid they are not just experimenting anymore. They are excelling.\""
 QuoteTextAuthor="- Dr. Tygan"
-PreMissionText="Aliens progress on secret project"
+PreMissionText="Ayyliens progress on secret project"
 PostMissionSuccessText="Dark Event Countered: Minor Breakthrough"
 PostMissionFailureText="Failed to Counter Dark Event: Minor Breakthrough"
 
 [DarkEvent_MajorBreakthrough2 X2DarkEventTemplate]
 DisplayName="Major Breakthrough"
-SummaryText="Alien scientists make a huge amount of progress on a secret strategic project."
+SummaryText="Ayylien scientists make a huge amount of progress on a secret strategic project."
 QuoteText="\"The level of efficiency at which our enemies are able to operate is truly terrifying.\""
 QuoteTextAuthor="- Dr. Tygan"
-PreMissionText="Aliens make great progress on secret project"
+PreMissionText="Ayyliens make great progress on secret project"
 PostMissionSuccessText="Dark Event Countered: Major Breakthrough"
 PostMissionFailureText="Failed to Counter Dark Event: Major Breakthrough"
 
 [DarkEvent_AirPatrols X2DarkEventTemplate]
 DisplayName="Air Patrols"
-SummaryText="Alien craft hinder the Avenger's intelligence-gathering."
+SummaryText="Ayylien craft hinder the Avenger's intelligence-gathering."
 QuoteText="\"They're closing off a lot of our sky.\""
 QuoteTextAuthor="- Central Officer Bradford"
 PreMissionText="The Avenger is half as effective in contributing to detection of alien activities during this event."
@@ -1501,19 +1501,19 @@ PostMissionFailureText="Failed to Counter Dark Event: Air Patrols"
 
 [DarkEvent_MutonEngineers X2DarkEventTemplate]
 DisplayName="Demolitions Experts"
-SummaryText="The aliens deploy units with enhanced cover destruction abilities."
+SummaryText="The ayyliens deploy units with enhanced cover destruction abilities."
 QuoteText="\"Fire in the Hole!\""
 QuoteTextAuthor="- Unidentified XCOM Corporal"
-PreMissionText="Grants some ADVENT soldiers and Mutons the Sapper ability."
-PostMissionSuccessText="Dark Event Countered: Muton Engineers"
-PostMissionFailureText="Failed to Counter Dark Event: Muton Engineers"
+PreMissionText="Grants some ADVENT soldiers and Dickheads the Sapper ability."
+PostMissionSuccessText="Dark Event Countered: Demolitions Experts"
+PostMissionFailureText="Failed to Counter Dark Event: Demolitions Experts"
 
 [DarkEvent_RuralCheckpoints_LW X2DarkEventTemplate]
 DisplayName="ADVENT Rural Checkpoints"
 SummaryText="ADVENT stifles the movement of Resistance resources, decreasing the effectiveness of Resistance members assigned to Supply worldwide."
 QuoteText="\"Looks like ADVENT isn't content to just sit behind their city walls anymore.\""
 QuoteTextAuthor="- Central Officer Bradford"
-PreMissionText="Decreases the productivity of Resistance members assigned to the Supply job."
+PreMissionText="Decreases the productivity of Slaves assigned to the Supply job."
 PostMissionSuccessText="Dark Event Countered: ADVENT Rural Checkpoints"
 PostMissionFailureText="Failed to Counter Dark Event: ADVENT Rural Checkpoints"
 
@@ -1528,10 +1528,10 @@ PostMissionFailureText="Failed to Counter Dark Event: Counterintelligence Sweep"
 
 [DarkEvent_RuralPropagandaBlitz X2DarkEventTemplate]
 DisplayName="Rural Propaganda Blitz"
-SummaryText="ADVENT tries to undercut Resistance recruitment efforts."
+SummaryText="ADVENT tries to undercut Slave "recruitment" efforts."
 QuoteText="\"Make no mistake; ADVENT is selling something. And people are buying.\""
 QuoteTextAuthor="- Dr. Tygan"
-PreMissionText="Rebels assigned to recruiting are half as effective during this event."
+PreMissionText="Slaves assigned to recruiting are half as effective during this event."
 PostMissionSuccessText="Dark Event Countered: Rural Propaganda Blitz"
 PostMissionFailureText="Failed to Counter Dark Event: Rural Propaganda Blitz"
 
@@ -1593,33 +1593,33 @@ LocLongDescription="+15 Hack Defense"
 ; CONDITIONING x3
 
 [DarkEvent_AlienConditioning1 X2HackRewardTemplate]
-FriendlyName="Dark Event: Alien Conditioning"
+FriendlyName="Dark Event: Ayylien Conditioning"
 Description="Some enemies gain 1 hit point."
 
 [DarkEvent_AlienConditioning1 X2DarkEventTemplate]
-DisplayName="Alien Conditioning"
-SummaryText="Alien forces field tougher combat units with a bonus hit point."
+DisplayName="Ayylien Conditioning"
+SummaryText="Ayylien forces field tougher combat units with a bonus hit point."
 QuoteText="\"The aliens must have a new-and-improved formula for their cloning tanks.\""
 QuoteTextAuthor="- Chief Shen"
 PreMissionText="Grants some enemies one additional hit point."
-PostMissionSuccessText="Dark Event Countered: Alien Conditioning"
-PostMissionFailureText="Failed to Counter Dark Event: Alien Conditioning"
+PostMissionSuccessText="Dark Event Countered: Ayylien Conditioning"
+PostMissionFailureText="Failed to Counter Dark Event: Ayylien Conditioning"
 
 [AlienConditioning1 X2AbilityTemplate]
 LocFriendlyName="Conditioning"
 LocLongDescription="+1 Hit Point"
 
 [DarkEvent_AlienConditioning2 X2HackRewardTemplate]
-FriendlyName="Dark Event: Alien Adaptations"
+FriendlyName="Dark Event: Ayylien Adaptations"
 Description="Some enemies gain 1 hit point."
 
 [DarkEvent_AlienConditioning2 X2DarkEventTemplate]
-DisplayName="Alien Adaptations"
-SummaryText="Alien forces field improved combat units with a bonus hit point."
-QuoteText="\"After two decades of study, the aliens may be fielding units better prepared to operate in Earth's environment.\""
+DisplayName="Ayylien Adaptations"
+SummaryText="Ayylien forces field improved combat units with a bonus hit point."
+QuoteText="\"After two decades of study, the ayyliens may be fielding units better prepared to operate in Earth's environment.\""
 QuoteTextAuthor="- Dr. Tygan"
 PreMissionText="Grants some enemies one additional hit point."
-PostMissionSuccessText="Dark Event Countered: Alien Adaptations"
+PostMissionSuccessText="Dark Event Countered: Ayylien Adaptations"
 PostMissionFailureText="Failed to Counter Dark Event: Alien Adaptations"
 
 [AlienConditioning2 X2AbilityTemplate]
@@ -1627,7 +1627,7 @@ LocFriendlyName="Adaptation"
 LocLongDescription="+1 Hit Point"
 
 [DarkEvent_AlienConditioning3 X2HackRewardTemplate]
-FriendlyName="Dark Event: Alien Survivability"
+FriendlyName="Dark Event: Ayylien Survivability"
 Description="Some enemies gain 1 hit point."
 
 [DarkEvent_AlienConditioning3 X2DarkEventTemplate]
@@ -1636,8 +1636,8 @@ SummaryText="Ayylien forces field stronger combat units with a bonus hit point."
 QuoteText="\"We're not the only side in this war getting better at fighting.\""
 QuoteTextAuthor="- Central Officer Bradford"
 PreMissionText="Grants some enemies one additional hit point."
-PostMissionSuccessText="Dark Event Countered: Alien Survivability"
-PostMissionFailureText="Failed to Counter Dark Event: Alien Survivability"
+PostMissionSuccessText="Dark Event Countered: Ayylien Survivability"
+PostMissionFailureText="Failed to Counter Dark Event: Ayylien Survivability"
 
 [AlienConditioning3 X2AbilityTemplate]
 LocFriendlyName="Survivability"
@@ -1647,7 +1647,7 @@ LocLongDescription="+1 Hit Point"
 
 [DarkEvent_VeteranUnits X2DarkEventTemplate]
 DisplayName="Veteran Units"
-SummaryText="The aliens deploy experienced combat units with bonus aim."
+SummaryText="The ayyliens deploy experienced combat units with bonus aim."
 QuoteText="\"ADVENT's command network shows limited capacity for learning, but some of their combat soldiers grow more skilled over time.\""
 QuoteTextAuthor="- Dr. Tygan"
 PreMissionText="Grants some enemy units bonus aim."
@@ -1685,7 +1685,7 @@ LocLongDescription="+1 Mobility"
 
 [DarkEvent_TacticalUpgrades X2DarkEventTemplate]
 DisplayName="Tactical Upgrades: Defense"
-SummaryText="The aliens field units that are tougher to hit in battle."
+SummaryText="The ayyliens field units that are tougher to hit in battle."
 QuoteText="\"You can't kill 'em if you don't hit 'em.\""
 QuoteTextAuthor="- Anonymous Squaddie"
 PreMissionText="Grants some ADVENT units bonus defense."
@@ -1703,7 +1703,7 @@ LocLongDescription="+5 defense"
 ;; Will to Survive
 [DarkEvent_WilltoSurvive X2DarkEventTemplate]
 DisplayName="Tactical Upgrades: Will to Survive"
-SummaryText="The aliens field units that gain bonus armor when in cover."
+SummaryText="The ayyliens field units that gain bonus armor when in cover."
 QuoteText="\"Our arms race with ADVENT is getting tighter.\""
 QuoteTextAuthor="- Central Officer Bradford"
 PreMissionText="Grants some aliens the Will to Survive perk."
@@ -1773,7 +1773,7 @@ Description="Some enemies gain the Shredder ability, giving their weapons the ab
 ; HI
 [DarkEvent_HuntersInstinct X2DarkEventTemplate]
 DisplayName="Tactical Upgrades: Hunter's Instincts"
-SummaryText="Many Vipers and related species gain the Hunter's Instinct ability, granting bonus damage against flanked enemies."
+SummaryText="Many Sneks and related species gain the Hunter's Instinct ability, granting bonus damage against flanked enemies."
 QuoteText="\"Massive gun-toting, poison-spitting intelligent snakes? This is what I signed up for?\""
 QuoteTextAuthor="- Anonymous Corporal"
 PreMissionText="Grants many ophidian enemies the Hunter's Instinct ability."
@@ -1787,30 +1787,30 @@ Description="Many ophidian enemies gain the Hunter's Instinct ability, granting 
 ; LR
 [DarkEvent_LightningReflexes X2DarkEventTemplate]
 DisplayName="Tactical Upgrades: Lightning Reflexes"
-SummaryText="Some Stun Lancers and other enemies gain the Lightning Reflexes ability, allowing them bonuses to avoid reaction fire."
+SummaryText="Some SANICs and other enemies gain the Lightning Reflexes ability, allowing them bonuses to avoid reaction fire."
 QuoteText="\"I really, really hate those guys.\""
 QuoteTextAuthor="- Anonymous Gunnery Sergeant"
-PreMissionText="Grants some Stun Lancers and other enemies the Lightning Reflexes ability."
+PreMissionText="Grants some SANICs and other enemies the Lightning Reflexes ability."
 PostMissionSuccessText="Dark Event Countered: Tactical Upgrades (Lightning Reflexes)"
 PostMissionFailureText="Failed to Counter Dark Event: Tactical Upgrades (Lightning Reflexes)"
 
 [DarkEvent_LightningReflexes X2HackRewardTemplate]
 FriendlyName="Dark Event: Tactical Upgrades (Lightning Reflexes)"
-Description="Some Stun Lancers and other enemies gain the Lightning Reflexes ability, allowing them bonuses to avoid reaction fire."
+Description="Some SANICs and other enemies gain the Lightning Reflexes ability, allowing them bonuses to avoid reaction fire."
 
 ; CCS
 [DarkEvent_CloseCombatSpecialist X2DarkEventTemplate]
 DisplayName="Tactical Upgrades: Close Combat Specialist"
-SummaryText="Archons gain the Close Combat Specialist ability, granting them reaction fire against any enemy who closes within four tiles."
+SummaryText="Wingmen gain the Close Combat Specialist ability, granting them reaction fire against any enemy who closes within four tiles."
 QuoteText="\"The troops don't call those things Angels of Death for nothing.\""
 QuoteTextAuthor="- Central Officer Bradford"
-PreMissionText="Grants Archons the Close Combat Specialist ability."
+PreMissionText="Grants Wingmen the Close Combat Specialist ability."
 PostMissionSuccessText="Dark Event Countered: Tactical Upgrades (Close Combat Specialist)"
 PostMissionFailureText="Failed to Counter Dark Event: Tactical Upgrades (Close Combat Specialist)"
 
 [DarkEvent_CloseCombatSpecialist X2HackRewardTemplate]
 FriendlyName="Dark Event: Tactical Upgrades (Close Combat Specialist)"
-Description="Archons gain the Close Combat Specialist ability, granting them reaction fire against any enemy who closes within four tiles."
+Description="Wingmen gain the Close Combat Specialist ability, granting them reaction fire against any enemy who closes within four tiles."
 
 [DarkEvent_GrazingFire X2DarkEventTemplate]
 DisplayName="Tactical Upgrades: Grazing Fire"
@@ -1827,29 +1827,29 @@ Description="Some enemies gain the Grazing Fire ability, providing an increased 
 
 [DarkEvent_Cutthroat X2DarkEventTemplate]
 DisplayName="Tactical Upgrades: Cutthroat"
-SummaryText="Stun Lancers and other enemies gain the Cutthroat ability, allowing melee attacks to ignore armor."
-QuoteText="\"They are learning our vulnerabilities even as we learn theirs.\""
+SummaryText="SANICs and other enemies gain the Cutthroat ability, allowing melee attacks to ignore armor."
+QuoteText="\"So that´s why Rent-An-Ayys survived so well in the ghetto.\""
 QuoteTextAuthor="- Dr. Tygan"
-PreMissionText="Grants Stun Lancers and other enemies the Cutthroat ability."
+PreMissionText="Grants SANICs and other enemies the Cutthroat ability."
 PostMissionSuccessText="Dark Event Countered: Tactical Upgrades (Cutthroat)"
 PostMissionFailureText="Failed to Counter Dark Event: Tactical Upgrades (Cutthroat)"
 
 [DarkEvent_Cutthroat X2HackRewardTemplate]
 FriendlyName="Dark Event: Tactical Upgrades (Cutthroat)"
-Description="Stun Lancers and other enemies gain the Cutthroat ability, allowing melee attacks to ignore armor."
+Description="SANICs and other enemies gain the Cutthroat ability, allowing melee attacks to ignore armor."
 
 [DarkEvent_CombatAwareness X2DarkEventTemplate]
 DisplayName="Tactical Upgrades: Combat Awareness"
-SummaryText="ADVENT Sentries gain the Combat Awareness ability, granting them bonus defense and armor when in overwatch."
-QuoteText="\"Seems like these ADVENT Sentries have eyes in the back of their heads. Maybe that's part of their genetic modifications.\""
+SummaryText="ADVENT Campers gain the Combat Awareness ability, granting them bonus defense and armor when in overwatch."
+QuoteText="\"Seems like these ADVENT Campers have eyes in the back of their heads. Maybe that's part of their genetic modifications.\""
 QuoteTextAuthor="- Chief Shen"
-PreMissionText="Grants ADVENT Sentries the Combat Awareness ability."
+PreMissionText="Grants ADVENT Campers the Combat Awareness ability."
 PostMissionSuccessText="Dark Event Countered: Tactical Upgrades (Combat Awareness)"
 PostMissionFailureText="Failed to Counter Dark Event: Tactical Upgrades (Combat Awareness)"
 
 [DarkEvent_CombatAwareness X2HackRewardTemplate]
 FriendlyName="Dark Event: Tactical Upgrades (Combat Awareness)"
-Description="ADVENT Sentries gain the Combat Awareness ability, granting them bonus defense and armor when in overwatch."
+Description="ADVENT Campers gain the Combat Awareness ability, granting them bonus defense and armor when in overwatch."
 
 [DarkEvent_IronSkin X2DarkEventTemplate]
 DisplayName="Tactical Upgrades: Iron Skin"
@@ -1892,36 +1892,36 @@ Description="Some enemy units gain the Aggression ability, granting them bonus c
 
 [DarkEvent_Resilience X2DarkEventTemplate]
 DisplayName="Tactical Upgrades: Resilience"
-SummaryText="Codex units gain the Resilience ability, reducing the chance of critical hits against them."
+SummaryText="Computer Waifus gain the Resilience ability, reducing the chance of critical hits against them."
 QuoteText="\"We're not even sure how these things exist in our universe, much less why our weaponry seems to damage them.\""
 QuoteTextAuthor="- Chief Shen"
-PreMissionText="Grants Codex units the Resilience ability."
+PreMissionText="Grants Computer Waifus the Resilience ability."
 PostMissionSuccessText="Dark Event Countered: Tactical Upgrades (Resilience)"
 PostMissionFailureText="Failed to Counter Dark Event: Tactical Upgrades (Resilience)"
 
 [DarkEvent_Resilience X2HackRewardTemplate]
 FriendlyName="Dark Event: Tactical Upgrades (Resilience)"
-Description="Grants Codex units the Resilience ability, reducing the chance of critical hits against them."
+Description="Grants Computer Waifus the Resilience ability, reducing the chance of critical hits against them."
 
 [DarkEvent_Shadowstep X2DarkEventTemplate]
 DisplayName="Tactical Upgrades: Shadowstep"
-SummaryText="Codex units gain the Shadowstep ability and cannot be targeted by reaction fire."
-QuoteText="\"The aliens seem to be experimenting with using short-range teleporting with their Codex units.\""
+SummaryText="Computer Waifus gain the Shadowstep ability and cannot be targeted by reaction fire."
+QuoteText="\"The aliens seem to be experimenting with using short-range teleporting with their Computer Waifus.\""
 QuoteTextAuthor="- Dr. Tygan"
-PreMissionText="Grants Codex units the Shadowstep ability."
+PreMissionText="Grants Computer Waifus the Shadowstep ability."
 PostMissionSuccessText="Dark Event Countered: Tactical Upgrades (Shadowstep)"
 PostMissionFailureText="Failed to Counter Dark Event: Tactical Upgrades (Shadowstep)"
 
 [DarkEvent_Shadowstep X2HackRewardTemplate]
 FriendlyName="Dark Event: Tactical Upgrades (Shadowstep)"
-Description="Codex units gain the Shadowstep ability and cannot be targeted by reaction fire."
+Description="Computer Waifus gain the Shadowstep ability and cannot be targeted by reaction fire."
 
 [DarkEvent_DamageControl X2DarkEventTemplate]
 DisplayName="Tactical Upgrades: Damage Control"
 SummaryText="Some ADVENT robots and some other units gain the Damage Control ability, granting bonus armor after they take damage."
 QuoteText="\"Someone get Shen to invent us some air support. We're gonna need it.\""
 QuoteTextAuthor="- Anonymous Sergeant"
-PreMissionText="Grants Codex units the Damage Control ability."
+PreMissionText="Grants Computer Waifus the Damage Control ability."
 PostMissionSuccessText="Dark Event Countered: Tactical Upgrades (Damage Control)"
 PostMissionFailureText="Failed to Counter Dark Event: Tactical Upgrades (Damage Control)"
 
@@ -1931,29 +1931,29 @@ Description="Some ADVENT robots and some other units gain the Damage Control abi
 
 [DarkEvent_HardTarget X2DarkEventTemplate]
 DisplayName="Tactical Upgrades: Hard Target"
-SummaryText="Some alien units gain the Hard Target ability, granting bonus dodge."
-QuoteText="\".\""
+SummaryText="Some ayylien units gain the Hard Target ability, granting bonus dodge."
+QuoteText="\"LAAAAAAAAGGGGGGG!\""
 QuoteTextAuthor="- Chief Shen"
-PreMissionText="Grants some alien units the Hard Target ability."
+PreMissionText="Grants some ayylien units the Hard Target ability."
 PostMissionSuccessText="Dark Event Countered: Tactical Upgrades (Hard Target)"
 PostMissionFailureText="Failed to Counter Dark Event: Tactical Upgrades (Hard Target)"
 
 [DarkEvent_HardTarget X2HackRewardTemplate]
 FriendlyName="Dark Event: Tactical Upgrades (Hard Target)"
-Description="Some alien units gain the Hard Target ability, granting bonus dodge."
+Description="Some ayylien units gain the Hard Target ability, granting bonus dodge."
 
 [DarkEvent_GreaterFaceless X2DarkEventTemplate]
-DisplayName="Greater Faceless"
-SummaryText="The aliens deploy a stronger and deadlier Faceless unit."
+DisplayName="Greater Fellow Humans"
+SummaryText="The aliens deploy a stronger and deadlier Fellow Human."
 QuoteText="\"We don't know if these are alien reinforcements from offworld or new designs from their cloning tanks. Either way, they are more dangerous than before.\""
 QuoteTextAuthor="- Chief Shen"
-PreMissionText="The aliens deploy a stronger and deadlier Faceless unit."
-PostMissionSuccessText="Dark Event Countered: Greater Faceless"
-PostMissionFailureText="Failed to Counter Dark Event: Greater Faceless"
+PreMissionText="The aliens deploy a stronger and deadlier Fellow Human."
+PostMissionSuccessText="Dark Event Countered: Greater Fellow Human"
+PostMissionFailureText="Failed to Counter Dark Event: Greater Fellow Human"
 
 [DarkEvent_GreaterFaceless X2HackRewardTemplate]
-FriendlyName="Dark Event: Greater Faceless"
-Description="The aliens deploy a stronger and deadlier Faceless unit."
+FriendlyName="Dark Event: Greater Fellow Human"
+Description="The aliens deploy a stronger and deadlier Fellow Human unit."
 
 [DarkEvent_NewConstruction X2DarkEventTemplate]
 DisplayName="New Construction"
@@ -1965,8 +1965,8 @@ PostMissionSuccessText="Dank Event Countered: New Construction"
 PostMissionFailureText="Failed to Counter Dank Event: New Construction"
 
 [GreaterFacelessStatImprovements X2AbilityTemplate]
-LocFriendlyName="Greater Faceless"
-LocLongDescription="Some Faceless units have improved stats."
+LocFriendlyName="Greater Fellow Human"
+LocLongDescription="Some Fellow Humans have improved stats."
 
 ;; Encyclopedia new/rewrites
 
@@ -1974,15 +1974,11 @@ LocLongDescription="Some Faceless units have improved stats."
 
 
 
-[Sharpshooter_LWS X2EncyclopediaTemplate]
-ListTitle="Sharpshooter Class"
-DescriptionTitle="Sharpshooter Class"
-DescriptionEntry="Relying primarily on high-powered rifles to eliminate hostile targets from long distances, Sharpshooters may specialize as a sniper capable of long-range ambushes, or as a mobile marksman who can target enemies from just behind our front lines. Sharpshooters are also equipped with the Holo-Targeter, a device used to designate targets for the rest of XCOM."
-
 [Shinobi_LWS X2EncyclopediaTemplate]
-ListTitle="Shinobi Class"
-DescriptionTitle="Shinobi Class"
-DescriptionEntry="Shinobi are trained in advanced infiltration techniques allowing for concealment beyond what the average XCOM soldier can manage. Shinobi carry swords for the occasional close combat melee encounter."
+ListTitle="Weeb Class"
+DescriptionTitle="Weebs"
+DescriptionEntry="The Weeb serves as our primary scouting unit, studying a \"superior nippon blade folded 100 times\" (trademarked, all rights reserved) to deliver stealthy close-range attacks, because apparently some high ranking idiot decides that a concealable SMG is not stealthy enough, and have to give every infiltration specialist in our employ a cheap rusty matchete for shits and giggles."
+"
 
 [Gunner_LWS X2EncyclopediaTemplate]
 ListTitle="Gunner Class"
@@ -1992,7 +1988,7 @@ DescriptionEntry="Gunners carry the cannon, useful for laying down barrages of s
 [Technical_LWS X2EncyclopediaTemplate]
 ListTitle="Technical Class"
 DescriptionTitle="Technical Class"
-DescriptionEntry="Our Technicals wear a specialized wrist weapon that has both a minirocket launcher and a flamethrower. They may specialize in either."
+DescriptionEntry="With liberal usage of Confucus enlightenment and *extreme battlefield meditation*, our Technicals are trained to use certain heavy weaponry, the rocket launcher and flammenwerfer, to provide critical but ultimately limited support during firefights, because apparently nobody has ever heard of the M3 MAAWS in their entire lives and we're stuck with these shitty gauntlets. Thanks, Shen."
 
 [Ranger_LWS X2EncyclopediaTemplate]
 ListTitle="Ranger Class"
@@ -2003,11 +1999,6 @@ DescriptionEntry="The Ranger serves as our primary front-line soldier, specializ
 ListTitle="Assault Class"
 DescriptionTitle="Assault Class"
 DescriptionEntry="Our assaults trace some ancestry to pre-war police Special Weapons and Tactics personnel, along with soldiers who specialized in urban counterinsurgencies shorly before the alien invasion. They typically carry a shotgun as their primary weapon and can specialize in combat or survival abilities. For long-distance work, they carry the arc thrower, an improved version of the XCOM weapon devised during the invasion's early days that is capable of stunning targets."
-
-[Specialist_LWS X2EncyclopediaTemplate]
-ListTitle="Specialist Class"
-DescriptionTitle="Specialist Class"
-DescriptionEntry="Using salvaged alien technology, Shen has managed incredible advances in robotics, allowing XCOM's Specialists to field the highly advanced drones known affectionately as GREMLINs. Although they are capable of being outfitted for direct combat or medical support, the GREMLINs are only as strong as their handlers, making a skilled Specialist invaluable to XCOM." 
 
 [Grenadier_LWS X2EncyclopediaTemplate]
 ListTitle="Grenadier Class"
@@ -2086,12 +2077,6 @@ LocFlyOverText="A STRANGER I REMAIN"
 
 [QuickStudy X2AbilityTemplate]
 
-[DoubleTap2 X2AbilityTemplate]
-LocFriendlyName="Double Tap"
-LocFlyOverText="Double Tap"
-LocLongDescription="Activate to fire a standard shot and gain a second action restricted to an additional shot or overwatching."
-LocHelpText="Fire a standard shot and gain a bonus shot or overwatch action."
-LocPromotionPopupText="<Bullet/> Activate to fire a standard shot and gain a second action restricted to Standard Shot, Precision Shot, Kubikiri or Overwatch.<br/><Bullet/> <Ability:SelfCooldown/>-turn cooldown.<br/>"
 
 
 
@@ -2894,10 +2879,10 @@ strCharacterName="ADVENT Noob Herder"
 strCharacterName="ADVENT Slavemaster"
 
 [AdvShockTroop X2CharacterTemplate]
-strCharacterName="ADVENT Shock Trooper"
+strCharacterName="ADVENT Adrenaline Junkie"
 
 [AdvCommando X2CharacterTemplate]
-strCharacterName="ADVENT Adrenaline Junkie"
+strCharacterName="ADVENT Matrix Ninja"
 
 [AdvVanguard X2CharacterTemplate]
 strCharacterName="ADVENT Bouncer"
@@ -3191,6 +3176,10 @@ LocFlyOverText="360 noscope"
 
 [DoubleTap2 X2AbilityTemplate]
 LocFlyOverText="*Dubstep music starts*"
+LocFriendlyName="Double Tap"
+LocLongDescription="Activate to fire a standard shot and gain a second action restricted to an additional shot or overwatching."
+LocHelpText="Fire a standard shot and gain a bonus shot or overwatch action."
+LocPromotionPopupText="<Bullet/> Activate to fire a standard shot and gain a second action restricted to Standard Shot, Precision Shot, Kubikiri or Overwatch.<br/><Bullet/> <Ability:SelfCooldown/>-turn cooldown.<br/>"
 
 
 [SniperRifleOverwatch X2AbilityTemplate]
@@ -5508,16 +5497,16 @@ Description="Some enemy units gain the Aggression ability, granting them bonus c
 
 [DarkEvent_Resilience X2DarkEventTemplate]
 DisplayName="Tactical Upgrades: Resilience"
-SummaryText="Codex units gain the Resilience ability, reducing the chance of critical hits against them."
+SummaryText="Computer Waifus gain the Resilience ability, reducing the chance of critical hits against them."
 QuoteText="\"We're not even sure how these things exist in our universe, much less why our weaponry seems to damage them.\""
 QuoteTextAuthor="- Chief Shen"
-PreMissionText="Grants Codex units the Resilience ability."
+PreMissionText="Grants Computer Waifus the Resilience ability."
 PostMissionSuccessText="Dank Event Countered: Tactical Upgrades (Resilience)"
 PostMissionFailureText="Failed to Counter Dank Event: Tactical Upgrades (Resilience)"
 
 [DarkEvent_Resilience X2HackRewardTemplate]
 FriendlyName="Dank Event: Tactical Upgrades (Resilience)"
-Description="Grants Codex units the Resilience ability, reducing the chance of critical hits against them."
+Description="Grants Computer Waifus the Resilience ability, reducing the chance of critical hits against them."
 
 [DarkEvent_DamageControl X2DarkEventTemplate]
 DisplayName="Tactical Upgrades: Nanomachines"
@@ -5566,7 +5555,7 @@ PostMissionFailureText="Failed to Counter Dank Event: Tactical Upgrades (Can´t 
 [DarkEvent_Shadowstep X2DarkEventTemplate]
 DisplayName="Tactical Upgrades: Shadowstep"
 SummaryText="Computer Waifus gain the Shadowstep ability and cannot be targeted by reaction fire."
-QuoteText="\"No! Now Codex-chan will not notice me for sure!\""
+QuoteText="\"No! Now Computer Waifu-chan will not notice me for sure!\""
 QuoteTextAuthor="- Dr. Tygan"
 PreMissionText="Grants Computer Waifus the Shadowstep ability."
 PostMissionSuccessText="Dank Event Countered: Tactical Upgrades (Shadowstep)"
@@ -7085,3 +7074,18 @@ QuoteTextAuthor="Anonymous Zealot"
 TacticalAnalysisFlyoverText="Fuck you, I got Tactical Analysis!"
 TacticalAnalysisWorldMessageText="<XGParam:StrValue0/!UnitName/> impaired by Tactical Analysis."
 FeedbackFlyoverText="THE RIDE NEVER ENDS"
+
+; ================================================
+; Feral SPARKs
+; ================================================
+
+[EngageSelfDestruct X2AbilityTemplate]
+LocFriendlyName="Prime Self-Destruct"
+LocLongDescription="Enter Self-Destruct mode. MEC can be manually detonated and will explode if it takes fatal damage."
+LocHelpText="Enter Self-Destruct mode. MEC can be manually detonated and will explode if it takes fatal damage."
+
+[TriggerSelfDestruct X2AbilityTemplate]
+LocFriendlyName="Trigger Self-Destruct"
+LocLongDescription="Detonate the MEC, destroying it and damaging all nearby units."
+LocHelpText="Detonate the MEC, destroying it and damaging all nearby units."
+LocFlyOverText="HERE COMES THE PLANE!"
