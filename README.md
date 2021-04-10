@@ -15,13 +15,8 @@ Note: THE MAIN DEVS HAVE NOTHING TO WITH THIS. I TAKE ALL RESPONSIBILITY FOR THI
 Not even close to ready. Some enemies are missing, tons of unupdated text, however the bare minimum is there.
 
 # Job list
-* Figure out the names for the rest of the enemies. The ones left are:
-       
-  * ADVENT commmando   
 
-  
-
-* "Translate" more skills. I already figured out how to make abilities throw out LocFlyoverText instead of LocalFriendlyName, so the only thing remaining is doing exactly that.
+I guess there isn't much, just a few more abilities like walk fire?
 
 * If I'm feeling ambitious, "translate" some of the spoken subtitles.
 
