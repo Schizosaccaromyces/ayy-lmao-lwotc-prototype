@@ -1528,7 +1528,7 @@ PostMissionFailureText="Failed to Counter Dark Event: Counterintelligence Sweep"
 
 [DarkEvent_RuralPropagandaBlitz X2DarkEventTemplate]
 DisplayName="Rural Propaganda Blitz"
-SummaryText="ADVENT tries to undercut Slave "recruitment" efforts."
+SummaryText="ADVENT tries to undercut Slave \"recruitment\" efforts."
 QuoteText="\"Make no mistake; ADVENT is selling something. And people are buying.\""
 QuoteTextAuthor="- Dr. Tygan"
 PreMissionText="Slaves assigned to recruiting are half as effective during this event."
