@@ -12,14 +12,14 @@ Note: THE MAIN DEVS HAVE NOTHING TO WITH THIS. I TAKE ALL RESPONSIBILITY FOR THI
 
 # Current state
 
-Not even close to ready. Some enemies are missing, tons of unupdated text, however the bare minimum is there.
+Almost done, just a some stuff remaining
 
 # Job list
 
-I guess there isn't much, just a few more abilities like walk fire?
-
-* If I'm feeling ambitious, "translate" some of the spoken subtitles.
-
+I guess there isn't much, just a few more abilities like:
+* walk fire
+* null ward
+* priest stasis
 
 # Contributions
 
