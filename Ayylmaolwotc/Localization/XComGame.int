@@ -3823,13 +3823,14 @@ LocLongDescription="ADVENT /k/ommandos can Mark a target, commanding other ADVEN
 
 [MicroMissiles X2AbilityTemplate]
 LocLongDescription="The Autobot's shoulder mounted missile launcher can volley a salvo of missiles that deal high damage in a small area."
-
+LocFlyOverText="FUCK YOU, AND YOU, AND EVERYTHING NEAR YOU"
 [EnergyShield X2AbilityTemplate]
 LocLongDescription="The Cockblocker can grant an energy shield to all nearby allies. The shields will collapse if this unit is killed."
 LocFlyOverText="FUCK THIS PIECE OF GROUND"
 
 [EnergyShieldMk3 X2AbilityTemplate]
 LocLongDescription="The Cockblocker can grant an energy shield to all nearby allies. The shields will collapse if this unit is killed."
+LocFlyOverText="FUCK THIS PIECE OF GROUND"
 
 ; ================================================
 ; Sectoid Abilities
@@ -4157,6 +4158,7 @@ LocLongDescription="The Super Saiyan creates a seething dimensional instability 
 LocFriendlyName="Mind Control"
 LocLongDescription="The Super Saiyan can seize active control of their target's mind, forcing them to turn on their companions."
 
+
 [AvatarImmunities X2AbilityTemplate]
 LocFriendlyName="Mental Fortress"
 LocLongDescription="The Super Saiyan is immune to any form of negative mental effects."
@@ -4207,7 +4209,11 @@ LocFlyOverText="Shadowbind"
 ; ================================================
 ; ADVENT Priest Abilities
 ; ================================================
+[PriestPsiMindControl X2AbilityTemplate]
+LocFlyOverText="Hey kid, I got free candy!"
 
+[PriestStasis X2AbilityTemplate]
+LocFlyOverText="They can´t get older if I do this"
 ; ================================================
 ; Lost Abilities
 ; ================================================
