@@ -331,13 +331,13 @@ LocPromotionPopupText="<Bullet/> Scanning Protocol gains bonus charges with impr
 ;;;;;;;;;;;;;;;;;;;;  GUNNER ABILITIES ;;;;;;;;;;;;;;;;;;;;;;;
 
 [KnifeFighter X2AbilityTemplate]
-LocFlyOverText="The Basics of CQC: Stab the bitch"
+LocFlyOverText="The Basics of CQC: Stab the bitch."
 
 [CombativesCounterAttack X2AbilityTemplate]
 LocFlyOverText="NO U"
 
 [Flush X2AbilityTemplate]
-LocFlyOverText="Run Like a little bitch you are."
+LocFlyOverText="Run like a little bitch you are."
 str_FlushEffect="Is a little bitch"
 
 [TraverseFire X2AbilityTemplate]
@@ -386,6 +386,10 @@ LocFlyOverText="2nd amendment and all that"
 [Commissar X2AbilityTemplate]
 LocFlyOverText="DIE HERETIC"
 
+[FocusFire X2AbilityTemplate]
+LocFriendlyName="Focus Fire"
+LocFlyOverText="EXTRA PENETRATION ON THAT ASSHOLE RIGHT THERE"
+
 ;;;;;;;;;;;;;;;;;;;;  SHARPSHOOTER ABILITIES ;;;;;;;;;;;;;;;;;;;;;;;
 
 [Holotarget X2AbilityTemplate]
@@ -407,7 +411,7 @@ LocLongDescription="Using your Holotargeter no longer automatically ends your tu
 LocFlyOverText="SHOOT THESE FUCKERS RIGHT HERE"
 
 [AlphaMikeFoxtrot X2AbilityTemplate]
-LocFriendlyName="Adios, Mother Fucker"
+LocFriendlyName="Adios Mother Fucker"
 
 ;;;;;;;;;;;;;;;;;;;;  ASSAULT ABILITIES ;;;;;;;;;;;;;;;;;;;;;;;
 
@@ -782,13 +786,13 @@ m_strRemoveUpgrade="REMOVE UPGRADE"
 
 [Skirmisher X2SoldierClassTemplate]
 DisplayName="Rent-An-Ayy"
-ClassSummary="Former ADVENT rank-and-file infantry turned rebel fighters. Part of a bargain sale on Mall Ninjas, their status as cannon fodder made their chips explode. Their loyalties broken, they now are practitioners of proctology and lobotomy on unsuspecting ayyliens to live by the day... and rather worryingly, they seem to get quite into it."
+ClassSummary="Former ADVENT rank-and-file infantry turned rebel fighters. Part of a bargain sale on Mall Ninjas, their status as cannon fodder made their chips explode. With their loyalties broken, they now are practitioners of proctology and lobotomy on unsuspecting ayyliens to live by the day... and rather worryingly, they seem to get quite into it."
 LeftAbilityTreeTitle="Ghetto Survivor"
-RightAbilityTreeTitle="Mastermind"
+RightAbilityTreeTitle="200 IQ Positioning"
 
 +AbilityTreeTitles[0]="Ghetto Survivor"
 +AbilityTreeTitles[1]="I AM THE LAW"
-+AbilityTreeTitles[2]="Mastermind"
++AbilityTreeTitles[2]="200 IQ Positioning"
 +AbilityTreeTitles[3]="XCOM"
 +AbilityTreeTitles[4]="Pistols"
 
@@ -808,7 +812,7 @@ RightAbilityTreeTitle="Sociopath"
 
 [Templar X2SoldierClassTemplate]
 DisplayName="Zealot"
-ClassSummary="Victims of Mr. Geist's Wild Ride, Zealots are wildly-trained psionic cosplayers (and Nightcore enthusiasts) who managed to become a major faction by stumbling into an anonymously displaced ayylien psi technology and are now running around pretending to be actual Protoss. They get more insanely powerful as their rave party continues."
+ClassSummary="Survivors of MR. GEIST'S WILD RIDE, Zealots are wildly-trained psionic cosplayers (and Nightcore enthusiasts) who managed to become a major faction by stumbling into an anonymously displaced ayylien psi technology and are now running around pretending to be actual Protoss. They get more insanely powerful as their rave party continues."
 LeftAbilityTreeTitle="Psionic Pimphand"
 RightAbilityTreeTitle="MAJIK"
 
@@ -1502,16 +1506,17 @@ PostMissionFailureText="Failed to Counter Dark Event: Air Patrols"
 [DarkEvent_MutonEngineers X2DarkEventTemplate]
 DisplayName="Demolitions Experts"
 SummaryText="The ayyliens deploy units with enhanced cover destruction abilities."
-QuoteText="\"Fire in the Hole!\""
-QuoteTextAuthor="- Unidentified XCOM Corporal"
-PreMissionText="Grants some ADVENT soldiers and Dickheads the Sapper ability."
-PostMissionSuccessText="Dark Event Countered: Demolitions Experts"
-PostMissionFailureText="Failed to Counter Dark Event: Demolitions Experts"
+QuoteText="\"Come on, alkhba! I'm STILL ALIVE!\""
+QuoteTextAuthor="- Unidentified XCOM Corporal (KIA)"
+PreMissionText="Grants some ADVENT soldiers and Dickhead the Sapper ability."
+PostMissionSuccessText="Dark Event Countered: Dickhead Engineers"
+PostMissionFailureText="Failed to Counter Dark Event: Dickhead Engineers"
+
 
 [DarkEvent_RuralCheckpoints_LW X2DarkEventTemplate]
 DisplayName="ADVENT Rural Checkpoints"
 SummaryText="ADVENT stifles the movement of Resistance resources, decreasing the effectiveness of Resistance members assigned to Supply worldwide."
-QuoteText="\"Looks like ADVENT isn't content to just sit behind their city walls anymore.\""
+QuoteText="\"Looks like ADVENT isn't content to just sit behind their city walls with their thumbs up their asses anymore.\""
 QuoteTextAuthor="- Central Officer Bradford"
 PreMissionText="Decreases the productivity of Slaves assigned to the Supply job."
 PostMissionSuccessText="Dark Event Countered: ADVENT Rural Checkpoints"
@@ -1718,7 +1723,7 @@ Description="Some enemy units gain the Will to Survive ability, which grants a p
 [DarkEvent_CenterMass X2DarkEventTemplate]
 DisplayName="Tactical Upgrades: Center Mass"
 SummaryText="The enemy deploys units who can do extra damage with their primary weapon."
-QuoteText="\"Win some, lose some. Then a plasma bolt fries your intestines.\""
+QuoteText="\"Win some, lose some. Then a plasma bolt fries your dick off.\""
 QuoteTextAuthor="- Anonymous Squaddie"
 PreMissionText="Grants some aliens the Center Mass perk."
 PostMissionSuccessText="Dark Event Countered: Tactical Upgrades (Damage)"
@@ -1732,7 +1737,7 @@ Description="Some enemy units do additional damage with their primary weapon."
 [DarkEvent_Formidable X2DarkEventTemplate]
 DisplayName="Tactical Upgrades: Formidable"
 SummaryText="Some enemies gain the Formidable ability, giving them extra armor and resistance to explosives."
-QuoteText="\"We're going to need bigger bombs.\""
+QuoteText="\"We're going to need a fucking airstrike.\""
 QuoteTextAuthor="- Anonymous Staff Sergeant"
 PreMissionText="Grants several enemies the Formidable ability."
 PostMissionSuccessText="Dark Event Countered: Tactical Upgrades (Formidable)"
@@ -1746,7 +1751,7 @@ Description="Some enemies gain the Formidable ability, giving them extra armor a
 [DarkEvent_Lethal X2DarkEventTemplate]
 DisplayName="Tactical Upgrades: Lethal"
 SummaryText="Some enemies gain the Lethal ability, causing them to do +2 damage with their primary weapon."
-QuoteText="\"The aliens must love the salty taste of our tears.\""
+QuoteText="\"The ayys must love the salty taste of our tears.\""
 QuoteTextAuthor="- Cpl. John Teasdale"
 PreMissionText="Grants some enemies the Lethal ability, causing them to do +2 damage with their primary weapon."
 PostMissionSuccessText="Dark Event Countered: Tactical Upgrades (Lethal)"
@@ -1760,7 +1765,7 @@ Description="Grants some enemies the Lethal ability, causing them to do +2 damag
 [DarkEvent_Shredder X2DarkEventTemplate]
 DisplayName="Tactical Upgrades: Shredder"
 SummaryText="Some enemies gain the Shredder ability, giving their weapons the ability to shred armor with each hit."
-QuoteText="\"Why did you just call me Tactical Ablative Armor? What's that mean?\""
+QuoteText="\"Why did you just call me Tactical Ablative Armor? The hell does that mean?\""
 QuoteTextAuthor="- Anonymous Rookie"
 PreMissionText="Grants several enemies the Shredder ability."
 PostMissionSuccessText="Dark Event Countered: Tactical Upgrades (Shredder)"
@@ -1774,7 +1779,7 @@ Description="Some enemies gain the Shredder ability, giving their weapons the ab
 [DarkEvent_HuntersInstinct X2DarkEventTemplate]
 DisplayName="Tactical Upgrades: Hunter's Instincts"
 SummaryText="Many Sneks and related species gain the Hunter's Instinct ability, granting bonus damage against flanked enemies."
-QuoteText="\"Massive gun-toting, poison-spitting intelligent snakes? This is what I signed up for?\""
+QuoteText="\"Massive gun-toting, poison-spitting intelligent sneks? This is what I signed up for? Fuck, XCOM aren't kidding when they said they'd guarantee a liberated Earth or a bodybag.\""
 QuoteTextAuthor="- Anonymous Corporal"
 PreMissionText="Grants many ophidian enemies the Hunter's Instinct ability."
 PostMissionSuccessText="Dark Event Countered: Tactical Upgrades (Hunter's Instincts)"
@@ -1788,9 +1793,10 @@ Description="Many ophidian enemies gain the Hunter's Instinct ability, granting 
 [DarkEvent_LightningReflexes X2DarkEventTemplate]
 DisplayName="Tactical Upgrades: Lightning Reflexes"
 SummaryText="Some SANICs and other enemies gain the Lightning Reflexes ability, allowing them bonuses to avoid reaction fire."
-QuoteText="\"I really, really hate those guys.\""
-QuoteTextAuthor="- Anonymous Gunnery Sergeant"
+QuoteText="\"I AM STILL ALIVE, YOU FUCKIN' AMA-ARGGGGH FUCK!\""
+QuoteTextAuthor="- Anonymous Gunnery Sergeant (KIA)"
 PreMissionText="Grants some SANICs and other enemies the Lightning Reflexes ability."
+
 PostMissionSuccessText="Dark Event Countered: Tactical Upgrades (Lightning Reflexes)"
 PostMissionFailureText="Failed to Counter Dark Event: Tactical Upgrades (Lightning Reflexes)"
 
@@ -1802,7 +1808,7 @@ Description="Some SANICs and other enemies gain the Lightning Reflexes ability, 
 [DarkEvent_CloseCombatSpecialist X2DarkEventTemplate]
 DisplayName="Tactical Upgrades: Close Combat Specialist"
 SummaryText="Wingmen gain the Close Combat Specialist ability, granting them reaction fire against any enemy who closes within four tiles."
-QuoteText="\"The troops don't call those things Angels of Death for nothing.\""
+QuoteText="\"The troops don't call those things Angels of Death for nothing... wait, what's with the Japanese texts hovering on that one?\""
 QuoteTextAuthor="- Central Officer Bradford"
 PreMissionText="Grants Wingmen the Close Combat Specialist ability."
 PostMissionSuccessText="Dark Event Countered: Tactical Upgrades (Close Combat Specialist)"
@@ -1854,8 +1860,8 @@ Description="ADVENT Campers gain the Combat Awareness ability, granting them bon
 [DarkEvent_IronSkin X2DarkEventTemplate]
 DisplayName="Tactical Upgrades: Iron Skin"
 SummaryText="ADVENT robotic units gain the Iron Skin ability, granting them damage reduction against melee attacks."
-QuoteText="\"The idea that medieval weaponry could kill alien robotic invaders always seemed a bit daft anyway.\""
-QuoteTextAuthor="- Anonymous British Squaddie"
+QuoteText="\"Th' idea that medieval weaponry cuid murdurr ayylien robotic invaders aye seemed a bawherr bullshit anyway.\""
+QuoteTextAuthor="- Anonymous Scottish Squaddie"
 PreMissionText="Grants ADVENT robotic units the Iron Skin ability."
 PostMissionSuccessText="Dark Event Countered: Tactical Upgrades (Iron Skin)"
 PostMissionFailureText="Failed to Counter Dark Event: Tactical Upgrades (Iron Skin)"
@@ -1867,7 +1873,7 @@ Description="ADVENT robotic units gain the Iron Skin ability, granting them dama
 [DarkEvent_TacticalSense X2DarkEventTemplate]
 DisplayName="Tactical Upgrades: Tactical Sense"
 SummaryText="Some enemy units gain the Tactical Sense ability, granting them bonus defense."
-QuoteText="\"Resistance Intel suggests the aliens are creating a cadre specializing in counterinsurgency operations.\""
+QuoteText="\"Given that one of them just dodged that shot *point fucking blank*, it's probably the COIN carde our contact's been talking about.\""
 QuoteTextAuthor="- Central Officer Bradford"
 PreMissionText="Grants some enemy units the Tactical Sense ability."
 PostMissionSuccessText="Dark Event Countered: Tactical Upgrades (Tactical Sense)"
@@ -1880,8 +1886,8 @@ Description="Some enemy units gain the Tactical Sense ability, granting them bon
 [DarkEvent_Aggression X2DarkEventTemplate]
 DisplayName="Tactical Upgrades: Aggression"
 SummaryText="Some enemy units gain the Aggression ability, granting them bonus critical chances."
-QuoteText="\"I think we've made them mad.\""
-QuoteTextAuthor="- Anonymous Lance"
+QuoteText="\"I think we've made them really, *really* crazy mad.\""
+QuoteTextAuthor="- Anonymous Lance Corporal"
 PreMissionText="Grants some enemy units the Aggression ability."
 PostMissionSuccessText="Dark Event Countered: Tactical Upgrades (Aggression)"
 PostMissionFailureText="Failed to Counter Dark Event: Tactical Upgrades (Aggression)"
@@ -1965,8 +1971,8 @@ PostMissionSuccessText="Dank Event Countered: New Construction"
 PostMissionFailureText="Failed to Counter Dank Event: New Construction"
 
 [GreaterFacelessStatImprovements X2AbilityTemplate]
-LocFriendlyName="Greater Fellow Human"
-LocLongDescription="Some Fellow Humans have improved stats."
+LocFriendlyName="Aryan Fellow Human"
+LocLongDescription="Some Fellow Human units have improved stats."
 
 ;; Encyclopedia new/rewrites
 
@@ -2882,7 +2888,7 @@ strCharacterName="ADVENT Layered Shrek"
 FriendlyName="AutoMag"
 
 [AdvGunnerM3 X2CharacterTemplate]
-strCharacterName="ADVENT Elite Shrek"
+strCharacterName="ADVENT Shrek Forever"
 
 [AdvGunnerM3_WPN X2WeaponTemplate]
 FriendlyName="AutoMag"
@@ -3005,9 +3011,9 @@ TraitScientificName="Flammenphobia"
 TraitDescription="Chance to panic when burning or squadmates are burning."
 TraitQuotes[0]="\"FUCKING SQUIRTLE I SWEAR TO GOD\""
 TraitQuotes[1]="\"The Flammenwerfer's Flammenwerfers werf flammen so effectively...\""
-TraitQuotes[2]="\"That's not what i meant when I said that snektits are hot...\""
+TraitQuotes[2]="\"That's not what I meant when I said that snektits are hot...\""
 TraitQuotes[3]="\"WHY CAN'T I JUST HUNKER WHAT THE FUCK IS THIS MOD\""
-TraitQuotes[4]="\" What part of \"AAAAH AAAAAAH AAAAAAAAAAAAAAAAH\" do you not understand? Shit's painful.""
+TraitQuotes[4]="\" What part of \"AAAAH AAAAAAH AAAAAAAAAAAAAAAAH\" do you not understand? Shit's painful.\""
 
 [PurifierDeathExplosion  X2AbilityTemplate]
 LocFlyOverText="ALLAHU ACKBAR"
@@ -3112,7 +3118,7 @@ LocFlyOverText="WELL THEN, HAVE SOME MORE"
 LocFlyOverText="All of the bullets. All of them!"
 
 [SaturationFire X2AbilityTemplate]
-LocFlyOverText="Never enough dakka"
+LocFlyOverText="NEVAR ENUFF DAKKA"
 
 [Demolition X2AbilityTemplate]
 LocFlyOverText="FUCK YOUR COVER"
@@ -3179,7 +3185,7 @@ LocFlyOverText="KAME HAME HAAAAAAAAAAAAA"
 LocFlyOverText="ACTIVATE GOATSE MANEUVER"
 
 [MindMerge X2AbilityTemplate]
-LocFlyOverText="Ew...that´s disgusting. "
+LocFlyOverText="Ew...that´s disgusting."
 
 [SoulMerge X2AbilityTemplate]
 
@@ -3342,7 +3348,7 @@ LocFlyOverText="*Angry Gremlin noises*"
 
 [BuffEnemy_FullOverride X2HackRewardTemplate]
 FriendlyName="Overdrive"
-Description="A failed hack will increase this target's Aim and Defense stats. Try to not fuck this up."
+Description="Your incompetence will increase this target's Aim and Defense stats. Try to not fuck this up."
 
 [ControlRobot_Mission X2HackRewardTemplate]
 FriendlyName="Get a Robot Minion"
@@ -3451,7 +3457,7 @@ LocPromotionPopupText="<Bullet/> Overcharge only applies to non-lethal attacks.<
 LocFriendlyName="Rend"
 LocLongDescription="Melee attack with a chance to stun or disorient the target. Cannot miss. Triggers Momentum, and generates Devil Trigger on kills."
 LocHelpText="Melee attack with a chance to stun or disorient the target. Triggers Momentum, and generates Devil Trigger on kills."
-LocFlyOverText="ALL THESE VOICES INSIDE OF MY HEAD?"
+LocFlyOverText="ALL THESE VOICES INSIDE OF MY HEAD"
 
 [Momentum X2AbilityTemplate]
 LocFriendlyName="Momentum"
@@ -3634,15 +3640,14 @@ LocFlyOverText="Mind if i cut in?"
 
 [JudgmentTrigger X2AbilityTemplate]
 LocFlyOverText="Your mom ayy"
-LocPromotionPopupText=""
 LocMissMessage="Well, yeah"
 
 
 [Overdrive X2AbilityTemplate]
 LocFriendlyName="Overdrive"
-LocLongDescription="Take three actions this turn, and no action is turn-ending. Multiple Standard Shots incur a /"small/" recoil penalty."
-LocHelpText="Take three actions this turn, and no action is turn-ending. Multiple Standard Shots incur a /"small/" recoil penalty."
-LocPromotionPopupText="<Bullet/> A recoil penalty of <Ability:Overdrive_RecoilPenalty/>% Aim is applied after each Standard Shot while Overdrive is active.<br/><Bullet/> Overdrive has no cost to activate, but has a <Ability:SelfCooldown/> turn cooldown.<br/>"
+LocLongDescription="Take three actions this turn, and no action is turn-ending. Multiple Standard Shots incur a /"small/" loan of aiming."
+LocHelpText="Take three actions this turn, and no action is turn-ending. Multiple Standard Shots incur a /"small/" loan of aiming."
+LocPromotionPopupText="<Bullet/> Take a small loan of <Ability:Overdrive_RecoilPenalty/>% Aim after each Standard Shot while Overdrive is active.<br/><Bullet/> Overdrive has no cost to activate, but has a <Ability:SelfCooldown/> turn cooldown.<br/>"
 LocFlyOverText="And this... is to go even further BEYOND"
 
 
@@ -3853,12 +3858,12 @@ LocFlyOverText="Mind Fuck"
 
 [ChangeForm X2AbilityTemplate]
 LocLongDescription="A Fellow Human's body is extremely malleable, permitting it to adopt the form and appearance of anyone whose DNA it has sampled."
-LocHelpText="Disguise this Fellow Human as an idiot."
+LocHelpText="Disguise this Fellow Human as an idiot, just like any other human."
 LocFlyOverText="Change Form"
 
 [ScythingClaws X2AbilityTemplate]
 LocLongDescription="The shapechanging abilities of a Fellow Human permit it to grow giant claws that can strike enemies from several meters away."
-LocHelpText="Close-range swipe at a target with the Fellow Human's claws."
+LocHelpText="Close-range swipe at a target with the Fellow Human's claws, just like any other human."
 
 [Regeneration X2AbilityTemplate]
 LocLongDescription="The Fellow Human recovers <Ability:FACELESSREGEN/> health at the start of each of its turns."
@@ -4010,7 +4015,7 @@ ParthenogenicPoisonFriendlyName="Zergling AIDS"
 ParthenogenicPoisonFriendlyDesc="Infected with Zergling toxin. If this unit dies while poisoned, it will form a cocoon and spawn more Zerglings."
 
 [ChyssalidPoison X2AbilityTemplate]
-LocFriendlyName="Zergling Poison"
+LocFriendlyName="Zergling AIDS"
 LocLongDescription="Zergling attacks poison their target, dealing damage over time. If an enemy dies while poisoned, they will form a cocoon which will start spawning more Zerglings."
 LocHelpText="A strong poison that, if fatal, will create a Zergling Cocoon."
 
@@ -4078,11 +4083,12 @@ LocLongDescription="By opening a miniature gateway and focusing the released ene
 LocFriendlyName="Tentacle Rape"
 LocLongDescription="The touch of a Pokéball may restore the virginity of a nearby unit, healing itself while causing severe damage. If the target is slain by this attack, it may be reanimated as a redditor."
 LocHelpText="Drain the life of a humanoid target at melee range, raising it as a Redditor if it is killed."
-LocFlyoverText="THIS IS JUST LIKE ONE OF MY JAPANISE ANIMES"
+LocFlyoverText="THIS IS JUST LIKE ONE OF MY JAPANESE ANIMES"
 
 [AnimaInversion X2AbilityTemplate]
 LocLongDescription="Open a devastating psionic rift in an area. Any humanoid enemies killed can be raised as redditors."
 LocHelpText="Open a devastating psionic rift in an area. Any humanoid enemies killed can be raised as redditors."
+LocFlyoverText="Ressurection... by ERECTION"
 
 [Retract X2AbilityTemplate]
 LocLongDescription="If an open Pokéball is hit by an attack and takes damage, it is likely to retract into its shell."
@@ -4198,13 +4204,13 @@ LocFlyOverText="Horror!"
 LocFriendlyName="Shadowbind"
 LocHelpText="Creates a shadowy copy of a humanoid target, which retains all of the target's abilities."
 LocLongDescription="Creates a shadowy copy of a humanoid target, which retains all of the target's abilities."
-LocFlyOverText="Shadowbind"
+LocFlyOverText="*encodes your soldier*"
 
 [ShadowbindM2 X2AbilityTemplate]
 LocFriendlyName="Shadowbind"
 LocHelpText="Creates a shadowy copy of a humanoid target, which retains all of the target's abilities."
 LocLongDescription="Creates a shadowy copy of a humanoid target, which retains all of the target's abilities."
-LocFlyOverText="Shadowbind"
+LocFlyOverText="*encodes your soldier*"
 
 ; ================================================
 ; ADVENT Priest Abilities
@@ -4220,7 +4226,7 @@ LocFlyOverText="They can´t get older if I do this"
 
 [LostAttack X2AbilityTemplate]
 LocLongDescription="Shitposter Melee Attack."
-LocHelpText="Shitposter Melee Attack."
+LocHelpText="Shitposter Melee Attack. It tickles."
 
 [LostHowlerAbility X2AbilityTemplate]
 LocLongDescription="Shitposter Howls."
@@ -4486,10 +4492,10 @@ m_sChosenTurn="Swiggity Swooty the Edgelord's comin' for that booty"
 m_arrDifficultyTypeStrings[0]="Little Bitch"
 m_arrDifficultyTypeStrings[1]="Baby Mode"
 m_arrDifficultyTypeStrings[2]="Easy Mode"
-m_arrDifficultyTypeStrings[3]="That's XCOM, baby!
+m_arrDifficultyTypeStrings[3]="That's XCOM, baby!"
 m_arrDifficultyDescStrings[0]="Are you for real?"
-m_arrDifficultyDescStrings[1]="A difficulty appropriate for players that wants a \"cinematic experience\"."
-m_arrDifficultyDescStrings[2]="A significantly easier game for those that can't handle losing."
+m_arrDifficultyDescStrings[1]="A difficulty appropriate for game journalists that want a \"cinematic experience\"."
+m_arrDifficultyDescStrings[2]="A significantly easier game for those that can't handle losing, like VTubers."
 m_arrDifficultyDescStrings[3]="The real game. Completing a campaign on the other \"difficulties\" does not count."
 m_strDifficultyIronmanDesc="Play with a single save that is updated automatically as you progress through the game. In an Ironmeme game your choices, and their consequences, are permanent."
 m_strDifficultyEnableIronman="Ironmeme"
@@ -4523,10 +4529,10 @@ XPACKNarrativeWithTutorialOptionDesc="The War of the Edgelords narrative is auto
 [XComGame.X2StatusEffects]
 [X2StatusEffects]
 BleedingOutFriendlyName="Losing all their jelly."
-BleedingOutFriendlyDesc="Once the unit finishes bleeding out, it dies. Stabilize with a medikit to stop the bleeding."
+BleedingOutFriendlyDesc="Once the unit finishes bleeding out, it fucking dies. Stabilize with a medikit to stop the bleeding."
 BleedingOutEffectAcquiredString="<XGParam:StrValue0/!UnitName/> is losing all their jelly."
 BleedingOutEffectTickedString="<XGParam:StrValue0/!UnitName/> is still losing all their jelly."
-BleedingOutEffectLostString="<XGParam:StrValue0/!UnitName/> is no losing all their jelly"
+BleedingOutEffectLostString="<XGParam:StrValue0/!UnitName/> is no longer losing all their jelly."
 
 BurningFriendlyName="SQUIRTLE I'M DYING"
 BurningEffectAcquiredString="<XGParam:StrValue0/!UnitName/> is burning! SQUIRTLE, use water gun!"
@@ -4564,8 +4570,8 @@ PoisonedEffectLostString="<XGParam:StrValue0/!UnitName/> got their AIDS cured."
 
 StunnedFriendlyName="Banned!"
 StunnedFriendlyDesc="Still alive, but unable to do anything."
-StunnedEffectAcquiredString="<XGParam:StrValue0/!UnitName/> is b&!."
-StunnedEffectTickedString="<XGParam:StrValue0/!UnitName/> is still b&!."
+StunnedEffectAcquiredString="<XGParam:StrValue0/!UnitName/> is b&!"
+StunnedEffectTickedString="<XGParam:StrValue0/!UnitName/> is still b&!"
 StunnedEffectLostString="<XGParam:StrValue0/!UnitName/> begged to moot and got back in."
 
 RoboticStunnedFriendlyName="BEEP BOOP SHUTDOWN"
@@ -5163,7 +5169,7 @@ PostMissionFailureText="Failed to Counter Dank Event: Air Patrols"
 [DarkEvent_MutonEngineers X2DarkEventTemplate]
 DisplayName="Demolitions Experts"
 SummaryText="The Ayyliens deploy units with enhanced cover destruction abilities."
-QuoteText="\"Come on, alkhba! I'm STILL ALIVE!!!\""
+QuoteText="\"Come on, alkhba! I'm STILL ALIVE!\""
 QuoteTextAuthor="- Unidentified XCOM Corporal (KIA)"
 PreMissionText="Grants some ADVENT soldiers and Dickhead the Sapper ability."
 PostMissionSuccessText="Dank Event Countered: Dickhead Engineers"
@@ -5407,7 +5413,7 @@ Description="ADVENT SANICs gain the Moonwalker ability, which grants bonus dodge
 [DarkEvent_Formidable X2DarkEventTemplate]
 DisplayName="Tactical Upgrades: Formidable"
 SummaryText="Some enemies gain the Formidable ability, giving them extra armor and resistance to explosives."
-QuoteText="\"We're going to need a fucking air strike.\""
+QuoteText="\"We're going to need a fucking airstrike.\""
 QuoteTextAuthor="- Anonymous Staff Sergeant"
 PreMissionText="Grants several enemies the Formidable ability."
 PostMissionSuccessText="Dank Event Countered: Tactical Upgrades (Formidable)"
@@ -5678,7 +5684,7 @@ SummaryText="The Edgelord's attack on our storage area left one of the crew inju
 
 [Sabotage_CargoHold X2SabotageTemplate]
 DisplayName="CARGO HOLD!"
-SummaryText="The recent sabotage by the Edgelord damaged our cargo hold. <XGParam:StrValue0/!SuppliesValue/> Supplies destroyed!"
+SummaryText="The recent sabotage by the Edgelord damaged our cargo hold. <XGParam:StrValue0/!SuppliesValue/> Dosh destroyed!"
 
 [Sabotage_ServerArray X2SabotageTemplate]
 SummaryText="Our servers were damaged during the Edgelord's recent act of sabotage. <XGParam:StrValue0/!IntelValue/> Intel destroyed!"
@@ -5885,7 +5891,7 @@ PostMissionSuccessText="Dank Event Countered: Shitposter World"
 PostMissionFailureText="Failed to Counter Dank Event: Shitposter World"
 
 [DarkEvent_Barrier X2DarkEventTemplate]
-DisplayName="Advent Alienware"
+DisplayName="ADVENT Alienware"
 SummaryText="Enemy tech and Psionic defense are doubled."
 QuoteText="\"5000 dosh for a laptop? What a rip-off.\""
 QuoteTextAuthor="- Chief Engineer Shen"
@@ -5925,7 +5931,7 @@ PostMissionFailureText="Failed to Counter Dank Event: Made Whole"
 [DarkEvent_WildHunt X2DarkEventTemplate]
 DisplayName="Wild Hunt"
 SummaryText="The Edgelords are much more likely to appear in combat."
-QuoteText="\"Yay, free AP.\""
+QuoteText="\"Yay, free APs.\""
 QuoteTextAuthor="- Anonymous XCOM Gunnery Sergeant (KIA)"
 PreMissionText="The Edgelords are much more likely to appear in combat."
 PostMissionSuccessText="Dank Event Countered: Wild Hunt"
@@ -5957,7 +5963,7 @@ KnowledgeGainFirstBullet[eChosenKnowledge_Sentinel]="Edgelords increases risks o
 KnowledgeGainFirstBullet[eChosenKnowledge_Collector]="Edgelords more likely to capture soldiers in combat!"
 KnowledgeGainFirstBullet[eChosenKnowledge_Raider]="Edgelords can launch an assault on the Avenger!"
 
-SabotageFailedLabel="Edgelord <XGParam:StrValue0/!ChosenClassName/> Edgelord fucked up!"
+SabotageFailedLabel="Edgelord <XGParam:StrValue0/!ChosenClassName/> fucked up!"
 
 [XComGame.XComGameState_HeadquartersAlien]
 [XComGameState_HeadquartersAlien]
@@ -6208,9 +6214,9 @@ FriendlyNamePlural="Wingman Corpses"
 BriefSummary="Beneath its elegant exterior, the Wingman is a surprisingly haphazard combination of flesh and metal."
 
 [CorpseMuton X2ItemTemplate]
-FriendlyName="Muton Corpse"
-FriendlyNamePlural="Muton Corpses"
-BriefSummary="Hidden beneath their battle armor, intricate tattoos and ritualized scarring make clear the Muton's continuing dedication to their tribal hierarchy." 
+FriendlyName="Dickhead Corpse"
+FriendlyNamePlural="Dickhead Corpses"
+BriefSummary="Hidden beneath their battle armor, intricate tattoos and ritualized scarring make clear the Dickhead's continuing dedication to their tribal hierarchy." 
 
 [CorpseChryssalid X2ItemTemplate]
 FriendlyName="Zergling Corpse"
@@ -6235,7 +6241,7 @@ BriefSummary="The Computer Waifu leaves only this small, nearly featureless \"br
 [CorpseGatekeeper X2ItemTemplate]
 FriendlyName="Pokéball Shell"
 FriendlyNamePlural="Pokéball Shells"
-BriefSummary="The organism within the Pokéball’s shell is highly unusual, seemingly reliant on the shell itself for sensory input. Long sequences of engraved symbols not unlike ancient hieroglyphs adorn the inner lining of the shell."
+BriefSummary="The organism within the Pokéball’s shell is highly unusual, seemingly reliant on the shell itself for sensory input. Long sequences of engraved symbols not unlike ancient hieroglyphs adorn the inner lining of the shell, as well as scratches made by an unknown sharp object that spell, in English, \"DIE ASH DIE\"."
 
 [CorpseBerserker X2ItemTemplate]
 FriendlyName="XBOXHUEG Corpse"
@@ -6362,7 +6368,7 @@ BriefSummary="Despite his fixation on Psionic power, even the Edgelord Warlock c
 
 [TheLost X2SitRepTemplate]
 FriendlyName="Shitposters"
-Description="Shitposters are known to be present in the surrounding area. Exercise restraints when using explosives. Or not."
+Description="Shitposters are known to be present in the surrounding area. Exercise restraint when using explosives. Or not."
 
 [TheHorde X2SitRepTemplate]
 FriendlyName="The Horde"
@@ -6805,7 +6811,7 @@ TraitQuotes[4]="\"The odds are against us! The odds are always against us!\""
 TraitFriendlyName="Fear of AIDS"
 TraitScientificName="Homophobia"
 TraitDescription="Chance to panic when poisoned or when squadmates are poisoned."
-TraitQuotes[0]="\"Advent injecting sneks with STD's was a really dick move.\""
+TraitQuotes[0]="\"ADVENT injecting sneks with STDs was a really dick move.\""
 TraitQuotes[1]="\"There was venom everywhere, you could smell it through the mask.\""
 TraitQuotes[2]="\"No offense, but this ship is no place to get the clap.\""
 TraitQuotes[3]="\"She just kept screaming...it was already in her bloodstream...\""
@@ -7127,7 +7133,7 @@ LocFlyOverText="SHUT THE FUCK UP AND SLEEP"
 LocFlyOverText="Stop napping you wanker!"
 
 [Strike X2AbilityTemplate]
-LocFlyOverText="I...cast...FIST!"
+LocFlyOverText="I... cast... FIST!"
 
 
 ; ================================================
@@ -7144,6 +7150,10 @@ QuoteTextAuthor="Anonymous Zealot"
 TacticalAnalysisFlyoverText="Fuck you, I got Tactical Analysis!"
 TacticalAnalysisWorldMessageText="<XGParam:StrValue0/!UnitName/> impaired by Tactical Analysis."
 FeedbackFlyoverText="THE RIDE NEVER ENDS"
+
+m_strInstantResourceCacheTitle=RAPID COLLECTION
+m_strInstantResourceCacheBody=Commander, thanks to the RAPID COLLECTION Resistance Order the Gopniks have somehow conjured the Dosh Drop into the Avenger for us, and the Dosh are immediately available!\n
+
 
 ; ================================================
 ; Feral SPARKs
