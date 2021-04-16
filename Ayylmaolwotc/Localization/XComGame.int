@@ -301,6 +301,41 @@ Description="Take control of this unit for rest of the mission and gain stat bon
 [ScanningProtocol X2AbilityTemplate]
 LocPromotionPopupText="<Bullet/> Scanning Protocol gains bonus charges with improved Gremlins.<br/><Bullet/> In addition to hidden and disguised enemies, enemies blocked from line of sight by walls or obstructions will also be revealed by Scanning Protocol.<br/>"
 
+;;;;;;;;;;;;;;;;;;;;  OFFICER ABILITIES ;;;;;;;;;;;;;;;;;;;;;;;
+
+[TakeThis X2AbilityTemplate]
+LocFlyOverText="2nd amendment and all that"
+
+[Commissar X2AbilityTemplate]
+LocFlyOverText="Die, heretic!"
+
+[FocusFire X2AbilityTemplate]
+LocFriendlyName="Focus Fire"
+LocFlyOverText="EXTRA PENETRATION ON THAT ASSHOLE RIGHT THERE"
+
+[OscarMike X2AbilityTemplate]
+LocFriendlyName="Oscar Mike"
+LocFlyOverText="YOU GUYS MOVE AND YOUR ASSES ARE GRASS wait that doesn't quite work in plural"
+
+[GetSome X2AbilityTemplate]
+LocFriendlyName="Get Some"
+LocFlyOverText="BEHEAD THOSE WHO INSULT XCOM"
+
+[Incoming X2AbilityTemplate]
+LocFriendlyName="Incoming!"
+LocFlyOverText="GET DOWN ON THE GROUND"
+
+[Command X2AbilityTemplate]
+LocFriendlyName="Command"
+LocFlyOverText="Show me your WAR face!"
+
+[Jammer X2AbilityTemplate]
+LocFriendlyName="Jammer"
+LocFlyOverText="We're no strangers to love You know the rules and so do I A full commitment's what I'm thinking of You wouldn't get this from any other guy I just wanna tell you how I'm feeling Gotta make you understand Never gonna give you up Never gonna let you down Never gonna run around and desert you Never gonna make you cry Never gonna say goodbye Never gonna tell a lie and hurt you We've known each other for so long Your heart's been aching but you're too shy to say it Inside we both know what's been going on We know the game and we're gonna play it And if you ask me how I'm feeling Don't tell me you're too blind to see Never gonna give you up Never gonna let you down Never gonna run around and desert you Never gonna make you cry Never gonna say goodbye Never gonna tell a lie and hurt you Never gonna give you up Never gonna let you down Never gonna run around and desert you Never gonna make you cry Never gonna say goodbye Never gonna tell a lie and hurt you Never gonna give, never gonna give (Give you up) We've known each other for so long Your heart's been aching but you're too shy to say it Inside we both know what's been going on We know the game and we're gonna play it I just wanna tell you how I'm feeling Gotta make you understand Never gonna give you up Never gonna let you down Never gonna run around and desert you Never gonna make you cry Never gonna say goodbye Never gonna tell a lie and hurt you Never gonna give you up Never gonna let you down Never gonna run around and desert you Never gonna make you cry Never gonna say goodbye Never gonna tell a lie and hurt you Never gonna give you up Never gonna let you down Never gonna run around and desert you Never gonna make you cry Never gonna say goodbye"
+
+[Intervention X2AbilityTemplate]
+LocFriendlyName="Intervention"
+LocFlyOverText="Fuck this, I'm not getting paid enough to fail!"
 
 ;;;;;;;;;;;;;;;;;;;;  GRENADIER ABILITIES ;;;;;;;;;;;;;;;;;;;;;;;
 
@@ -379,16 +414,6 @@ LocFriendlyName="Tunnel Vision"
 
 [RapidReaction X2AbilityTemplate]
 LocFlyOverText="Ogrewatch: you've activated my trap card!"
-
-[TakeThis X2AbilityTemplate]
-LocFlyOverText="2nd amendment and all that"
-
-[Commissar X2AbilityTemplate]
-LocFlyOverText="DIE HERETIC"
-
-[FocusFire X2AbilityTemplate]
-LocFriendlyName="Focus Fire"
-LocFlyOverText="EXTRA PENETRATION ON THAT ASSHOLE RIGHT THERE"
 
 ;;;;;;;;;;;;;;;;;;;;  SHARPSHOOTER ABILITIES ;;;;;;;;;;;;;;;;;;;;;;;
 
@@ -1295,8 +1320,8 @@ HairTriggerFreeAction="Hair Trigger: Aww Yiss!"
 [AutopsyMutonElite X2TechTemplate]
 DisplayName="Big Black Dickhead Autopsy"
 CodeName="Bluton"
-Summary="This behemoth is different enough from other Mutons that it merits a specific investigation."
-LongDescription="Central Officer Bradford has indicated that XCOM had intelligence reports of an elite form of Dickhead that served as a guardian to the Elders. This creature appears to be that form. The genetic enhancements extend into the creature's brain, suggesting it is more able to recognize complex patterns and process information quickly in combat situations. Additionally, the cadaver of this subject also appears to have several cybernetic endoskeletons to boost the already powerful genetic modifications of this subject, some of which might might be useful for our weapon developments. I intend to let Shen investigate as to how to effectively use such contraptions, for my knowledge of prosthetics are far inferior to hers. R. Tygan."
+Summary="This behemoth is vastly different enough from other Dickheads, in both genetic modification and equipment, that it merits a specific investigation."
+LongDescription="Central Officer Bradford has indicated that XCOM had intelligence reports of an elite form of Dickhead that served as a guardian to the Elders. This creature appears to be that form. The genetic enhancements extend into the creature's brain, suggesting it can recognize complex patterns and process information quickly in combat situations. Additionally, the cadaver of this subject also appears to have several cybernetic endoskeletons to boost the already powerful genetic modifications of this subject, some of which might be useful for our weapon developments. I intend to let Shen investigate how to effectively use such contraptions, for my knowledge of prosthetics is far inferior to hers. -R. Tygan.\n\nOne of the more exciting cybernetics found in this type of Dickhead is the tracking device somehow graphed to its brain. Initial testings show that it can, true to the name, track targets within its spherical vision. While we humans can't simply jab this to our eyeballs - yet - we can create a special missile warhead that can guide itself to a targeted area. During our bizarre adventures against ADVENT, I've found several blueprints about a perfect warhead charge for this project for our Technicals to squee like little girls by now.\n\nEven more surprisingly, we also took a scan at its body armor, and I got some ideas of improving our ballistic plates thanks to the composition and materials used in it. No, we can't replicate its shield, but we can come close enough with this new \"carapace\" plating system. We can also use our old archives to make this work, because I think there's enough similarities between the Dickhead's armor and the old alloy plate carrier prototype during the Invasion to use. -L. Shen."
 AlertString="Big Black Dickhead"
 
 
@@ -3345,7 +3370,6 @@ LocFlyOverText="*Angry Gremlin noises*"
 
 
 
-
 [BuffEnemy_FullOverride X2HackRewardTemplate]
 FriendlyName="Overdrive"
 Description="Your incompetence will increase this target's Aim and Defense stats. Try to not fuck this up."
@@ -4204,13 +4228,13 @@ LocFlyOverText="Horror!"
 LocFriendlyName="Shadowbind"
 LocHelpText="Creates a shadowy copy of a humanoid target, which retains all of the target's abilities."
 LocLongDescription="Creates a shadowy copy of a humanoid target, which retains all of the target's abilities."
-LocFlyOverText="*encodes your soldier*"
+LocFlyOverText="*encodes ur soldier*"
 
 [ShadowbindM2 X2AbilityTemplate]
 LocFriendlyName="Shadowbind"
 LocHelpText="Creates a shadowy copy of a humanoid target, which retains all of the target's abilities."
 LocLongDescription="Creates a shadowy copy of a humanoid target, which retains all of the target's abilities."
-LocFlyOverText="*encodes your soldier*"
+LocFlyOverText="*encodes ur soldier*"
 
 ; ================================================
 ; ADVENT Priest Abilities
@@ -4393,7 +4417,7 @@ GrazeHit="DODGE: PALED BROOK FIX YOUR BULLSHIT"
 ShreddedMessage="SHREKT"
 ParryMessage="nice try bitch"
 ShieldedMessage="COCKBLOCKED"
-
+EverVigilantWithCoveringFire="I ran all this way under fire carrying all the equipment and all I got is a lousy Ogrewatch"
 
 
 [XcomGame.UIEventNoticesTactical]
@@ -4497,7 +4521,7 @@ m_arrDifficultyDescStrings[0]="Are you for real?"
 m_arrDifficultyDescStrings[1]="A difficulty appropriate for game journalists that want a \"cinematic experience\"."
 m_arrDifficultyDescStrings[2]="A significantly easier game for those that can't handle losing, like VTubers."
 m_arrDifficultyDescStrings[3]="The real game. Completing a campaign on the other \"difficulties\" does not count."
-m_strDifficultyIronmanDesc="Play with a single save that is updated automatically as you progress through the game. In an Ironmeme game your choices, and their consequences, are permanent."
+m_strDifficultyIronmanDesc="Play with a single save that is updated automatically as you progress through the game. In an Ironmeme game your fuck-ups, and their consequences, are permanent."
 m_strDifficultyEnableIronman="Ironmeme"
 m_strIronmanLabel="Ironmeme Mode"
 
@@ -6927,21 +6951,24 @@ ActionFriendlyName="by Defeating an Edgelord"
 ; ================================================
 
 [ResCard_PopularSupportI X2StrategyCardTemplate]
-SummaryText="Supplies collected from each Dosh Drop are increased by <XGParam:IntValue0/>%."
+SummaryText="Dosh collected from each Dosh Drop are increased by <XGParam:IntValue0/>%."
 
 [ResCard_PopularSupportII X2StrategyCardTemplate]
-SummaryText="Supplies collected from each Dosh Drop are increased by <XGParam:IntValue0/>%."
+SummaryText="Dosh collected from each Dosh Drop are increased by <XGParam:IntValue0/>%."
 
 [ResCard_RecruitingCenters X2StrategyCardTemplate]
 SummaryText="New recruits cost only <XGParam:IntValue0/> Dosh."
 
 [ResCard_LiveFireTraining X2StrategyCardTemplate]
-QuoteText="My people wrote the book on gorilla tactics, unfortunately for you we adhere to the oral tradition."
+QuoteText="My people wrote the book on gorilla tactics, unfortunately for you we adhere to the anal tradition."
 
 [ResCard_RapidCollection X2StrategyCardTemplate]
 SummaryText="Resistance dosh drops are collected instantly."
+QuoteText="You trying to kill me with logistics, Volk? How the fuck can I magic up our supply cache into the Avenger?!"
+QuoteTextAuthor="Central Officer Bradford"
 
 [ResCard_BetweenTheEyes X2StrategyCardTemplate]
+QuoteText="Now you can see what it's like being a Gopnik."
 SummaryText="Any XCOM shot that hits a Shitposter is an instant headshot kill."
 
 [ResCard_Sabotage X2StrategyCardTemplate]
@@ -6954,6 +6981,10 @@ QuoteText="The Elders' Edgelords are not as superior as they would have us belie
 [ChosenAction_DarkEvent X2ChosenActionTemplate]
 DisplayName="Dank Event"
 SummaryText="The Edgelord will initiate an additional Dank Event."
+
+[ResCard_Feedback X2StrategyCardTemplate]
+QuoteText="One does not simply get off MR. GEIST'S WILD RIDE. The power of the Earth wills it."
+QuoteTextAuthor="Anonymous Zealot"
 
 ; ================================================
 ; DLC Enemies
@@ -7137,14 +7168,8 @@ LocFlyOverText="I... cast... FIST!"
 
 
 ; ================================================
-; Resistance Order and Extra
+; Resistance Orders' Extra
 ; ================================================
-
-[ResCard_Feedback X2StrategyCardTemplate]
-DisplayName="Feedback"
-SummaryText="Psionic attacks on XCOM units will cause damage to the caster."
-QuoteText="One does not simply get off MR. GEIST'S WILD RIDE. The power of the Earth wills it."
-QuoteTextAuthor="Anonymous Zealot"
 
 [X2Ability_XPackAbilitySet]
 TacticalAnalysisFlyoverText="Fuck you, I got Tactical Analysis!"
