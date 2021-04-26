@@ -337,6 +337,9 @@ LocFlyOverText="We're no strangers to love You know the rules and so do I A full
 LocFriendlyName="Intervention"
 LocFlyOverText="Fuck this, I'm not getting paid enough to fail!"
 
+[LeadByExample X2AbilityTemplate] ;subordinates getting the effect
+LocFriendlyName="Every Mission Is A Suicide Mission"
+
 ;;;;;;;;;;;;;;;;;;;;  GRENADIER ABILITIES ;;;;;;;;;;;;;;;;;;;;;;;
 
 [Protector X2AbilityTemplate]
@@ -464,6 +467,9 @@ LocFlyOverText="UNLIMITED POWER!"
 
 [CloseCombatSpecialistAttack X2AbilityTemplate]
 LocFlyOverText= "*laughs* You dumb bitch"
+
+[RemoveEvasive X2AbilityTemplate]
+LocFlyOverText="Evasive bonus lost: what do you mean, the next hit's a crit?!"
 
 ;;;;;;;;;;;;;;;;;;;; GEAR ABILITIES ;;;;;;;;;;;;;;;;;;;;;;;;
 
@@ -3026,8 +3032,8 @@ FriendlyName="Flammenwerfer's Flammenwerfer"
 FriendlyName="Flammenwerfer's Flammenwerfer"
 
 [CorpseAdventPurifier X2ItemTemplate]
-FriendlyName="ADVENT Flammenwerfer Corpse"
-FriendlyNamePlural="ADVENT Flammenwerfer Corpses"
+FriendlyName="<font color='#FFC300'>ADVENT Flammenwerfer Corpse</font>"
+FriendlyNamePlural="<font color='#FFC300'>ADVENT Flammenwerfer Corpses</font>"
 BriefSummary="This unit werfs flammen. That's bad. For you that is."
 
 [FearOfFire X2TraitTemplate]
@@ -3334,7 +3340,7 @@ LocFlyOverText="Can you stop getting shot FOR 5 MINUTES"
 
 [LWS_Specialist X2SoldierClassTemplate]
 DisplayName="Nerd"
-ClassSummary="Operating and wasting some of our most advanced equipment, Nerds deploy robotic drones on the battlefield that can be outfitted for magical hacking, field medic duty, or a dependable overwatcher, with the drawback of piss-poor offensive capabilities. A possible reason why they pursue this specialization may be due to the abnormally high amount of extreme hazing and *personality building* attempts by our senior operatives."
+ClassSummary="Operating and wasting some of our most advanced equipment, Nerds deploy robotic drones on the battlefield that can be outfitted for magical hacking, field medic duty, or a dependable overwatcher, with the drawback of piss-poor offensive capabilities. A possible reason why they even exist is due to the high amount of extreme hazing and *personality building* by our senior operatives."
 LeftAbilityTreeTitle="Doctor Nerd"
 RightAbilityTreeTitle="Computer Nerd"
 
@@ -3560,16 +3566,18 @@ LocLongDescription="When Devil Triggered, there is a chance to reflect incoming 
 LocHelpText="When the Templar has two or more Devil Trigger, there is a chance to reflect incoming shots back at the attacker, completely avoiding the damage."
 
 [TemplarInvert X2AbilityTemplate]
-LocFriendlyName="Invert"
+LocFriendlyName="Abduct Ayy"
 LocLongDescription="Switch locations with an enemy unit. Costs 1 Devil Trigger."
 LocHelpText="Switch locations with an enemy unit. Costs 1 Devil Trigger."
 LocPromotionPopupText="<Bullet/> Invert has a <Ability:SelfCooldown/> turn cooldown, and does not end the Templar's turn.<br/>"
+LocFlyOverText="Let's see how YOU like the probe"
 
 [TemplarExchange X2AbilityTemplate]
 LocFriendlyName="Exchange"
 LocLongDescription="Exchange locations with a squadmate. Costs 1 Devil Trigger."
 LocHelpText="Exchange locations with a squadmate. Costs 1 Devil Trigger."
 LocPromotionPopupText="<Bullet/> Exchange has a <Ability:SelfCooldown/> turn cooldown, and does not end the Templar's turn.<br/>"
+LocFlyOverText="Swapsies!"
 
 [DeepFocus X2AbilityTemplate]
 LocFriendlyName="Purple Orb"
@@ -3669,8 +3677,8 @@ LocMissMessage="Well, yeah"
 
 [Overdrive X2AbilityTemplate]
 LocFriendlyName="Overdrive"
-LocLongDescription="Take three actions this turn, and no action is turn-ending. Multiple Standard Shots incur a /"small/" loan of aiming."
-LocHelpText="Take three actions this turn, and no action is turn-ending. Multiple Standard Shots incur a /"small/" loan of aiming."
+LocLongDescription="Take three actions this turn, and no action is turn-ending. Multiple Standard Shots incur a \"small\" loan of <Ability:Overdrive_RecoilPenalty/>% Aim."
+LocHelpText="Take three actions this turn, and no action is turn-ending. Multiple Standard Shots incur a \"small\" loan of <Ability:Overdrive_RecoilPenalty/>% Aim."
 LocPromotionPopupText="<Bullet/> Take a small loan of <Ability:Overdrive_RecoilPenalty/>% Aim after each Standard Shot while Overdrive is active.<br/><Bullet/> Overdrive has no cost to activate, but has a <Ability:SelfCooldown/> turn cooldown.<br/>"
 LocFlyOverText="And this... is to go even further BEYOND"
 
