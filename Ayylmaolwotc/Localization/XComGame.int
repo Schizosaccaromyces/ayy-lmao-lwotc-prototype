@@ -359,6 +359,8 @@ LocFriendlyName="Every Mission Is A Suicide Mission"
 [BluescreenBombs X2AbilityTemplate]
 
 [TandemWarheads X2AbilityTemplate]
+LocFriendlyName="404 ERROR : MISSING_ABILITY"
+LocLongDescription="Does Basically nothing lmao"
 
 [GhostGrenade X2AbilityTemplate]
 
@@ -407,6 +409,13 @@ LocPromotionPopupText="<Bullet/> Gain two extra ammo in your boomstick.<br/>"
 
 [Fortify X2AbilityTemplate]
 LocFlyOverText="Surely that'll help me WHILE I'M STANDING IN THE OPEN"
+
+[Executioner_LW X2AbilityTemplate]
+LocFriendlyName="Kill Stealer"
+LocFlyOverText="Kill Stealer"
+LocLongDescription="Makes your team hate you. Confers +<Ability:EXECUTIONER_AIM_BONUS/> aim and +<Ability:EXECUTIONER_CRIT_BONUS/> critical chance against targets at half or less of their original hit points."
+LocHelpText="Makes your team hate you.Confers +<Ability:EXECUTIONER_AIM_BONUS/> aim and +<Ability:EXECUTIONER_CRIT_BONUS/> critical chance against targets at half or less of their original hit points."
+LocPromotionPopupText="<Bullet/> Confers +<Ability:EXECUTIONER_CRIT_BONUS/> aim and +<Ability:EXECUTIONER_CRIT_BONUS/> critical chance against targets at half or less of their original hit points.<br/>"
 
 [CombatFitness X2AbilityTemplate]
 
@@ -847,9 +856,9 @@ ClassSummary="Survivors of MR. GEIST'S WILD RIDE, Zealots are wildly-trained psi
 LeftAbilityTreeTitle="Psionic Pimphand"
 RightAbilityTreeTitle="MAJIK"
 
-+AbilityTreeTitles[0]="Psionic Pimphand"
-+AbilityTreeTitles[1]="LSD"
-+AbilityTreeTitles[2]="MAJIK"
++AbilityTreeTitles[0]="MAJIK"
++AbilityTreeTitles[1]="Psionic Pimphand"
++AbilityTreeTitles[2]="DEUS VULT"
 +AbilityTreeTitles[3]="XCOM"
 +AbilityTreeTitles[4]="Pistols"
 
@@ -3459,7 +3468,7 @@ LocPromotionPopupText="<Bullet/> Templars begin missions weaker than other soldi
 
 [XComGame.X2Effect_TemplarFocus]
 [X2Effect_TemplarFocus]
-SpecialDamageName="BLINDING MY SIDE IN THE CURTAIN OF RED"
+SpecialDamageName=""
 
 [FocusKillTracker X2AbilityTemplate]
 LocFriendlyName="Devil Trigger"
@@ -3493,7 +3502,7 @@ LocFlyOverText="ALL THESE VOICES INSIDE OF MY HEAD"
 LocFriendlyName="Momentum"
 LocLongDescription="After using Rend, gain a bonus movement action."
 LocHelpText="Gain up to one move per turn after using Rend."
-LocFlyOverText="KEEP GOING FAGET"
+LocFlyOverText="BLINDING MY SIDE IN THE CURTAIN OF RED"
 
 [MomentumPassive X2AbilityTemplate]
 LocFriendlyName="Momentum"
@@ -7202,3 +7211,7 @@ LocFriendlyName="Trigger Self-Destruct"
 LocLongDescription="Detonate the MEC, destroying it and damaging all nearby units."
 LocHelpText="Detonate the MEC, destroying it and damaging all nearby units."
 LocFlyOverText="HERE COMES THE PLANE!"
+
+[OneForAll X2AbilityTemplate]
+LocFriendlyName="THE WALL"
+LocFlyOverText="NOTHING ON EARTH WILL MAKE YOU FALL"
