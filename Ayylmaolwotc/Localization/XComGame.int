@@ -121,7 +121,7 @@ LocFlyOverText="This Cover will surely protect me!"
 ;;;;;;;;;;;;;;;;;;;;  TECHNICAL ABILITIES ;;;;;;;;;;;;;;;;;;;;;;;
 
 [HeavyArmaments X2AbilityTemplate]
-LocFriendlyName="Heavy Weapons"
+LocFriendlyName="Geneva Accords are just guidelines"
 LocFlyOverText="Heavy Weapons"
 LocLongDescription="This soldier is trained to use the XCOM gauntlet, a combination of Rocket Launcher and Flammenwerfer."
 LocHelpText="This soldier is trained to use the XCOM gauntlet, a combination of Rocket Launcher and  Flammenwerfer."
@@ -142,10 +142,10 @@ LocHelpText="Your flammenwerfer's base damage can now ignore fire immunities, an
 LocPromotionPopupText="<Bullet/> Your flammenwerfer can now ignore fire immunities.<br/><Bullet/> flammenwerfer attacks shred 1/2/3 armor depending on the weapon tier</br>"
 
 [NapalmX X2AbilityTemplate]
-LocFriendlyName="Napalm-X"
-LocFlyOverText="Napalm-X"
+LocFriendlyName="The Smell of Victory"
+LocFlyOverText="The Smell of Victory"
 LocLongDescription="Your Flammenwerfer can now disorient or panic enemies."
-LocHelpText="Napalm-X"
+LocHelpText="The Smell of Victory"
 LocPromotionPopupText="<Bullet/> Your Flammenwerfer can now disorient or panic enemies. Enemy units must pass a will check to avoid negative effects.<br/>"
 
 
@@ -159,8 +159,8 @@ LocPromotionPopupText="<Bullet/> Your Flammenwerfer has an increased range and c
 
 [Roust X2AbilityTemplate]
 LocFriendlyName="Roust"
-LocFlyOverText="Roust"
-LocLongDescription="Special Flammenwerfer shot that does limited damage but forces enemies to change their position."
+LocFlyOverText="KKK Tactics"
+LocLongDescription="Special Flammenwerfer shot that does limited damage but forces Ayys to leave the ghetto."
 LocHelpText="Special Flammenwerfer shot that forces enemies to change their location."
 LocPromotionPopupText="<Bullet/> Has a 20% chance to set enemies in the area of effect on fire and does limited damage.<br/><Bullet/> The narrow jet of flame has less impact on the environment.<br/><Bullet/> Units hit by the shot will be forced to move, often triggering Ogrewatch fire.<br/><Bullet/> One use per mission, but can gain an additional use with additional gear.<br/><Bullet/> Cannot be used from concealment."
 
@@ -360,7 +360,8 @@ LocFriendlyName="Every Mission Is A Suicide Mission"
 
 [TandemWarheads X2AbilityTemplate]
 LocFriendlyName="404 ERROR : MISSING_ABILITY"
-LocLongDescription="Does Basically nothing lmao"
+LocLongDescription="Does Basically nothing Lmao"
+LocHelpText="Does Basically nothing Lmao."
 
 [GhostGrenade X2AbilityTemplate]
 
@@ -2096,7 +2097,6 @@ TimerSmashNGrabSubtitle="Turns until Ayylien response"
 
 [BulletShred X2AbilityTemplate]
 
-[Faceoff X2AbilityTemplate]
 
 [SoulSteal X2AbilityTemplate]
 LocLongDescription="Soulfire transfers half of the damage done back to the Psi Operative as health or grants an ablative HP if you are uninjured."
@@ -2999,12 +2999,6 @@ strCharacterName="ADVENT Bouncer"
 [AdvScout X2CharacterTemplate]
 strCharacterName="ADVENT Scunt"
 
-[AdvGeneralM1 X2CharacterTemplate]
-strCharacterName="Important ADVENT Dude"
-
-[AdvGeneralM2 X2CharacterTemplate]
-strCharacterName="Important ADVENT Dude"
-
 
 ; ================================================
 ; Purifier Everything
@@ -3161,7 +3155,7 @@ LocFlyOverText="All of the bullets. All of them!"
 LocFlyOverText="NEVAR ENUFF DAKKA"
 
 [Demolition X2AbilityTemplate]
-LocFlyOverText="FUCK YOUR COVER"
+LocFlyOverText="What do you mean, "/collateral damage"/"
 
 [Salvo X2AbilityTemplate]
 LocFlyOverText="STILL LOBBIN' NADES, AND STILL SHREDDING!"
@@ -3178,7 +3172,11 @@ LocFlyOverText="BOOM SHAKALAKA"
 ; ================================================
 ; Gunner Everything
 ; ================================================
+[Suppression_LW X2AbilityTemplate]
+LocFlyOverText="haha go BRRRRRRRRRRRRRT"
 
+[AreaSuppression_LW X2AbilityTemplate]
+LocFlyOverText="haha go more BRRRRRRRRRRRRRT"
 
 [CyclicFire X2AbilityTemplate]
 LocFlyOverText="FUUUUUUCK YOUUUUUUUU"
@@ -3251,7 +3249,10 @@ LocFlyOverText="KEEP GOING FAGET"
 [LightningReflexes X2AbilityTemplate]
 LocFlyOverText="OH SHIT OH SHIT OH SHIT"
 
-
+[GrazingFire X2AbilityTemplate]
+LocFriendlyName="Imperial Stormtrooper Training"
+LocLongDescription="This soldier sucks so much at shooting that we gave him an additional roll for misses to become grazes out of pity."
+LocHelpText="Additional roll for missed shots to become grazed shots."
 
 [DeadeyeSnapShot X2AbilityTemplate]
 LocFlyOverText="Ow, did that hurt?"
@@ -3330,7 +3331,9 @@ LocFlyOverText="FUCK TRIGGER DISCIPLINE"
 [LightningHands X2AbilityTemplate]
 LocFlyOverText="Quickscope'd, bitch"
 
-
+[Faceoff X2AbilityTemplate]
+LocFriendlyName="Some of you are alright, don't go to class tommorow"
+LocFlyOverText="You should have called in sick"
 
 
 ; ================================================
@@ -3403,6 +3406,15 @@ LocLongDescription="You gain +<Ability:COOLUNDERPRESSUREBONUS/> Aim on Ogrwatch 
 LocHelpText="Bonus aim and chance to crit on Ogrewatch and reaction shots."
 LocFlyOverText="Cool Under Pressure"
 
+
+; ================================================
+; Assault Everything
+; ================================================
+[CloseEncounters X2AbilityTemplate]
+LocFlyOverText="PERSONAL SPACE! I NEED PERSONAL SPACE!"
+
+[HitAndRun X2AbilityTemplate]
+LocFlyOverText="I can smell you pissing yourself"
 ; ================================================
 ; Shinobi Everything
 ; ================================================
@@ -4352,7 +4364,11 @@ LocFlyOverText="THESE WOUNDS THEY WILL NOT HEAL"
 ; ================================================
 ; Chosen Hunter Abilities
 ; ================================================
-
+[YouCannotHide_LW X2AbilityTemplate]
+; LWOTC Needs Translation (2)
+LocFriendlyName="Fukin Aimbot Cheater"
+LocHelpText="Gain 100 aim with your primary weapon."
+LocLongDescription="Gain 100 aim with your primary weapon."
 ; ================================================
 ; Chosen Warlock Abilities
 ; ================================================
@@ -4610,7 +4626,7 @@ PoisonedEffectTickedString="<XGParam:StrValue0/!UnitName/> still got AIDS."
 PoisonedEffectLostString="<XGParam:StrValue0/!UnitName/> got their AIDS cured."
 
 StunnedFriendlyName="Banned!"
-StunnedFriendlyDesc="Still alive, but unable to do anything."
+StunnedFriendlyDesc="Still alive, but unable to spam, meme, or complain about difficulty."
 StunnedEffectAcquiredString="<XGParam:StrValue0/!UnitName/> is b&!"
 StunnedEffectTickedString="<XGParam:StrValue0/!UnitName/> is still b&!"
 StunnedEffectLostString="<XGParam:StrValue0/!UnitName/> begged to moot and got back in."
