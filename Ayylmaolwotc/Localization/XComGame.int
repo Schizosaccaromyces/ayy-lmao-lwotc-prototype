@@ -373,6 +373,12 @@ LocLongDescription="Does basically nothing lmao."
 [KnifeFighter X2AbilityTemplate]
 LocFlyOverText="The Basics of CQC: Stab the bitch."
 
+[Suppression X2AbilityTemplate]
+LocFlyOverText="AAAAAAAAA FUCKING HEEELP"
+
+[AreaSuppression X2AbilityTemplate]
+LocFlyOverText="AAAAAAAAA FUCKING HEEELP"
+
 [CombativesCounterAttack X2AbilityTemplate]
 LocFlyOverText="NO U"
 
@@ -4717,7 +4723,7 @@ LocFriendlyName="Meme Beacon"
 LocLongDescription="The Meme Beacon is thrown like a grenade, and generates a holographic decoy where it lands. This decoy will draw enemy attacks for one turn, unless its HP are depleted."
 
 [CombatStims X2AbilityTemplate]
-LocFlyOverText="POPPIN' AUTISM PILLS"
+LocFlyOverText="GOING HAM"
 
 [ScorchCircuitsDamage X2AbilityTemplate]
 LocFlyOverText="FLAME ON" ;doesn't work
@@ -7222,3 +7228,8 @@ LocFlyOverText="HERE COMES THE PLANE!"
 [OneForAll X2AbilityTemplate]
 LocFriendlyName="THE WALL"
 LocFlyOverText="NOTHING ON EARTH WILL MAKE YOU FALL"
+
+[XComGame.X2Ability_GrenadierAbilitySet]
+[X2Ability_GrenadierAbilitySet]
+SuppressionTargetEffectDesc="AAAAAA FUCKING HEEELP"
+SuppressionSourceEffectDesc="Currently suppressing a target."
