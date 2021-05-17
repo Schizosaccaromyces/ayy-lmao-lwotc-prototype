@@ -360,8 +360,8 @@ LocFriendlyName="Every Mission Is A Suicide Mission"
 
 [TandemWarheads X2AbilityTemplate]
 LocFriendlyName="404 ERROR : MISSING_ABILITY"
-LocLongDescription="Does Basically nothing Lmao"
-LocHelpText="Does Basically nothing Lmao."
+LocLongDescription="Does basically nothing lmao."
+
 
 [GhostGrenade X2AbilityTemplate]
 
@@ -373,6 +373,12 @@ LocHelpText="Does Basically nothing Lmao."
 
 [KnifeFighter X2AbilityTemplate]
 LocFlyOverText="The Basics of CQC: Stab the bitch."
+
+[Suppression X2AbilityTemplate]
+LocFlyOverText="AAAAAAAAA FUCKING HEEELP"
+
+[AreaSuppression X2AbilityTemplate]
+LocFlyOverText="AAAAAAAAA FUCKING HEEELP"
 
 [CombativesCounterAttack X2AbilityTemplate]
 LocFlyOverText="NO U"
@@ -415,8 +421,11 @@ LocFlyOverText="Surely that'll help me WHILE I'M STANDING IN THE OPEN"
 LocFriendlyName="Kill Stealer"
 LocFlyOverText="Kill Stealer"
 LocLongDescription="Makes your team hate you. Confers +<Ability:EXECUTIONER_AIM_BONUS/> aim and +<Ability:EXECUTIONER_CRIT_BONUS/> critical chance against targets at half or less of their original hit points."
-LocHelpText="Makes your team hate you.Confers +<Ability:EXECUTIONER_AIM_BONUS/> aim and +<Ability:EXECUTIONER_CRIT_BONUS/> critical chance against targets at half or less of their original hit points."
+LocHelpText="Makes your team hate you. Confers +<Ability:EXECUTIONER_AIM_BONUS/> aim and +<Ability:EXECUTIONER_CRIT_BONUS/> critical chance against targets at half or less of their original hit points."
 LocPromotionPopupText="<Bullet/> Confers +<Ability:EXECUTIONER_CRIT_BONUS/> aim and +<Ability:EXECUTIONER_CRIT_BONUS/> critical chance against targets at half or less of their original hit points.<br/>"
+
+[TacticalSense X2AbilityTemplate]
+LocPromotionPopupText="<Bullet/> Gain 3 defense for each living enemy you can see, up to a maximum of 15 defense.<br/><Bullet/> Units visible at squadsight ranges do not confer bonus.<br/><Bullet/> This ability does not provide defensive bonuses if the unit is disoriented, stunned, panicking, on fire or otherwise impaired.<br/><Bullet/> Speaking honestly, if you actually got the full 15 defense out of this, you would've just gonna fucking die."
 
 [CombatFitness X2AbilityTemplate]
 
@@ -841,12 +850,12 @@ RightAbilityTreeTitle="200 IQ Positioning"
 [Reaper X2SoldierClassTemplate]
 DisplayName="Gopnik"
 ClassSummary="Drunken racist hunter-gatherers living off homemade vodka and Zergling eggs within the Chernobyl Nuclear Power Plant, Gopniks exist solely to become one with the hardbass and invade Ukraine, as well as deleting themselves off the face of this Earth before reappearing to vaporize some unfortunate buttfucker off the planet."
-LeftAbilityTreeTitle="\"STELS\""
-RightAbilityTreeTitle="Sociopath"
+LeftAbilityTreeTitle="Sociopath"
+RightAbilityTreeTitle="\"STELS\""
 
-+AbilityTreeTitles[0]="\"STELS\""
++AbilityTreeTitles[0]="Sociopath"
 +AbilityTreeTitles[1]="Knife Fetish"
-+AbilityTreeTitles[2]="Sociopath"
++AbilityTreeTitles[2]="\"STELS\""
 +AbilityTreeTitles[3]="XCOM"
 +AbilityTreeTitles[4]="Pistols"
 
@@ -854,8 +863,8 @@ RightAbilityTreeTitle="Sociopath"
 [Templar X2SoldierClassTemplate]
 DisplayName="Zealot"
 ClassSummary="Survivors of MR. GEIST'S WILD RIDE, Zealots are wildly-trained psionic cosplayers (and Nightcore enthusiasts) who managed to become a major faction by stumbling into an anonymously displaced ayylien psi technology and are now running around pretending to be actual Protoss. They get more insanely powerful as their rave party continues."
-LeftAbilityTreeTitle="Psionic Pimphand"
-RightAbilityTreeTitle="MAJIK"
+LeftAbilityTreeTitle="MAJIK"
+RightAbilityTreeTitle="DEUS VULT"
 
 +AbilityTreeTitles[0]="MAJIK"
 +AbilityTreeTitles[1]="Psionic Pimphand"
@@ -910,7 +919,7 @@ RightAbilityTreeTitle="Support"
 
 [LWS_Gunner X2SoldierClassTemplate]
 DisplayName="Gunner"
-ClassSummary="The Gunner is trained to use a variety of squad support weapons, able to cover the squad with suppressive fire or inflict significant damage in direct attacks. Their close exposure to the abominations Shen calls a \"Cannon\" often makes some of them going insane after claiming they have found the power of God and-or the upper limit of dakka through their LMGs."
+ClassSummary="The Gunner is trained to use a variety of light support weapons, able to cover the squad with suppressive fire or inflict significant damage in direct attacks. Their close exposure to the eldritch abominations Shen calls a \"Cannon\" often makes some of them going insane after claiming they have found the power of God and-or the upper limit of dakka through their LMGs."
 LeftAbilityTreeTitle="SAW Gunner"
 RightAbilityTreeTitle="Machinegunner"
 
@@ -1123,7 +1132,7 @@ ObjectiveTextPools[1]="KILL EVERY LAST ONE OF THEM"
 
 [DefaultAssaultAlienFortress_LW X2MissionNarrativeTemplate]
 ObjectiveTextPools[0]="Commander's Self Insert must survive"
-ObjectiveTextPools[1]="Destroy the Super Sayans"
+ObjectiveTextPools[1]="Murderfuck the Super Sayans"
 
 [Invasion_LW X2MissionTemplate]
 DisplayName="Politely tell ADVENT to fuck off"
@@ -1337,7 +1346,7 @@ HairTriggerFreeAction="Hair Trigger: Aww Yiss!"
 DisplayName="Big Black Dickhead Autopsy"
 CodeName="Bluton"
 Summary="This behemoth is vastly different enough from other Dickheads, in both genetic modification and equipment, that it merits a specific investigation."
-LongDescription="Central Officer Bradford previously mentioned old XCOM \"intelligence\" reports of an elite form of Dickhead that served as a guardian to the Elders. This ayylien appears to be that form. The genetic enhancements extend into the creature's brain, suggesting improved pattern recognition and information processing in combat situations superior to the typical Dickhead and Viagra Dickhead. Additionally, the cadaver of this subject also appears to have several cybernetic implants forming a secondary endoskeleton which appear to boost the already extensive genetic modifications, some of which may be useful for our weapon development. I intend to let Shen investigate how to effectively use such contraptions, for my knowledge of dildos is far inferior to hers. -R. Tygan.\n\nOne of the more exciting cybernetics found in this type of Dickhead is a phallus-shaped device apparently grafted to its brain. Initial testing shows that it can track targets within full spherical vision. Initial testings show that it can track targets within its spherical vision. While we humans can't simply jab this into our eyeballs and anus - no. Just no. - we can create a tracking system that can guide itself to a targeted area. Luckily, during XCOM's bizarre adventures against ADVENT, I've found several blueprints about a perfect Elerium-based warhead charge just for our Technicals to squee like anime girls by now. It'll take some time to shape an overglorified dildo into something smaller, but we can make it work as the brain-computer interface components can be removed. (No wrist computer waifus for you, Technicals)\n\nEven more surprisingly, we just took a scan at the Big Black Dickhead's body armor, and I got some ideas of improving our ballistic plating with the composite materials used in it. While we can't replicate its shield, we can come close enough with a \"carapace\" plating system. We can also use Dad's archives to make this work, as the original Alloy Carrier and TITAN-class armor prototypes would likely be able to be used to adapt this technology as a modular design. Most likely we will need to tear the components out of their cold dead corpses, but with enough supplies, I can make our operatives survive a plasma bolt in the field – using protection is important. -L. Shen.\n\nPS: Tygan, stop lying. I borrowed your books."
+LongDescription="Central Officer Bradford previously mentioned old XCOM \"intelligence\" reports of an elite form of Dickhead that served as a guardian to the Elders. This ayylien appears to be that form. The genetic enhancements extend into the creature's brain, suggesting improved pattern recognition and information processing in combat situations superior to the typical Dickhead and Viagra Dickhead. Additionally, the cadaver of this subject also appears to have several cybernetic implants forming a secondary endoskeleton which appear to boost the already extensive genetic modifications, some of which may be useful for our weapon development. I intend to let Shen investigate how to effectively use such contraptions, for my knowledge of dildos is far inferior to hers. -R. Tygan.\n\nOne of the more exciting cybernetics found in this type of Dickhead is a phallus-shaped device apparently grafted to its brain. Initial testings show that it can track targets within its spherical vision. While we humans can't simply jab this into our eyeballs and anus - no. Just no. - we can create a tracking system that can guide itself to a targeted area. Luckily, during XCOM's bizarre adventures against ADVENT, I've found several blueprints about a perfect Elerium-based warhead charge just for our Technicals to squee like anime girls by now. It'll take some time to shape an overglorified dildo into something smaller, but we can make it work as the brain-computer interface components can be removed. (No wrist computer waifus for you, Technicals)\n\nEven more surprisingly, we just took a scan at the Big Black Dickhead's body armor, and I got some ideas of improving our ballistic plating with the composite materials used in it. While we can't replicate its shield, we can come close enough with a \"carapace\" plating system. We can also use Dad's archives to make this work, as the original alloy plate carrier and TITAN-class armor prototypes would likely be able to be used to adapt this technology as a modular design. Most likely we will need to tear the components out of their cold dead corpses, but with enough supplies, I can make our operatives survive a plasma bolt in the field – using protection is important. -L. Shen.\n\nPS: Tygan, stop lying. I borrowed your books."
 AlertString="Big Black Dickhead"
 
 
@@ -1626,7 +1635,7 @@ Description="Enemy robotic units gain 15 hack defense."
 [DarkEvent_Firewalls X2DarkEventTemplate]
 DisplayName="ADVENT Firewalls"
 SummaryText="ADVENT incorporates defenses against our hacking attempts."
-QuoteText="\"ADVENT robotic units won't be easy pickings for our Specialists any more.\""
+QuoteText="\"ADVENT robotic units won't be easy pickings for our Nerds any more.\""
 QuoteTextAuthor="- Chief Shen"
 PreMissionText="Grants enemy robots increased defenses against our hacking attempts."
 PostMissionSuccessText="Dark Event Countered: ADVENT Firewalls"
@@ -1913,7 +1922,7 @@ Description="ADVENT robotic units gain the Iron Skin ability, granting them dama
 
 [DarkEvent_TacticalSense X2DarkEventTemplate]
 DisplayName="Tactical Upgrades: Tactical Sense"
-SummaryText="Some enemy units gain the Tactical Sense ability, granting them bonus defense."
+SummaryText="Some enemy units gain the Tactical Sense ability, granting them bonus defense for every sighted XCOM or Resistance operative."
 QuoteText="\"Given that one of them just dodged that shot *point fucking blank*, it's probably the COIN carde our contact's been talking about.\""
 QuoteTextAuthor="- Central Officer Bradford"
 PreMissionText="Grants some enemy units the Tactical Sense ability."
@@ -2859,7 +2868,7 @@ LaunchedAbilityHelpText="Launch an Ayylien Grenade at target area. Shreds armor.
 [CorpseMutonElite X2ItemTemplate]
 FriendlyName="Big Black Dickhead Corpse"
 FriendlyNamePlural="Big Black Dickhead Corpses"
-BriefSummary="These Ayyliens sit atop the Dickhead internal hierarchy. Unlike Viagras, it's all natural, baby."
+BriefSummary="These Ayyliens sit atop the Dickhead internal hierarchy. Unlike Viagras, it's all natural, baby. Well, probably. Most likely."
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;; Sneks ;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
@@ -3047,7 +3056,7 @@ TraitQuotes[0]="\"FUCKING SQUIRTLE I SWEAR TO GOD\""
 TraitQuotes[1]="\"The Flammenwerfer's Flammenwerfers werf flammen so effectively...\""
 TraitQuotes[2]="\"That's not what I meant when I said that snektits are hot...\""
 TraitQuotes[3]="\"WHY CAN'T I JUST HUNKER WHAT THE FUCK IS THIS MOD\""
-TraitQuotes[4]="\" What part of \"AAAAH AAAAAAH AAAAAAAAAAAAAAAAH\" do you not understand? Shit's painful.\""
+TraitQuotes[4]="\"What part of \"AAAAH AAAAAAH AAAAAAAAAAAAAAAAH\" do you not understand? Shit's painful.\""
 
 [PurifierDeathExplosion  X2AbilityTemplate]
 LocFlyOverText="ALLAHU ACKBAR"
@@ -3097,7 +3106,7 @@ LocLongDescription="Reveal this Ransomware to the enemy.  This happens automatic
 LocFriendlyName="Horror"
 LocHelpText="Tentacles from the Ransomware reach out and bind a humanoid target, damaging the target and healing the Ransomware."
 LocLongDescription="Tentacles from the Ransomware reach out and bind a humanoid target, damaging the target and healing the Ransomware."
-LocFlyOverText="Wtf, that ability exists?"
+LocFlyOverText="surprise buttsechs"
 
 [Shadowbind X2AbilityTemplate]
 LocFriendlyName="Shadowbind"
@@ -3121,8 +3130,8 @@ BriefSummary="Remarkably, though the Ransomware's \"body\" is actually composed 
 ; GENERAL ABILITIES
 ;
 [HardTarget X2AbilityTemplate]
-LocFriendlyName="Can´t Touch Dis"
-LocFlyOverText="Can´t Touch Dis"
+LocFriendlyName="Can't Touch Dis"
+LocFlyOverText="Can't Touch Dis"
 LocLongDescription="Gain 5 dodge per enemy you can see, up to a maximum of +30."
 LocHelpText="Gain 5 dodge per enemy you can see, up to a maximum of +30."
 LocPromotionPopupText="<Bullet/> Gain 5 dodge per enemy you can see, up to a maximum of +30.<br/><Bullet/> Units visible at squadsight ranges do not confer bonus.<br/><Bullet/> This ability does not provide defensive bonuses if the unit is disoriented, stunned, panicking, on fire or otherwise impaired."
@@ -3222,7 +3231,7 @@ LocFlyOverText="KAME HAME HAAAAAAAAAAAAA"
 LocFlyOverText="ACTIVATE GOATSE MANEUVER"
 
 [MindMerge X2AbilityTemplate]
-LocFlyOverText="Ew...that´s disgusting."
+LocFlyOverText="Ew...that's disgusting."
 
 [SoulMerge X2AbilityTemplate]
 
@@ -3440,7 +3449,7 @@ LocPromotionPopupText="<Bullet/> Blademaster deals a bonus +<Ability:Blademaster
 [Cutthroat X2AbilityTemplate]
 LocFriendlyName="RED SUN"
 
-[LostBladestormAttack X2AbilityTemplate]
+[LostBladestormAttack X2AbilityTemplate] ; we really should get an ability icon for this one
 LocFriendlyName="FREE HUGS"
 LocFlyOverText="FREE HUGS"
 
@@ -3641,12 +3650,12 @@ LocFlyOverText="I wish I had Sustain instead"
 
 
 [MeditationPreparation X2AbilityTemplate]
-LocFriendlyName="Mentally Awake"
+LocFriendlyName="Snorted Coke"
 LocLongDescription="Start every mission with <Ability:MEDITATIONPREPARATIONSTARTINGFOCUS/> Devil Trigger."
 LocHelpText="Start every mission with <Ability:MEDITATIONPREPARATIONSTARTINGFOCUS/> Devil Trigger."
 
 [MeditationPreparationPassive X2AbilityTemplate]
-LocFriendlyName="Mentally Awake"
+LocFriendlyName="Snorted Coke"
 LocLongDescription="Start every mission with <Ability:MEDITATIONPREPARATIONSTARTINGFOCUS/> Devil Trigger."
 LocHelpText="Start every mission with <Ability:MEDITATIONPREPARATIONSTARTINGFOCUS/> Devil Trigger."
 
@@ -3688,7 +3697,7 @@ LocFlyOverText="what's up my nigga?"
 LocFlyOverText="GET YO ASS BACK HERE"
 
 [SkirmisherSlash X2AbilityTemplate]
-LocFlyOverText="Mind if i cut in?"
+LocFlyOverText="Mind if I cut in?"
 
 [JudgmentTrigger X2AbilityTemplate]
 LocFlyOverText="Your mom ayy"
@@ -4250,7 +4259,7 @@ LocLongDescription="Reveal this Ransomware to the enemy.  This happens automatic
 LocFriendlyName="Horror"
 LocHelpText="Tentacles from the Ransomware reach out and bind a humanoid target, damaging the target and healing the Ransomware."
 LocLongDescription="Tentacles from the Ransomware reach out and bind a humanoid target, damaging the target and healing the Ransomware."
-LocFlyOverText="Horror!"
+LocFlyOverText="surprise buttsechs"
 
 [Shadowbind X2AbilityTemplate]
 LocFriendlyName="Shadowbind"
@@ -4271,7 +4280,7 @@ LocFlyOverText="*encodes ur soldier*"
 LocFlyOverText="Hey kid, I got free candy!"
 
 [PriestStasis X2AbilityTemplate]
-LocFlyOverText="They can´t get older if I do this"
+LocFlyOverText="They can't get older if I do this"
 ; ================================================
 ; Lost Abilities
 ; ================================================
@@ -4298,8 +4307,8 @@ LocFriendlyName="Kidnap"
 LocFlyOverText="BUT IN THE END IT DOESN'T EVEN MATTER"
 
 [ChosenKeen X2AbilityTemplate]
-LocLongDescription="Bleeding Out is a 100% chance when dealt a killing blow by the Edgelord."
-LocHelpText="Bleeding Out is a 100% chance when dealt a killing blow by the Edgelord."
+LocLongDescription="Bleeding Out is a 100% chance when dealt a killing blow by the Edgelord. Unless you're a Resistance fighter. Then you're done for."
+LocHelpText="Bleeding Out is a 100% chance when dealt a killing blow by the Edgelord. Unless you're a Resistance fighter. Then you're done for."
 
 [ChosenShadowstep X2AbilityTemplate]
 LocLongDescription="This Edgelord does not trigger Ogrewatch or reaction fire."
@@ -4729,7 +4738,7 @@ LocFriendlyName="Meme Beacon"
 LocLongDescription="The Meme Beacon is thrown like a grenade, and generates a holographic decoy where it lands. This decoy will draw enemy attacks for one turn, unless its HP are depleted."
 
 [CombatStims X2AbilityTemplate]
-LocFlyOverText="POPPIN' AUTISM PILLS"
+LocFlyOverText="GOING HAM"
 
 [ScorchCircuitsDamage X2AbilityTemplate]
 LocFlyOverText="FLAME ON" ;doesn't work
@@ -5154,12 +5163,6 @@ Description="Recover a small cache of Ayylien Alloys."
 FriendlyName="Large Ayylien Alloy Cache"
 Description="Recover a large cache of Ayylien Alloys."
 
-[PriorityData_T1 X2HackRewardTemplate]
-Description="Delays the current Dank Event projects by <Ability:PRIORITY_DATA_DARK_EVENT_EXTENSION_HOURS/> weeks."
-
-[PriorityData_T2 X2HackRewardTemplate]
-Description="Delays the current Dank Event projects by <Ability:PRIORITY_DATA_DARK_EVENT_EXTENSION_HOURS/> weeks."
-
 ; ================================================
 ; Lw2 Dark Events
 ; ================================================
@@ -5550,17 +5553,17 @@ FriendlyName="Dank Event: Tactical Upgrades (Close Combat Specialist)"
 Description="Wingmen gain the Close Combat Specialist ability, granting them reaction fire against any enemy who closes within four tiles."
 
 [DarkEvent_GrazingFire X2DarkEventTemplate]
-DisplayName="Tactical Upgrades: Grazing Fire"
-SummaryText="Some enemies gain the Grazing Fire ability, providing an increased chance to turn misses into grazes."
+DisplayName="Tactical Upgrades: Imperial Stormtrooper Training"
+SummaryText="Some enemies graduate from the Imperial Stormtrooper Marksmanship Academy, providing an increased chance to turn misses into grazes."
 QuoteText="\"Best way to not get shot is to not get shot at in the first place.\""
 QuoteTextAuthor="- Anonymous Squaddie"
-PreMissionText="Grants several enemies the Grazing Fire ability."
-PostMissionSuccessText="Dank Event Countered: Tactical Upgrades (Grazing Fire)"
-PostMissionFailureText="Failed to Counter Dank Event: Tactical Upgrades (Grazing Fire)"
+PreMissionText="Grants several enemies the Imperial Stormtrooper Training ability."
+PostMissionSuccessText="Dank Event Countered: Tactical Upgrades (Imperial Stormtrooper Training)"
+PostMissionFailureText="Failed to Counter Dank Event: Tactical Upgrades (Imperial Stormtrooper Training)"
 
 [DarkEvent_GrazingFire X2HackRewardTemplate]
-FriendlyName="Dank Event: Tactical Upgrades (Grazing Fire)"
-Description="Some enemies gain the Grazing Fire ability, providing an increased chance to turn misses into grazes."
+FriendlyName="Dank Event: Tactical Upgrades (Imperial Stormtrooper Training)"
+Description="Some enemies graduate from the Imperial Stormtrooper Marksmanship Academy, providing an increased chance to turn misses into grazes."
 
 [DarkEvent_Cutthroat X2DarkEventTemplate]
 DisplayName="Tactical Upgrades: Cutthroat"
@@ -5603,7 +5606,7 @@ Description="ADVENT robotic units gain the Iron Skin ability, granting them dama
 
 [DarkEvent_TacticalSense X2DarkEventTemplate]
 DisplayName="Tactical Upgrades: Tactical Sense"
-SummaryText="Some enemy units gain the Tactical Sense ability, granting them 3 defense for every sighted XCOM or Resistance operative."
+SummaryText="Some enemy units gain the Tactical Sense ability, granting them bonus defense for every sighted XCOM or Resistance operative."
 QuoteText="\"Given that one of them just dodged that shot *point fucking blank*, it's probably the COIN carde our contact's been talking about.\""
 QuoteTextAuthor="- Central Officer Bradford"
 PreMissionText="Grants some enemy units the Tactical Sense ability."
@@ -5643,7 +5646,7 @@ Description="Grants Computer Waifus the Resilience ability, reducing the chance 
 [DarkEvent_DamageControl X2DarkEventTemplate]
 DisplayName="Tactical Upgrades: Nanomachines"
 SummaryText="Some ADVENT autobots and some other units gain the Nanomachines ability, granting bonus armor after they take damage."
-QuoteText="\"Why won't you die?.\""
+QuoteText="\"Why won't you die?!\""
 QuoteTextAuthor="- Jack the Ripper"
 PreMissionText="Grants Computer Waifus the Nanomachines ability."
 PostMissionSuccessText="Dank Event Countered: Tactical Upgrades (Nanomachines)"
@@ -5688,7 +5691,7 @@ PostMissionFailureText="Failed to Counter Dank Event: Tactical Upgrades (Can´t 
 DisplayName="Tactical Upgrades: Shadowstep"
 SummaryText="Computer Waifus gain the Shadowstep ability and cannot be targeted by reaction fire."
 QuoteText="\"No! Now Computer Waifu-chan will not notice me for sure!\""
-QuoteTextAuthor="- Dr. Tygan"
+QuoteTextAuthor="- Unknown Fellow Human (neutralized)"
 PreMissionText="Grants Computer Waifus the Shadowstep ability."
 PostMissionSuccessText="Dank Event Countered: Tactical Upgrades (Shadowstep)"
 PostMissionFailureText="Failed to Counter Dank Event: Tactical Upgrades (Shadowstep)"
@@ -5802,6 +5805,11 @@ PostMissionSuccessText="Dank Event Countered: ADVENT Calendar: Major Breakthroug
 PostMissionFailureText="Failed to Counter Dank Event: ADVENT Calendar: Major Breakthrough"
 
 [DarkEvent_HunterClass X2DarkEventTemplate]
+DisplayName="Hunt XCOM"
+SummaryText="A Hunter-class Interceptor hunts the Avenger."
+QuoteText="\"...XCOM is a bunch of bitch ass motherfuckers! They took their X4 charges and they destroyed our fucking facility! And they said their army was \"this big\" and I said \"that's pathetic!\" So I'm making a callout on...\""
+QuoteTextAuthor="- The Speaker (transcripted)"
+PreMissionText="ADVENT launches an interceptor to stop XCOM's weapon trafficking operations."
 PostMissionSuccessText="Dank Event Countered: Hunt XCOM"
 PostMissionFailureText="Failed to Counter Dank Event: Hunt XCOM"
 
@@ -5840,13 +5848,13 @@ PostMissionFailureText="Failed to Counter Dank Event: New Construction"
 
 [DarkEvent_Infiltrator X2DarkEventTemplate]
 DisplayName="Ayylien Infiltrator"
-SummaryText="The Ayyliens hide in ambush among the populace, placing hidden Faceless aliens on each mission for a month."
+SummaryText="The Ayyliens hide in ambush among the populace, placing hidden Fellow Humans on each mission for a month."
 PreMissionText="Places hidden Fellow Human ayyliens on each mission"
 PostMissionSuccessText="Dank Event Countered: Ayylien Infiltrator"
 PostMissionFailureText="Failed to Counter Dank Event: Ayylien Infiltrator"
 
 [DarkEvent_InfiltratorChryssalid X2DarkEventTemplate]
-SummaryText="The Ayyliens seek to overrun XCOM, placing extra Chryssalids on each mission for a month."
+SummaryText="The Ayyliens seek to overrun XCOM, placing extra Zerglings on each mission for a month."
 PostMissionSuccessText="Dank Event Countered: Infestation"
 PostMissionFailureText="Failed to Counter Dank Event: Infestation"
 
@@ -5923,8 +5931,9 @@ PostMissionFailureText="Failed to Counter Dank Event: ADVENT Bending Reed"
 [DarkEvent_SealedArmor X2DarkEventTemplate]
 PostMissionSuccessText="Dank Event Countered: ADVENT Sealed Armor"
 PostMissionFailureText="Failed to Counter Dank Event: ADVENT Sealed Armor"
-QuoteText="\"Fuck your grenades.\""
-QuoteTextAuthor="- ADVENT"
+QuoteText="\"Fuck your grenades.\"" 
+QuoteTextAuthor="- ADVENT's Military Command"
+
 
 [DarkEvent_MountainMist X2DarkEventTemplate]
 PostMissionSuccessText="Dank Event Countered: Mountain Mist"
@@ -6832,6 +6841,10 @@ DescriptionEntry="INTEL BRIEF:\n\n\"Of the three Chosen created by the Elders, t
 DisplayName="Skullfucker"
 Summary="Before we even had time for field trials, the troops had already taken to calling it the \"Skullfucker.\" In the simplest of terms, it's a physical interface designed to fuck with the chip implanted in the ADVENT forces' skulls, applied using directed blunt force."
 
+[Skullmining X2TechTemplate]
+DisplayName="Skullmining"
+Summary="As if the Skullfucker itself wasn't invasive enough, Tygan has conceived of a more thorough means of extracting information from ADVENT soldiers' chips. This new \"Skullmining\" technique could lead to new intel gains from our enemies, and could even grant access to hidden ayyien facilities for the purpose of sabotage. I can also upgrade our Skullfuckers to significantly enhance the hacking ability of any soldier carrying one."
+
 [ExperimentalArmor X2TechTemplate]
 DisplayName="Experimental Armor"
 Summary="Our autopsy of the ADVENT Cockblocker gave us some ideas regarding new vest designs that, by incorporating recovered elerium cores, could increase soldier survivability in dramatic fashion."
@@ -7230,3 +7243,10 @@ LocFlyOverText="HERE COMES THE PLANE!"
 [OneForAll X2AbilityTemplate]
 LocFriendlyName="THE WALL"
 LocFlyOverText="NOTHING ON EARTH WILL MAKE YOU FALL"
+
+
+[XComGame.X2Ability_GrenadierAbilitySet]
+[X2Ability_GrenadierAbilitySet]
+SuppressionTargetEffectDesc="AAAAAA FUCKING HEEELP"
+SuppressionSourceEffectDesc="Currently suppressing a target."
+
