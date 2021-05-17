@@ -3173,10 +3173,10 @@ LocFlyOverText="BOOM SHAKALAKA"
 ; Gunner Everything
 ; ================================================
 [Suppression_LW X2AbilityTemplate]
-LocFlyOverText="haha go BRRRRRRRRRRRRRT"
+
 
 [AreaSuppression_LW X2AbilityTemplate]
-LocFlyOverText="haha go more BRRRRRRRRRRRRRT"
+
 
 [CyclicFire X2AbilityTemplate]
 LocFlyOverText="FUUUUUUCK YOUUUUUUUU"
@@ -3411,10 +3411,10 @@ LocFlyOverText="Cool Under Pressure"
 ; Assault Everything
 ; ================================================
 [CloseEncounters X2AbilityTemplate]
-LocFlyOverText="PERSONAL SPACE! I NEED PERSONAL SPACE!"
+
 
 [HitAndRun X2AbilityTemplate]
-LocFlyOverText="I can smell you pissing yourself"
+
 ; ================================================
 ; Shinobi Everything
 ; ================================================
